@@ -8,6 +8,7 @@ body,
 /*font-family: Hiragino Sans GB, Microsoft YaHei, WenQuanYi, Airal, sans-serif;*/
   font-family: 'Noto Serif SC', serif;
   color: #444;
+  font-size: 18px;
 }
 .container {
   max-width: 840px;
@@ -145,11 +146,11 @@ a {
   display: inline-block;
 }
 .header .menu .menu-item-link {
-  color: #999;
+  color: #222;
   text-decoration: underline;
 }
 .header .menu .menu-item-link:hover {
-  color: #000;
+  color: #666;
 }
 .post {
   padding: 0 20px;
@@ -256,9 +257,10 @@ a {
   content: '#';
 }
 .article-title {
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.2em;
-  border-bottom: 1px solid #000;
+  border-left: 6px #222 solid;
+  padding-left: 12px;
 }
 .archive {
   padding: 0 20px;
@@ -294,9 +296,6 @@ a {
 .page-nav .prev,
 .page-nav .page-number {
   padding: 10px 20px 10px 0;
-}
-.page-nav .next {
-  float: right;
 }
 .page-nav a {
   color: #777;

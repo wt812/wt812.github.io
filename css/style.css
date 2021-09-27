@@ -1,9 +1,6 @@
 body {
   width: 100%;
 }
-body{
-  background: red;
-}
 body:before,
 body:after {
   content: "";

@@ -1263,7 +1263,7 @@ a:hover {
 }
 ul.nav {
   width: 100%;
-  background: #00f;
+  display: inline-block;
 }
 ul.nav li {
   float: left;
@@ -1288,6 +1288,7 @@ ul.nav li {
   font-weight: 100;
   font-size: 1em;
   line-height: 2em;
+  display: block;
 }
 .list div a {
   padding-left: 10px;
@@ -1296,18 +1297,21 @@ ul.nav li {
   width: 100%;
   display: block;
   padding: 2em 0;
+  margin-top: 50px;
 }
-.clear {
-  clear: both;
+.cont {
+  margin-top: 3em;
+  margin-bottom: 5em;
+  padding-bottom: 0.5px;
+  line-height: 1.6em;
 }
-.navdiv {
-  width: 100%;
-}
-.hd {
-  width: 55%;
-  height: 100%;
-  margin: auto;
-  font-size: 50px;
+.cont div {
+  color: #222;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding: 0 0 1em 0;
+  font-weight: 900;
 }
 .highlight table td,
 .highlight table th,
@@ -1333,6 +1337,40 @@ ul.nav li {
 }
 .bg_while .list div {
   color: #fff;
+}
+.bg_while .cont {
+  color: #fff;
+}
+.bg_while .cont div {
+  color: #fff;
+}
+.bg_while .v .vwrap {
+  border-color: #333 !important;
+}
+.bg_while .v .vlist .vcard .vh {
+  border-bottom: 1px dashed #333;
+}
+.bg_while .v .vlist .vcard .vhead .vsys {
+  background: #222;
+}
+.bg_while .v .vlist .vcard .vh .vmeta .vat {
+  color: #fff !important;
+}
+.v .vwrap {
+  border-color: #eee !important;
+}
+.v .vwrap .vheader .vinput {
+  display: none !important;
+}
+.v .vwrap .vedit,
+.v .vinput {
+  padding: 0 !important;
+}
+.v .vbtn {
+  background: #fff !important;
+}
+.v .vlist .vcard .vh .vmeta .vat {
+  color: #222 !important;
 }
 @media screen and (max-width: 800px) {
   #bodyx {

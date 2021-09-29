@@ -132,6 +132,242 @@ img {
 .nav div a {
   position: relative;
 }
+.giveFive {
+  font-size: 40px;
+  margin: 100px 0 -100px 0;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  transform: translate(0, -50%);
+}
+.giveFive span {
+  display: inline-block;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+  transform: translate(50%, 0);
+  animation: you infinite ease-in-out 5s;
+}
+.giveFive:before,
+.giveFive:after {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  font-size: 40px;
+}
+.giveFive:before {
+  content: '🙏';
+  width: 50%;
+  transform: translate(-50%, 0);
+  animation: me infinite ease-in-out 5s;
+}
+.giveFive:after {
+  content: '⭐️';
+  left: 0;
+  top: 0;
+  transform: scale(0) rotate(0);
+  animation: star infinite ease-in-out 5s;
+}
+@-moz-keyframes me {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+@-webkit-keyframes me {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+@-o-keyframes me {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+@keyframes me {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+@-moz-keyframes you {
+  0% {
+    transform: translate(50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+@-webkit-keyframes you {
+  0% {
+    transform: translate(50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+@-o-keyframes you {
+  0% {
+    transform: translate(50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+@keyframes you {
+  0% {
+    transform: translate(50%, 0);
+  }
+  6% {
+    transform: translate(0, 0);
+  }
+  94% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+@-moz-keyframes star {
+  0% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+  6% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  20% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  21% {
+    transform: scale(0) rotate(0);
+    top: -100%;
+  }
+  100% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+}
+@-webkit-keyframes star {
+  0% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+  6% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  20% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  21% {
+    transform: scale(0) rotate(0);
+    top: -100%;
+  }
+  100% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+}
+@-o-keyframes star {
+  0% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+  6% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  20% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  21% {
+    transform: scale(0) rotate(0);
+    top: -100%;
+  }
+  100% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+}
+@keyframes star {
+  0% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+  6% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  20% {
+    transform: scale(1) rotate(360deg);
+    top: -100%;
+  }
+  21% {
+    transform: scale(0) rotate(0);
+    top: -100%;
+  }
+  100% {
+    transform: scale(0) rotate(0);
+    top: 0;
+  }
+}
 .post-content .octicon {
   display: inline-block;
   fill: currentColor;
@@ -1119,7 +1355,7 @@ label.el-checkbox {
   transition: all 0.3s ease-in-out;
   width: 2em;
   cursor: pointer;
-  top: 0px;
+  top: 2px;
 }
 .el-switch .el-switch-style:before {
   display: block;
@@ -1146,7 +1382,7 @@ label.el-checkbox {
   background-color: #20a0ff;
 }
 .el-switch>input[type="checkbox"]:checked+.el-switch-style:before {
-  left: 50%;
+  left: 46%;
 }
 .el-switch>input[type="checkbox"]:checked[disabled]+.el-switch-style {
   background-color: #b0d7f5;
@@ -1221,10 +1457,6 @@ body {
 #bodyx {
   margin: 0 auto;
   width: 60%;
-}
-.logo {
-  font-size: 5em;
-  margin-left: -15px;
 }
 .nav {
   width: 100%;
@@ -1318,6 +1550,9 @@ body {
   border-color: #333;
 }
 .bg_while .list div {
+  color: #fff;
+}
+.bg_while .list div a {
   color: #fff;
 }
 .bg_while .cont {

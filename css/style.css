@@ -290,8 +290,8 @@ img {
     top: 0;
   }
   20% {
-    transform: scale(3) rotate(0);
-    top: 0;
+    transform: scale(1) rotate(0);
+    top: -60%;
   }
   30% {
     transform: scale(0) rotate(0deg);
@@ -312,8 +312,8 @@ img {
     top: 0;
   }
   20% {
-    transform: scale(3) rotate(0);
-    top: 0;
+    transform: scale(1) rotate(0);
+    top: -60%;
   }
   30% {
     transform: scale(0) rotate(0deg);
@@ -334,8 +334,8 @@ img {
     top: 0;
   }
   20% {
-    transform: scale(3) rotate(0);
-    top: 0;
+    transform: scale(1) rotate(0);
+    top: -60%;
   }
   30% {
     transform: scale(0) rotate(0deg);
@@ -356,8 +356,8 @@ img {
     top: 0;
   }
   20% {
-    transform: scale(3) rotate(0);
-    top: 0;
+    transform: scale(1) rotate(0);
+    top: -60%;
   }
   30% {
     transform: scale(0) rotate(0deg);
@@ -1457,6 +1457,9 @@ body {
 #bodyx {
   margin: 0 auto;
   width: 50%;
+}
+nav.page-nav {
+  margin-top: 50px;
 }
 nav.page-nav span {
   width: 100px;

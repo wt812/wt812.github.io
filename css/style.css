@@ -102,7 +102,9 @@ blockquote p {
   padding-left: 10px;
 }
 img {
-  width: 100%;
+  max-width: 100%;
+  min-width: auto;
+  border-radius: 5px;
 }
 .nav div a::before {
   transform: scaleX(0);

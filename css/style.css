@@ -134,7 +134,7 @@ img {
 }
 .giveFive {
   font-size: 40px;
-  margin: 100px 0 -100px 0;
+  margin: 60px 0 -100px 0;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -162,7 +162,7 @@ img {
   animation: me infinite ease-in-out 5s;
 }
 .giveFive:after {
-  content: '⭐️';
+  content: '❤️';
   left: 0;
   top: 0;
   transform: scale(0) rotate(0);
@@ -285,21 +285,21 @@ img {
     transform: scale(0) rotate(0);
     top: 0;
   }
-  6% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  20% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  21% {
-    transform: scale(0) rotate(0);
-    top: -100%;
-  }
-  100% {
+  10% {
     transform: scale(0) rotate(0);
     top: 0;
+  }
+  20% {
+    transform: scale(3) rotate(0);
+    top: 0;
+  }
+  30% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
+  }
+  40% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
   }
 }
 @-webkit-keyframes star {
@@ -307,21 +307,21 @@ img {
     transform: scale(0) rotate(0);
     top: 0;
   }
-  6% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  20% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  21% {
-    transform: scale(0) rotate(0);
-    top: -100%;
-  }
-  100% {
+  10% {
     transform: scale(0) rotate(0);
     top: 0;
+  }
+  20% {
+    transform: scale(3) rotate(0);
+    top: 0;
+  }
+  30% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
+  }
+  40% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
   }
 }
 @-o-keyframes star {
@@ -329,21 +329,21 @@ img {
     transform: scale(0) rotate(0);
     top: 0;
   }
-  6% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  20% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  21% {
-    transform: scale(0) rotate(0);
-    top: -100%;
-  }
-  100% {
+  10% {
     transform: scale(0) rotate(0);
     top: 0;
+  }
+  20% {
+    transform: scale(3) rotate(0);
+    top: 0;
+  }
+  30% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
+  }
+  40% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
   }
 }
 @keyframes star {
@@ -351,21 +351,21 @@ img {
     transform: scale(0) rotate(0);
     top: 0;
   }
-  6% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  20% {
-    transform: scale(1) rotate(360deg);
-    top: -100%;
-  }
-  21% {
-    transform: scale(0) rotate(0);
-    top: -100%;
-  }
-  100% {
+  10% {
     transform: scale(0) rotate(0);
     top: 0;
+  }
+  20% {
+    transform: scale(3) rotate(0);
+    top: 0;
+  }
+  30% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
+  }
+  40% {
+    transform: scale(0) rotate(0deg);
+    top: 0%;
   }
 }
 .post-content .octicon {

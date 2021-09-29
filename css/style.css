@@ -78,6 +78,14 @@ body {
   font: inherit;
   vertical-align: baseline;
 }
+hr {
+  display: block;
+  height: 1px;
+  *color: #f60;
+/* for ie6 ie7 */
+  background-color: #eee;
+  border: none;
+}
 table,
 th,
 td {
@@ -92,6 +100,35 @@ blockquote {
 }
 blockquote p {
   padding-left: 10px;
+}
+img {
+  width: 100%;
+}
+.nav div a::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+.nav div a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.nav div a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 10px;
+  margin-top: 12px;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #9df;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+.nav div a {
+  position: relative;
 }
 .post-content .octicon {
   display: inline-block;
@@ -1179,13 +1216,6 @@ body {
   color: #222;
   font-family: 'Noto Serif SC', serif;
 }
-a {
-  color: #666;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
 #bodyx {
   margin: 0 auto;
   width: 60%;
@@ -1205,9 +1235,17 @@ a:hover {
   padding-right: 20px;
   font-size: 1em;
 }
+.nav div a {
+  color: #666;
+  text-decoration: none;
+}
+.nav div a:hover {
+  text-decoration: none;
+}
 .list {
   width: 100%;
   display: inline-block;
+  height: auto;
 }
 .list h2 {
   color: #222;
@@ -1225,7 +1263,11 @@ a:hover {
   display: block;
 }
 .list div a {
-  padding-left: 10px;
+  padding-left: 12px;
+  color: #222;
+}
+.list div a:hover {
+  text-decoration: underline;
 }
 .footer {
   width: 100%;
@@ -1312,7 +1354,7 @@ figure.highlight {
 }
 @media screen and (max-width: 800px) {
   #bodyx {
-    width: 86%;
+    width: 90%;
   }
   .list h2 {
     font-size: 1.5em;

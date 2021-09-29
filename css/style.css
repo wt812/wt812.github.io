@@ -1458,6 +1458,18 @@ body {
   margin: 0 auto;
   width: 50%;
 }
+nav.page-nav span {
+  width: 100px;
+}
+nav.page-nav a,
+nav.page-nav .current {
+  padding: 0 10px 0 0;
+  text-decoration: none;
+  color: #999;
+}
+nav.page-nav .current {
+  color: #222;
+}
 .nav {
   width: 100%;
   display: inline-block;

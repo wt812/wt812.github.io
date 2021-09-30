@@ -1521,7 +1521,6 @@ nav.page-nav .current {
 .footer {
   width: 100%;
   display: block;
-  padding: 2em 0;
   margin-top: 50px;
   font-size: 14px;
 }
@@ -1529,18 +1528,23 @@ nav.page-nav .current {
   line-height: 2.2em;
 }
 .cont {
-  margin-top: 3em;
-  margin-bottom: 5em;
-  padding-bottom: 0.5px;
+  margin: 2.5em 0 5em 0;
   line-height: 1.6em;
 }
 .cont div {
   color: #222;
   font-size: 2em;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  padding: 0 0 1em 0;
   font-weight: 900;
+  border-left: 6px #333 solid;
+  padding-left: 20px;
+  margin: 0 0 60px 0;
+}
+.cont div p {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+  height: 18px;
 }
 .highlight table td,
 .highlight table th,
@@ -1607,6 +1611,10 @@ nav.page-nav .current {
 figure.highlight {
   border: 10px #222 solid;
   border-radius: 5px;
+}
+.hljs {
+  padding: 0 0.5em !important;
+  margin: 5px 0;
 }
 @media screen and (max-width: 800px) {
   #bodyx {

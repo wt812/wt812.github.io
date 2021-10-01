@@ -144,7 +144,7 @@ img {
   display: inline-block;
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
   transform: translate(50%, 0);
-  animation: you infinite ease-in-out 5s;
+  animation: you infinite ease-in-out 3s;
 }
 .giveFive:before,
 .giveFive:after {
@@ -159,14 +159,14 @@ img {
   content: '🙏';
   width: 50%;
   transform: translate(-50%, 0);
-  animation: me infinite ease-in-out 5s;
+  animation: me infinite ease-in-out 3s;
 }
 .giveFive:after {
   content: '❤️';
   left: 0;
   top: 0;
   transform: scale(0) rotate(0);
-  animation: star infinite ease-in-out 5s;
+  animation: star infinite ease-in-out 3s;
 }
 @-moz-keyframes me {
   0% {
@@ -291,7 +291,7 @@ img {
   }
   20% {
     transform: scale(1) rotate(0);
-    top: -60%;
+    top: -20%;
   }
   30% {
     transform: scale(0) rotate(0deg);
@@ -313,7 +313,7 @@ img {
   }
   20% {
     transform: scale(1) rotate(0);
-    top: -60%;
+    top: -20%;
   }
   30% {
     transform: scale(0) rotate(0deg);
@@ -335,7 +335,7 @@ img {
   }
   20% {
     transform: scale(1) rotate(0);
-    top: -60%;
+    top: -20%;
   }
   30% {
     transform: scale(0) rotate(0deg);
@@ -357,7 +357,7 @@ img {
   }
   20% {
     transform: scale(1) rotate(0);
-    top: -60%;
+    top: -20%;
   }
   30% {
     transform: scale(0) rotate(0deg);

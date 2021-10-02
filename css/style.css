@@ -1438,10 +1438,11 @@ body {
 .page_prev_next {
   display: block;
   width: 100%;
+  height: 20px;
   padding: 0 0 20px 0;
 }
 .page_prev_next .page_prev {
-float
+  float: left;
   width: 50%;
 }
 .page_prev_next .page_next {
@@ -1531,7 +1532,7 @@ nav.page-nav .current {
   color: #222;
   font-size: 2em;
   font-weight: 900;
-  border-left: 6px #333 solid;
+  border-left: 10px #333 solid;
   padding-left: 20px;
   margin: 0 0 60px 0;
 }

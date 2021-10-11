@@ -1745,6 +1745,9 @@ nav.page-nav .current {
 .bg_while .v .vlist .vcard .vh .vmeta .vat {
   color: #fff !important;
 }
+.bg_while nav.page-nav .current {
+  color: #fff;
+}
 .v .vwrap {
   border-color: #eee !important;
 }

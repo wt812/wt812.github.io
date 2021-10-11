@@ -1660,9 +1660,7 @@ nav.page-nav .current {
 .list div a {
   padding-left: 12px;
   color: #222;
-}
-.list div a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .footer {
   width: 100%;

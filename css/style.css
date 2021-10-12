@@ -1569,7 +1569,7 @@ body {
   list-style-type: none;
   background: #fff;
   color: #222;
-  font-family: 'Noto Serif SC', serif;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 #bodyx {
   margin: 0 auto;
@@ -1656,6 +1656,7 @@ nav.page-nav .current {
   font-size: 1em;
   line-height: 2em;
   display: block;
+  font-weight: 400;
 }
 .list div a {
   padding-left: 12px;

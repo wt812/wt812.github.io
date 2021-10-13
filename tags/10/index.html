@@ -10,8 +10,8 @@
     <title>
         NoteBook
     </title>
-    <meta name="description" content= 欢迎👏🏻 >
-    <meta name="keywords" content= notebook >
+    <meta name="description" content= 嘿，我是刘训灼～这是我的子站，用于展示写的Hexo主题：Coder。欢迎访问！ >
+    <meta name="keywords" content= Blog,Hexo,Theme,刘训灼,LiuXunzhuo >
     
 <link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
 
@@ -23,145 +23,235 @@
 
 <meta name="generator" content="Hexo 5.4.0"></head>
 <body id="bodyx">
-    <!-- logo -->
-<div class="giveFive"><span>🙏🏾</span></div>
-<!--nav-->
-<div class="nav">
-    
-    <div><a href="/" >首页</a></div>
-    
-    <div><a href="/Markdown" >Markdown</a></div>
-    
+    <div class="hd logodiv">
+    <img src="/img/male.png" class="logopng" alt="logo">
+    <p class="logot">
+         Title Name 
+         <span class="logo_2"></span>
+        <h3 class="words" style="font-weight: bold;font-family: Georgia;"> 
+            Your Words 
+        </h3>
+    </p>
 </div>
 
 
-<!-- list -->
-<div class="list">
-    
+<div class="hd">
+    <ol class="breadcrumb">
         
+            <li><a class="ba" href="/about">关于我👀</a></li>
         
+            <li><a class="ba" target="_blank" rel="noopener" href="https://liuxunzhuo.tech">访问主站🎉</a></li>
         
-        <!-- 年份 -->
-        <h2>2021</h2>
-        
-    
-
-        <!-- content -->
-        <div>
-        10/13
-        <a href="/2021/10/13/10-13/">10-13</a>
-        </div>         
-    
-        
+            <li><a class="ba" target="_blank" rel="noopener" href="https://github.com/xunzhuo">GitHub🐒</a></li>
         
 
-        <!-- content -->
-        <div>
-        10/12
-        <a href="/2021/10/12/10-12/">10-12</a>
-        </div>         
+            
+<script src="/libs/jquery.min.js"></script>
+
+            
+<script src="/js/search.js"></script>
+
+            
+                <form class="site-search-form">
+                    <i class="fa fa-search" id="search-logo"><input type="text" id="local-search-input" class="st-search-input" /></i>
+                </form>
+                <div id="local-search-result" class="local-search-result-cls"></div>
+            
+            <script type="text/javascript" id="local.search.active">
+                var inputArea       = document.querySelector("#local-search-input");
+                var getSearchFile = function(){
+                    var path = "/search.xml";
+                    searchFunc(path, 'local-search-input', 'local-search-result');
+                }
+                inputArea.onfocus = function(){ getSearchFile() }
+
+                var $resetButton = $("#search-form .fa-times");
+                var $resultArea = $("#local-search-result");
+
+                inputArea.oninput = function(){ $resetButton.show(); }
+                resetSearch = function(){
+                    $resultArea.html("");
+                    document.querySelector("#search-form").reset();
+                    $resetButton.hide();
+                    $(".no-result").hide();
+                }
+                inputArea.onkeydown = function(){ if(event.keyCode == 13) return false }
+                //No search result
+                $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
+                    if (!$(e.target).text()) {
+                        $(".no-result").show(100);
+                    } else {
+                        $(".no-result").hide();
+                    }
+                })
+            </script>
+
+    </ol>
+    <hr>
+</div>
+<div class="hd">
+    
     
         
         
-
-        <!-- content -->
-        <div>
-        10/09
-        <a href="/2021/10/09/10-09-01/">10-09-01</a>
-        </div>         
+            <div class="titlex">
+                <p><span class="jing"></span><span style="color: #6d9ee7;"> 公元</span> 
+                 2021年 🕛
+                </p>
+            </div>
+            
+        
+        <a class="flink" href="/2021/10/13/10-13/">
+            <div class="list">
+                <div class="postname">
+                    10-13
+                </div>
+                <div class="posttime">
+                    October 13th
+                </div>
+            </div>
+        </a>
     
         
         
-
-        <!-- content -->
-        <div>
-        10/08
-        <a href="/2021/10/08/10-06/">10-06</a>
-        </div>         
+        <a class="flink" href="/2021/10/12/10-12/">
+            <div class="list">
+                <div class="postname">
+                    10-12
+                </div>
+                <div class="posttime">
+                    October 12th
+                </div>
+            </div>
+        </a>
     
         
         
-
-        <!-- content -->
-        <div>
-        10/08
-        <a href="/2021/10/08/10-05/">10-05</a>
-        </div>         
+        <a class="flink" href="/2021/10/09/10-09-01/">
+            <div class="list">
+                <div class="postname">
+                    10-09-01
+                </div>
+                <div class="posttime">
+                    October 9th
+                </div>
+            </div>
+        </a>
     
         
         
-
-        <!-- content -->
-        <div>
-        10/08
-        <a href="/2021/10/08/10-07/">10-07</a>
-        </div>         
+        <a class="flink" href="/2021/10/08/10-06/">
+            <div class="list">
+                <div class="postname">
+                    10-06
+                </div>
+                <div class="posttime">
+                    October 8th
+                </div>
+            </div>
+        </a>
     
         
         
-
-        <!-- content -->
-        <div>
-        10/08
-        <a href="/2021/10/08/10-08/">10-08</a>
-        </div>         
+        <a class="flink" href="/2021/10/08/10-05/">
+            <div class="list">
+                <div class="postname">
+                    10-05
+                </div>
+                <div class="posttime">
+                    October 8th
+                </div>
+            </div>
+        </a>
     
         
         
-
-        <!-- content -->
-        <div>
-        10/03
-        <a href="/2021/10/03/10-1/">10-1</a>
-        </div>         
+        <a class="flink" href="/2021/10/08/10-07/">
+            <div class="list">
+                <div class="postname">
+                    10-07
+                </div>
+                <div class="posttime">
+                    October 8th
+                </div>
+            </div>
+        </a>
     
         
         
-
-        <!-- content -->
-        <div>
-        10/03
-        <a href="/2021/10/03/10-2/">10-2</a>
-        </div>         
+        <a class="flink" href="/2021/10/08/10-08/">
+            <div class="list">
+                <div class="postname">
+                    10-08
+                </div>
+                <div class="posttime">
+                    October 8th
+                </div>
+            </div>
+        </a>
     
         
         
-
-        <!-- content -->
-        <div>
-        10/03
-        <a href="/2021/10/03/10-5/">10-5</a>
-        </div>         
+        <a class="flink" href="/2021/10/03/10-1/">
+            <div class="list">
+                <div class="postname">
+                    10-1
+                </div>
+                <div class="posttime">
+                    October 3rd
+                </div>
+            </div>
+        </a>
+    
+        
+        
+        <a class="flink" href="/2021/10/03/10-2/">
+            <div class="list">
+                <div class="postname">
+                    10-2
+                </div>
+                <div class="posttime">
+                    October 3rd
+                </div>
+            </div>
+        </a>
+    
+        
+        
+        <a class="flink" href="/2021/10/03/10-5/">
+            <div class="list">
+                <div class="postname">
+                    10-5
+                </div>
+                <div class="posttime">
+                    October 3rd
+                </div>
+            </div>
+        </a>
     
 </div>
 
-    <!-- 分页 -->
-
-  <nav class="page-nav" >
-    <span class="page-number current">1</span><a class="page-number" href="/tags/10/page/2/">2</a><a class="extend next" rel="next" href="/tags/10/page/2/">Next</a>
-  </nav>
-
-
-<!-- footer -->
-<div class="footer" id="footer">
+    <div class="footer" id="footer">
+    <p><h4>Copyright © 2020 | Author: Your Name | Theme By <a class="theme-author" target="_blank" rel="noopener" href="https://github.com/Xunzhuo/hexo-theme-coder" style="font-size:14px; color: #969696">Coder</a></h4>
     
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-        PV: <span id="busuanzi_value_site_pv"></span>&nbsp;&nbsp;|&nbsp;&nbsp;
-        UV: <span id="busuanzi_value_site_uv"></span>
-    <!-- </span> -->
-       <!--  <span id="busuanzi_container_site_uv">UV: <span id="busuanzi_value_site_uv"></span></span> -->
+        <span id="busuanzi_container_site_pv">Page Views: <span id="busuanzi_value_site_pv"></span></span>
+        <span class="post-meta-divider">|</span>
+        <span id="busuanzi_container_site_uv">Unique Visitors: <span id="busuanzi_value_site_uv"></span></span>
     
-    <label class="el-switch el-switch-blue el-switch-sm">
+    <label class="el-switch el-switch-blue el-switch-sm" style="vertical-align: sub;">
         <input type="checkbox" name="switch" id="update_style">
         <span class="el-switch-style"></span>
     </label>
-    <br>
-    <!-- Copyright © 2021  zaole.net  -->
-    京ICP备12001734号
+
+    <!--         <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1278548644'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D1278548644%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script> -->
+</p>
 </div>
 
-<!-- 评论 -->
-<input type="hidden" id="web_style" value="light">
+<input type="hidden" id="web_style" value="black">
 <input type="hidden" id="valine_appid" value="NOsswOncKgc8HOxqo9oxIWlX-gzGzoHsz">
 <input type="hidden" id="valine_appKey" value="z1FihjWEbS8uIfUQdmCtK7zz">
 
@@ -174,7 +264,26 @@
 
 <script src="/js/js.js"></script>
 
-
-   <!--  <script type="text/javascript" color="173,174,173" opacity='1' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script> -->
+<style type="text/css">
+.v * {
+color: #698fca;
+}
+.v .vlist .vcard .vhead .vsys {
+color: #3a3e4a;
+}
+.v .vlist .vcard .vh .vmeta .vat {
+color: #638fd5;
+}
+.v .vlist .vcard .vhead .vnick {
+color: #6ba1ff;
+}
+.v a {
+color: #8696b1;
+}
+.v .vlist .vcard .vhead .vnick:hover {
+color: #669bfc;
+}
+</style>
+    <script type="text/javascript" color="173,174,173" opacity='1' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 </body>
 </html>

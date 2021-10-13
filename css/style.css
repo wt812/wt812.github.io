@@ -1272,7 +1272,7 @@ body {
   width: 80%;
 }
 .goTop {
-  margin: 10px 0 30px 0;
+  margin-bottom: 2em;
   display: block;
   color: #000;
   text-decoration: none;
@@ -1316,6 +1316,7 @@ nav.page-nav .current {
   width: 100%;
   display: inline-block;
   list-style: none;
+  line-height: 2em;
 }
 .nav div {
   float: left;
@@ -1418,7 +1419,7 @@ nav.page-nav .current {
   color: #aaa;
 }
 .bg_while .list h2 {
-  color: #ddd;
+  color: #999;
   border-color: #555;
 }
 .bg_while .list div {

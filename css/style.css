@@ -1605,7 +1605,7 @@ body {
   text-decoration: none;
 }
 nav.page-nav {
-  margin-top: 50px;
+  margin: 2em 0;
 }
 nav.page-nav span {
   width: 100px;
@@ -1648,7 +1648,7 @@ nav.page-nav .current {
   border-bottom: 0.5px #eee dashed;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  padding-bottom: 0.5px;
+  padding-bottom: 0.5em;
   font-weight: 900;
 }
 .list div {
@@ -1657,16 +1657,17 @@ nav.page-nav .current {
   line-height: 2em;
   display: block;
   font-weight: 400;
+  color: #666;
 }
 .list div a {
   padding-left: 12px;
-  color: #222;
+  color: #666;
   text-decoration: none;
 }
 .footer {
   width: 100%;
   display: block;
-  margin: 50px 0 25px 0;
+  margin-bottom: 2em;
   font-size: 14px;
 }
 .footer span {

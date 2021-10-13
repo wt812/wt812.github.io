@@ -1337,20 +1337,18 @@ nav.page-nav .current {
   height: auto;
 }
 .list h2 {
-  color: #222;
+  color: #444;
   font-size: 2em;
   border-bottom: 0.5px #eee dashed;
   margin-top: 1em;
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
-  font-weight: 900;
+  font-weight: 500;
 }
 .list div {
-  font-weight: 100;
-  font-size: 1em;
+  font-size: 14px;
   line-height: 2em;
   display: block;
-  font-weight: 400;
   color: #666;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1380,7 +1378,6 @@ nav.page-nav .current {
   color: #222;
   font-size: 2em;
   line-height: 1.1em;
-  font-weight: 900;
   border-left: 10px #333 solid;
   padding-left: 20px;
   padding-bottom: 5px;
@@ -1392,6 +1389,7 @@ nav.page-nav .current {
   margin: 0;
   padding: 0;
   height: 18px;
+  font-weight: 700;
 }
 .highlight table td,
 .highlight table th,

@@ -1325,7 +1325,7 @@ nav.page-nav .current {
   font-size: 1em;
 }
 .nav div a {
-  color: #999;
+  color: #444;
   text-decoration: none;
 }
 .nav div a:hover {
@@ -1346,19 +1346,26 @@ nav.page-nav .current {
   font-weight: 500;
 }
 .list div {
-  font-size: 14px;
-  line-height: 2em;
   display: block;
-  color: #666;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  font-size: 1em;
+  color: #aaa;
+  padding: 6px 0;
 }
-.list div a {
-  padding-left: 12px;
-  color: #666;
+.list div span {
+  line-height: 1.5em;
+}
+.list div span.left {
+  float: left;
+  overflow: hidden;
+  color: #bbb;
+  display: block;
+}
+.list div span.right {
+  margin-left: 70px;
+  display: block;
+}
+.list div span.right a {
+  color: #444;
   text-decoration: none;
 }
 .footer {

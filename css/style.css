@@ -1265,7 +1265,7 @@ body {
   list-style-type: none;
   background: #fff;
   color: #222;
-  font-family: "SF Pro Text";
+  font-family: 'Noto Serif', 'Times New Roman', serif;
 }
 #bodyx {
   margin: 0 auto;
@@ -1280,25 +1280,22 @@ body {
 .goTop a {
   color: #000;
 }
-.page_prev_next {
+.prev_next {
   display: block;
   width: 100%;
-  height: 20px;
-  padding: 0 0 20px 0;
+  padding: 1.5em 0;
+  font-size: 13px;
 }
-.page_prev_next .page_prev {
-  float: left;
-  width: 50%;
-}
-.page_prev_next .page_next {
-  float: right;
-  width: 50%;
-  text-align: right;
-}
-.page_prev_next .page_prev a,
-.page_prev_next .page_next a {
+.prev_next a {
   color: #222;
+  display: block;
   text-decoration: none;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 nav.page-nav {
   margin: 2em 0;
@@ -1354,6 +1351,11 @@ nav.page-nav .current {
   display: block;
   font-weight: 400;
   color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .list div a {
   padding-left: 12px;

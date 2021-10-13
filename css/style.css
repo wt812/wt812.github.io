@@ -1265,7 +1265,7 @@ body {
   list-style-type: none;
   background: #fff;
   color: #222;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "SF Pro Text";
 }
 #bodyx {
   margin: 0 auto;
@@ -1327,7 +1327,7 @@ nav.page-nav .current {
   font-size: 1em;
 }
 .nav div a {
-  color: #666;
+  color: #999;
   text-decoration: none;
 }
 .nav div a:hover {
@@ -1403,10 +1403,10 @@ nav.page-nav .current {
   background: #000;
 }
 .bg_while .logo {
-  color: #fff;
+  color: #999;
 }
 .bg_while a {
-  color: #fff;
+  color: #999;
 }
 .bg_while ul.post-tag-list li {
   border: 1px #111 solid;
@@ -1420,16 +1420,16 @@ nav.page-nav .current {
   border-color: #333;
 }
 .bg_while .list div {
-  color: #fff;
+  color: #999;
 }
 .bg_while .list div a {
-  color: #fff;
+  color: #999;
 }
 .bg_while .cont {
-  color: #fff;
+  color: #999;
 }
 .bg_while .cont div {
-  color: #fff;
+  color: #999;
 }
 .bg_while .v .vwrap {
   border-color: #333 !important;

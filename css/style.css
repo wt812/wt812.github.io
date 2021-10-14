@@ -1291,6 +1291,7 @@ body {
   display: block;
   text-decoration: none;
   line-height: 21px;
+  padding: 6px 0;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -1410,6 +1411,9 @@ nav.page-nav .current {
 .bg_while {
   background: #000;
 }
+.bg_while .nav a {
+  color: #999;
+}
 .bg_while .logo {
   color: #999;
 }
@@ -1430,7 +1434,10 @@ nav.page-nav .current {
 .bg_while .list div {
   color: #999;
 }
-.bg_while .list div a {
+.bg_while .list div span.left {
+  color: #666;
+}
+.bg_while .list div span.right a {
   color: #999;
 }
 .bg_while .cont {

@@ -93,6 +93,8 @@ td {
   border-spacing: 0;
   border: 1px solid #222;
   border-spacing: 0px !important;
+  padding: 3px 10px;
+  font-size: 14px;
 }
 blockquote {
   border-left: 10px #eee solid;
@@ -1368,6 +1370,7 @@ nav.page-nav .current {
 .list div span.right a {
   color: #444;
   text-decoration: none;
+  transition: opacity 0.3s linear;
 }
 .footer {
   width: 100%;
@@ -1384,10 +1387,9 @@ nav.page-nav .current {
 }
 .cont div {
   color: #222;
-  font-size: 2em;
+  font-size: 1.7em;
+  font-weight: 700;
   line-height: 1.1em;
-  border-left: 10px #333 solid;
-  padding-left: 20px;
   padding-bottom: 5px;
   margin: 0 0 60px 0;
 }

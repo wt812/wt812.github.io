@@ -1270,8 +1270,8 @@ body {
   font-family: 'Noto Serif', 'Times New Roman', serif;
 }
 #bodyx {
-  margin: 0 auto;
-  width: 80%;
+  width: 50%;
+  padding-left: 10%;
 }
 .goTop {
   margin-bottom: 2em;
@@ -1390,7 +1390,6 @@ nav.page-nav .current {
   font-size: 1.7em;
   font-weight: 700;
   line-height: 1.1em;
-  padding-bottom: 5px;
   margin: 0 0 60px 0;
 }
 .cont div p {
@@ -1398,7 +1397,7 @@ nav.page-nav .current {
   color: #666;
   margin: 0;
   padding: 0;
-  height: 18px;
+  line-height: 18px;
   font-weight: 700;
 }
 .highlight table td,
@@ -1489,7 +1488,8 @@ figure.highlight {
 }
 @media screen and (max-width: 800px) {
   #bodyx {
-    width: 90%;
+    padding: 0 12px;
+    width: calc(100% - 24px);
   }
   .list h2 {
     font-size: 1.5em;

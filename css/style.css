@@ -1498,4 +1498,12 @@ figure.highlight {
   .list div span.right {
     margin-left: 60px;
   }
+  .cont {
+    margin-bottom: 2.5em;
+  }
+  .cont div {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
 }

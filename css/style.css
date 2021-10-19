@@ -98,7 +98,7 @@ td {
 }
 blockquote {
   border-left: 10px #eee solid;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 blockquote p {
   padding-left: 10px;
@@ -136,7 +136,7 @@ img {
 }
 .giveFive {
   font-size: 40px;
-  margin: 60px 0 -100px 0;
+  margin: 40px 0 -100px 0;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -1317,9 +1317,8 @@ nav.page-nav .current {
 }
 .nav {
   width: 100%;
-  display: inline-block;
   list-style: none;
-  line-height: 2em;
+  line-height: 1.6em;
 }
 .nav div {
   float: left;
@@ -1394,10 +1393,10 @@ nav.page-nav .current {
 }
 .cont div p {
   font-size: 13px;
-  color: #666;
+  color: #999;
   margin: 0;
   padding: 0;
-  line-height: 18px;
+  line-height: 31px;
   font-weight: 700;
 }
 .highlight table td,
@@ -1503,7 +1502,7 @@ figure.highlight {
   }
   .cont div {
     text-align: center;
-    padding: 0 20px;
+    padding: 20px 20px 0 20px;
     margin-bottom: 20px;
   }
 }

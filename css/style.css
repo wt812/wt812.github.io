@@ -1383,12 +1383,12 @@ nav.page-nav .current {
   line-height: 2.2em;
 }
 .cont {
-  margin: 5em 0 5em 0;
+  margin: 4em 0 5em 0;
   line-height: 1.6em;
 }
 .cont div {
   color: #222;
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight: 700;
   line-height: 1.1em;
   margin: 0 0 60px 0;
@@ -1517,6 +1517,5 @@ figure.highlight {
     text-align: center;
     padding: 20px 20px 0 20px;
     margin-bottom: 20px;
-    font-size: 1.1em;
   }
 }

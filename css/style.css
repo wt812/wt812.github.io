@@ -1270,7 +1270,7 @@ body {
 }
 #bodyx {
   width: 50%;
-  padding-left: 10%;
+  padding-left: 110px;
 }
 .abc_logo {
   width: 100%;
@@ -1342,11 +1342,12 @@ nav.page-nav .current {
 .list h2 {
   color: #444;
   font-size: 2em;
-  border-bottom: 0.5px #eee dashed;
+  border-bottom: 0.5px #ddd dashed;
   margin-top: 1em;
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
-  font-weight: 500;
+  font-weight: 700;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .list div {
   display: block;
@@ -1486,7 +1487,7 @@ figure.highlight {
   padding: 0 0.5em !important;
   margin: 5px 0;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .abc_logo {
     position: relative;
     margin: auto;
@@ -1495,8 +1496,8 @@ figure.highlight {
     padding: 0 20px;
   }
   #bodyx {
-    padding: 0 12px;
-    width: calc(100% - 24px);
+    padding: 0 20px;
+    width: calc(100% - 40px);
   }
   .nav div {
     width: 100%;
@@ -1505,9 +1506,14 @@ figure.highlight {
   .list h2 {
     font-size: 1.5em;
     margin-top: 0.8em;
+    text-align: center;
   }
   .list div span.right {
     margin-left: 60px;
+  }
+  nav.page-nav,
+  .footer {
+    text-align: center;
   }
   .cont {
     margin-bottom: 2.5em;

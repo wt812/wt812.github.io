@@ -6,7 +6,6 @@
 .list {
   font-size: 17px;
   height: 30px;
-  cursor: pointer;
 }
 .postname {
   float: left;
@@ -1371,7 +1370,6 @@ nav.page-nav .current {
 .list div span.right a {
   color: #444;
   text-decoration: none;
-  transition: opacity 0.3s linear;
 }
 .footer {
   width: 100%;

@@ -74,15 +74,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/04/06/11-06-01/</loc>
-    
-    <lastmod>2021-04-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2021/05/05/11-05-01/</loc>
     
     <lastmod>2021-05-05</lastmod>
@@ -92,18 +83,27 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/03/07/11-07-01/</loc>
+    <loc>http://example.com/2021/05/05/11-05-02/</loc>
     
-    <lastmod>2021-03-07</lastmod>
+    <lastmod>2021-05-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/2021/05/05/11-05-02/</loc>
+    <loc>http://example.com/2021/04/06/11-06-01/</loc>
     
-    <lastmod>2021-05-05</lastmod>
+    <lastmod>2021-04-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/03/07/11-07-01/</loc>
+    
+    <lastmod>2021-03-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -146,24 +146,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/09/10/11-10-02/</loc>
-    
-    <lastmod>2021-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2021/10/12/11-12-01/</loc>
-    
-    <lastmod>2021-10-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2021/11/09/11-09-02/</loc>
     
     <lastmod>2021-11-09</lastmod>
@@ -176,6 +158,24 @@
     <loc>http://example.com/2021/09/10/11-10-01/</loc>
     
     <lastmod>2021-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/09/10/11-10-02/</loc>
+    
+    <lastmod>2021-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/10/12/11-12-01/</loc>
+    
+    <lastmod>2021-10-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -209,27 +209,18 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/11/18/11-18-02/</loc>
-    
-    <lastmod>2021-11-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2021/11/19/11-19-02/</loc>
-    
-    <lastmod>2021-11-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2021/11/15/11-15-02/</loc>
     
     <lastmod>2021-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/11/18/11-18-02/</loc>
+    
+    <lastmod>2021-11-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -245,9 +236,27 @@
   </url>
   
   <url>
+    <loc>http://example.com/2021/11/19/11-19-02/</loc>
+    
+    <lastmod>2021-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2020/07/27/11-27-01/</loc>
     
     <lastmod>2020-07-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2020/06/27/11-27-02/</loc>
+    
+    <lastmod>2020-06-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -275,15 +284,6 @@
     <loc>http://example.com/2020/10/22/img_10-22-10/</loc>
     
     <lastmod>2020-10-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/06/27/11-27-02/</loc>
-    
-    <lastmod>2020-06-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -326,18 +326,18 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://example.com/Archives/index.html</loc>
     
-    <lastmod>2021-11-25</lastmod>
+    <lastmod>2021-11-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/Archives/index.html</loc>
+    <loc>http://example.com/categories/index.html</loc>
     
-    <lastmod>2021-11-29</lastmod>
+    <lastmod>2021-11-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

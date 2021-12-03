@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-19T01:48:47.000Z</updated>
+  <updated>2021-10-19T07:11:33.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,126 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>11-19-02</title>
-    <link href="http://example.com/2021/11/19/11-19-02/"/>
-    <id>http://example.com/2021/11/19/11-19-02/</id>
-    <published>2021-11-19T01:48:47.000Z</published>
-    <updated>2021-11-19T01:48:47.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-18-02</title>
-    <link href="http://example.com/2021/11/18/11-18-02/"/>
-    <id>http://example.com/2021/11/18/11-18-02/</id>
-    <published>2021-11-18T02:30:53.000Z</published>
-    <updated>2021-11-18T02:30:53.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-16-02</title>
-    <link href="http://example.com/2021/11/16/11-16-02/"/>
-    <id>http://example.com/2021/11/16/11-16-02/</id>
-    <published>2021-11-16T01:45:08.000Z</published>
-    <updated>2021-11-16T01:45:08.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-15-02</title>
-    <link href="http://example.com/2021/11/15/11-15-02/"/>
-    <id>http://example.com/2021/11/15/11-15-02/</id>
-    <published>2021-11-15T01:58:34.000Z</published>
-    <updated>2021-11-15T01:58:34.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-15-01</title>
-    <link href="http://example.com/2021/11/15/11-15-01/"/>
-    <id>http://example.com/2021/11/15/11-15-01/</id>
-    <published>2021-11-15T01:58:32.000Z</published>
-    <updated>2021-11-15T01:58:32.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-14-02</title>
-    <link href="http://example.com/2021/11/14/11-14-02/"/>
-    <id>http://example.com/2021/11/14/11-14-02/</id>
-    <published>2021-11-14T07:18:16.000Z</published>
-    <updated>2021-11-14T07:18:16.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-09-02</title>
-    <link href="http://example.com/2021/11/09/11-09-02/"/>
-    <id>http://example.com/2021/11/09/11-09-02/</id>
-    <published>2021-11-09T13:38:36.000Z</published>
-    <updated>2021-11-09T13:38:36.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-09-01</title>
-    <link href="http://example.com/2021/11/09/11-09-01/"/>
-    <id>http://example.com/2021/11/09/11-09-01/</id>
-    <published>2021-11-09T13:38:34.000Z</published>
-    <updated>2021-11-09T13:38:34.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>10-19-01</title>
@@ -162,19 +42,18 @@
   </entry>
   
   <entry>
-    <title>10-18-01</title>
+    <title>我们总是用尖锐的语言伪装懦弱的自己😄 🎂</title>
     <link href="http://example.com/2021/10/18/10-18-01/"/>
     <id>http://example.com/2021/10/18/10-18-01/</id>
     <published>2021-10-18T05:45:42.000Z</published>
     <updated>2021-10-18T05:45:42.000Z</updated>
     
-    <content type="html"><![CDATA[<p>😄 🎂</p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;😄 🎂&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;</summary>
       
     
     
@@ -187,20 +66,12 @@
   </entry>
   
   <entry>
-    <title>10-17-01-😄</title>
+    <title>少有人走的路：心智成熟的旅程😄</title>
     <link href="http://example.com/2021/10/17/10-17-01/"/>
     <id>http://example.com/2021/10/17/10-17-01/</id>
     <published>2021-10-17T12:56:08.000Z</published>
     <updated>2021-10-17T12:56:08.000Z</updated>
     
-    <content type="html"><![CDATA[<p>😄</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;😄&lt;/p&gt;
-</summary>
-      
     
     
     
@@ -308,46 +179,16 @@
   </entry>
   
   <entry>
-    <title>10-12-02</title>
-    <link href="http://example.com/2021/10/12/11-12-02/"/>
-    <id>http://example.com/2021/10/12/11-12-02/</id>
-    <published>2021-10-12T01:36:05.000Z</published>
-    <updated>2021-10-12T01:36:05.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>10-12-01</title>
-    <link href="http://example.com/2021/10/12/11-12-01/"/>
-    <id>http://example.com/2021/10/12/11-12-01/</id>
-    <published>2021-10-12T01:36:02.000Z</published>
-    <updated>2021-10-12T01:36:02.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>威海必去4大景点</title>
     <link href="http://example.com/2021/09/30/%E5%A8%81%E6%B5%B7%E5%BF%85%E5%8E%BB4%E5%A4%A7%E6%99%AF%E7%82%B9/"/>
     <id>http://example.com/2021/09/30/%E5%A8%81%E6%B5%B7%E5%BF%85%E5%8E%BB4%E5%A4%A7%E6%99%AF%E7%82%B9/</id>
     <published>2021-09-29T18:42:31.000Z</published>
     <updated>2021-09-29T18:42:31.000Z</updated>
     
-    <content type="html"><![CDATA[<p>威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。但是威海却是我国著名的旅游城市，境内有延长的海岸线和优质的沙滩，拥有让全国羡慕的优良的空气和碧海蓝天。旅游资源丰富众多，下面就介绍下来威海旅游必去的5个景点，每一个都具有很强的代表性，你去过几个？</p><span id="more"></span><h3 id="刘公岛"><a href="#刘公岛" class="headerlink" title="刘公岛"></a>刘公岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=163776632,249057586&fm=253&fmt=auto&app=138&f=JPEG.jpg" alt="GitHub Mark"></p><p>来威海旅游的外地朋友，我相信刘公岛是一个必去景点。刘公岛风景区可以说是威海的一张名片，提到刘公岛，人们自然想到威海。提到威海，人们自然会联想的刘公岛。正如刘公岛那句经典的旅游宣传词一样，刘公岛不仅仅是一个岛。的确是，在刘公岛，欣赏到优美的岛屿风景那都是其次的，最重要的是刘公岛的人文知识，这里是甲午中日战争的发生地，近距离接受爱国主义教育洗礼，缅怀先烈，不忘国耻。同时在岛上，也能看到大量英租时期遗留下的英式建筑。</p><h3 id="海驴岛"><a href="#海驴岛" class="headerlink" title="海驴岛"></a>海驴岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=2509046422,3701455973&fm=26&fmt=auto.jpg" alt="海驴岛"></p><p>威海作为一个海滨城市，拥有近千公里的海岸线，在近千公里的海岸线上，分布着大大小小168个海岛。来威海旅游除了刘公岛，我首先推荐的景区就是海驴岛，因为会超出我们的旅行期待。去过很多地方旅游，不知你是否和我一样，在网上看到的景区图片很美很期待，到了目的地却特别失望，有一定的落差。海驴岛却截然不同，绝对超出你的预期值。</p><p>海驴岛，远方遥望，层层云雾，山海相连，海上仙山，虚无缥缈，环岛而行，无数海鸟，盘旋而上，或悲或鸣，或击长空，此情此景，别样生动，登岛而上，海蚀地貌，山水交融，怪石嶙立，雄伟壮观，海水深情，波涛汹涌，步步皆景，景景生情，人间仙境，流连忘返，回味无穷。这是我2017年游览完海驴岛后写的打油诗游记，至今忘不了无数海鸥翱翔在蓝天，和岛屿上怪石林立的景象。</p><h3 id="成山头风景区"><a href="#成山头风景区" class="headerlink" title="成山头风景区"></a>成山头风景区</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=649375019,3568548502&fm=26&fmt=auto.jpg" alt="成山头风景区"></p><p>推荐成山头的理由是中国陆地与大海交界处的最东端，是最早看到海上日出的地方。成山头风景区位于威海荣成成山镇，又名天尽头，三面环海，一面环山，与韩国隔海相望。晴天的时候风景确实漂亮，但是成山头又是褒贬不一的景区，口碑两极分化严重。有的人认为商业味太浓，借用最东端之名，把海边圈起来弄一个景区，并且门票不菲，不值这个价格。成山头风景区还带有一定的神话色彩，古时候人们认为这里是日神居住的地方，所以传说秦始皇曾经两次到过这里，求长生不死灵丹妙药。</p><h3 id="东楮岛"><a href="#东楮岛" class="headerlink" title="东楮岛"></a>东楮岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=3272172318,3045566939&fm=26&fmt=auto.jpg" alt="东楮岛"></p><p>威海还有一个值得看的景色就是海草房，这种以草为顶，以石为墙的民居，看上去憨态可掬，像极了童话中的房屋。仅存在我国的胶东地区，世界罕见，不仅评为山东非物质文化遗产，也是世界著名生态民居。但是来威海的游客看海草房，大多数选择人山人海的烟墩角，却忽略了人少景美的东楮岛。</p>]]></content>
+    <content type="html"><![CDATA[<p>威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。<span id="more"></span>但是威海却是我国著名的旅游城市，境内有延长的海岸线和优质的沙滩，拥有让全国羡慕的优良的空气和碧海蓝天。旅游资源丰富众多，下面就介绍下来威海旅游必去的5个景点，每一个都具有很强的代表性，你去过几个？</p><h3 id="刘公岛"><a href="#刘公岛" class="headerlink" title="刘公岛"></a>刘公岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=163776632,249057586&fm=253&fmt=auto&app=138&f=JPEG.jpg" alt="GitHub Mark"></p><p>来威海旅游的外地朋友，我相信刘公岛是一个必去景点。刘公岛风景区可以说是威海的一张名片，提到刘公岛，人们自然想到威海。提到威海，人们自然会联想的刘公岛。正如刘公岛那句经典的旅游宣传词一样，刘公岛不仅仅是一个岛。的确是，在刘公岛，欣赏到优美的岛屿风景那都是其次的，最重要的是刘公岛的人文知识，这里是甲午中日战争的发生地，近距离接受爱国主义教育洗礼，缅怀先烈，不忘国耻。同时在岛上，也能看到大量英租时期遗留下的英式建筑。</p><h3 id="海驴岛"><a href="#海驴岛" class="headerlink" title="海驴岛"></a>海驴岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=2509046422,3701455973&fm=26&fmt=auto.jpg" alt="海驴岛"></p><p>威海作为一个海滨城市，拥有近千公里的海岸线，在近千公里的海岸线上，分布着大大小小168个海岛。来威海旅游除了刘公岛，我首先推荐的景区就是海驴岛，因为会超出我们的旅行期待。去过很多地方旅游，不知你是否和我一样，在网上看到的景区图片很美很期待，到了目的地却特别失望，有一定的落差。海驴岛却截然不同，绝对超出你的预期值。</p><p>海驴岛，远方遥望，层层云雾，山海相连，海上仙山，虚无缥缈，环岛而行，无数海鸟，盘旋而上，或悲或鸣，或击长空，此情此景，别样生动，登岛而上，海蚀地貌，山水交融，怪石嶙立，雄伟壮观，海水深情，波涛汹涌，步步皆景，景景生情，人间仙境，流连忘返，回味无穷。这是我2017年游览完海驴岛后写的打油诗游记，至今忘不了无数海鸥翱翔在蓝天，和岛屿上怪石林立的景象。</p><h3 id="成山头风景区"><a href="#成山头风景区" class="headerlink" title="成山头风景区"></a>成山头风景区</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=649375019,3568548502&fm=26&fmt=auto.jpg" alt="成山头风景区"></p><p>推荐成山头的理由是中国陆地与大海交界处的最东端，是最早看到海上日出的地方。成山头风景区位于威海荣成成山镇，又名天尽头，三面环海，一面环山，与韩国隔海相望。晴天的时候风景确实漂亮，但是成山头又是褒贬不一的景区，口碑两极分化严重。有的人认为商业味太浓，借用最东端之名，把海边圈起来弄一个景区，并且门票不菲，不值这个价格。成山头风景区还带有一定的神话色彩，古时候人们认为这里是日神居住的地方，所以传说秦始皇曾经两次到过这里，求长生不死灵丹妙药。</p><h3 id="东楮岛"><a href="#东楮岛" class="headerlink" title="东楮岛"></a>东楮岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=3272172318,3045566939&fm=26&fmt=auto.jpg" alt="东楮岛"></p><p>威海还有一个值得看的景色就是海草房，这种以草为顶，以石为墙的民居，看上去憨态可掬，像极了童话中的房屋。仅存在我国的胶东地区，世界罕见，不仅评为山东非物质文化遗产，也是世界著名生态民居。但是来威海的游客看海草房，大多数选择人山人海的烟墩角，却忽略了人少景美的东楮岛。</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。但是威海却是我国著名的旅游城市，境内有延长的海岸线和优质的沙滩，拥有让全国羡慕的优良的空气和碧海蓝天。旅游资源丰富众多，下面就介绍下来威海旅游必去的5个景点，每一个都具有很强的代表性，你去过几个？&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。</summary>
     
     
     
@@ -365,11 +206,11 @@
   </entry>
   
   <entry>
-    <title>09-10-02</title>
-    <link href="http://example.com/2021/09/10/11-10-02/"/>
-    <id>http://example.com/2021/09/10/11-10-02/</id>
-    <published>2021-09-10T03:04:25.000Z</published>
-    <updated>2021-09-10T03:04:25.000Z</updated>
+    <title>05-05-02</title>
+    <link href="http://example.com/2021/05/05/11-05-02/"/>
+    <id>http://example.com/2021/05/05/11-05-02/</id>
+    <published>2021-05-05T15:39:01.000Z</published>
+    <updated>2021-05-05T15:39:01.000Z</updated>
     
     
     
@@ -380,17 +221,187 @@
   </entry>
   
   <entry>
-    <title>09-10-01</title>
-    <link href="http://example.com/2021/09/10/11-10-01/"/>
-    <id>http://example.com/2021/09/10/11-10-01/</id>
-    <published>2021-09-10T03:03:05.000Z</published>
-    <updated>2021-09-10T03:03:05.000Z</updated>
+    <title>05-05-01</title>
+    <link href="http://example.com/2021/05/05/11-05-01/"/>
+    <id>http://example.com/2021/05/05/11-05-01/</id>
+    <published>2021-05-05T15:38:58.000Z</published>
+    <updated>2021-05-05T15:38:58.000Z</updated>
     
     
     
     
     <category term="2021" scheme="http://example.com/categories/2021/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>04-06-01</title>
+    <link href="http://example.com/2021/04/06/11-06-01/"/>
+    <id>http://example.com/2021/04/06/11-06-01/</id>
+    <published>2021-04-06T07:00:44.000Z</published>
+    <updated>2021-04-06T07:00:44.000Z</updated>
+    
+    
+    
+    
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>03-07-02</title>
+    <link href="http://example.com/2021/03/07/11-07-02/"/>
+    <id>http://example.com/2021/03/07/11-07-02/</id>
+    <published>2021-03-07T04:42:08.000Z</published>
+    <updated>2021-03-07T04:42:08.000Z</updated>
+    
+    
+    
+    
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>03-07-01</title>
+    <link href="http://example.com/2021/03/07/11-07-01/"/>
+    <id>http://example.com/2021/03/07/11-07-01/</id>
+    <published>2021-03-07T04:42:06.000Z</published>
+    <updated>2021-03-07T04:42:06.000Z</updated>
+    
+    
+    
+    
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>01-08-02</title>
+    <link href="http://example.com/2021/01/08/11-08-02/"/>
+    <id>http://example.com/2021/01/08/11-08-02/</id>
+    <published>2021-01-08T12:59:42.000Z</published>
+    <updated>2021-01-08T12:59:42.000Z</updated>
+    
+    
+    
+    
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>01-08-01</title>
+    <link href="http://example.com/2021/01/08/11-08-01/"/>
+    <id>http://example.com/2021/01/08/11-08-01/</id>
+    <published>2021-01-08T12:59:40.000Z</published>
+    <updated>2021-01-08T12:59:40.000Z</updated>
+    
+    
+    
+    
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>10-31-03</title>
+    <link href="http://example.com/2020/10/31/10-31-03/"/>
+    <id>http://example.com/2020/10/31/10-31-03/</id>
+    <published>2020-10-31T07:46:24.000Z</published>
+    <updated>2020-10-31T07:46:24.000Z</updated>
+    
+    
+    
+    
+    <category term="2020" scheme="http://example.com/categories/2020/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>10-31-02</title>
+    <link href="http://example.com/2020/10/31/10-31-02/"/>
+    <id>http://example.com/2020/10/31/10-31-02/</id>
+    <published>2020-10-31T07:46:21.000Z</published>
+    <updated>2020-10-31T07:46:21.000Z</updated>
+    
+    
+    
+    
+    <category term="2020" scheme="http://example.com/categories/2020/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>10-31-01</title>
+    <link href="http://example.com/2020/10/31/10-31-01/"/>
+    <id>http://example.com/2020/10/31/10-31-01/</id>
+    <published>2020-10-31T07:46:19.000Z</published>
+    <updated>2020-10-31T07:46:19.000Z</updated>
+    
+    
+    
+    
+    <category term="2020" scheme="http://example.com/categories/2020/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>10-22-10</title>
+    <link href="http://example.com/2020/10/22/img_10-22-10/"/>
+    <id>http://example.com/2020/10/22/img_10-22-10/</id>
+    <published>2020-10-22T14:09:48.000Z</published>
+    <updated>2020-10-22T14:09:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images10.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images8.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images7.jpeg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg&quot;</summary>
+      
+    
+    
+    
+    <category term="2020" scheme="http://example.com/categories/2020/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>B端与C端的区别，并分析B端的SAAS市场</title>
+    <link href="http://example.com/2020/10/16/img_10-16-02/"/>
+    <id>http://example.com/2020/10/16/img_10-16-02/</id>
+    <published>2020-10-15T18:20:45.000Z</published>
+    <updated>2020-10-15T18:20:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images6.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images60.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images59.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images58.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images56.jpeg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images6.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images60.jpeg&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="2020" scheme="http://example.com/categories/2020/"/>
+    
+    
+    <category term="B端" scheme="http://example.com/tags/B%E7%AB%AF/"/>
+    
+    <category term="C端" scheme="http://example.com/tags/C%E7%AB%AF/"/>
+    
+    <category term="SAAS" scheme="http://example.com/tags/SAAS/"/>
     
   </entry>
   

@@ -17,20 +17,16 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>这些常见产品问题你会解吗1？</title>
+    <title>这些常见产品问题你会解吗？</title>
     <link href="http://example.com/2021/12/04/12-04/"/>
     <id>http://example.com/2021/12/04/12-04/</id>
     <published>2021-12-04T07:09:43.000Z</published>
     <updated>2021-12-04T07:09:43.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、产品初学者多做原型有用吗？"><a href="#一、产品初学者多做原型有用吗？" class="headerlink" title="一、产品初学者多做原型有用吗？"></a>一、产品初学者多做原型有用吗？</h2><h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a>描述：</h4><blockquote><p>对于产品初学者。多做原型有用吗？</p></blockquote><h4 id="回答："><a href="#回答：" class="headerlink" title="回答："></a>回答：</h4><p>对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑固定，如果没有自我更新的动力是挺难突出瓶颈的。比如我自己，明知道怎么能突破，但真干起来，那真得很难（时间不够，也无法放弃自己原本的逻辑习惯）。如何建立产品的方法论。这个模型应该挺多人都见过。</p><p>俗话说：100条数据能得到1条信息，100条信息得到1条知识。25条知识学会一种技能，25个技能明白一个智慧。</p><span id="more"></span><p>绝大多数人，包括产品人，都有一种懒病，所以很少有人会从数据层开始向上学习，而大多都是从知识层向上学习。所以就会存在，当被问及你的产品方法论是什么的时候，答出来的几乎都是书上写的，网上传的，或者别人家做的。</p><p>正常大多数产品新人接到的第一份工作都是“竞品分析”报告，那新人是否会考虑什么是竞品分析，为什么要做竞品分析，到底如何才能做一份好的竞品分析？</p><p>其实竞品分析报告作为第一个任务的目的，就是提高新人的产品方面的辨识能力。这个能力不夸张的说是80%产品人缺失或明显待提高的重要能力。这根据他们开始学产品时的思维模式和基础有直接关系。</p><p>那我简单说一下什么是辨识能力，以及它的用处。这里就涉及了上面的模型。从数据到信息，就是辨识能力的提高。做某一方向的产品调研时，你是否看过足够多的案例，一百个案例中，你如何辨别出他们的差异性？这里可能有人没理解（我语文不咋地）可以参照问题五这个case，我与题主的思维问题的区别，就是我们之间的辨识度存在差异，所以思考问题的维度和深度就有区别，这并不是我比他智商高多少，只能说踩过的坑多，思考就多了。</p><p>所以新人第一步该做的是，在你从事的赛道或行业中，收集足够多的产品case，比如医疗，那就是市面上但凡听说过的医疗APP全看一边，把所有的页面截图。然后通过每个APP的自己的产品特点和迭代路径，辨识出他们都是什么样的商业重心和用户特点。这是一个浩瀚的工程。但是这个直接收益，就是当你整理完成后，不管任何人说出任何一个功能，你都能立刻对应出竞品是谁，对方怎么做的，怎么迭代的，你要模仿之路大概是个什么样。而不是道听途说，人云亦云，天马行空的想象。这个工作就好比要学绝世武功，那都得从蹲马步开始。</p><p>第二步，当你能坚持完成第一步之后，就进入了从信息到知识的阶段。这一步就两个关键字，区分和归类。这里重点在于区分，因为绝大多数人由于开始的懒惰和想走捷径。都是在做归类。而真正的建立自己的产品模型，是从区分开始。区分是自下而上（信息-&gt;知识），归类是自上而下（知识-信息）。如果开始你用的归类，最大的问题是你用的是别人的知识，不是自己总结的。差距就是不够立体和缺失细节。这也是大佬和普通人的区别，成败在于对细节的把控。当你自己去执行从信息到知识阶段的区分工作时，你一定会发现一些你无法从别人（书，网文，他人）学到的细节，而这些细节会觉得你未来天花板的高度。比如上一段，当你区分出竞品每次迭代的区别，并且结合他们的业务，找到迭代优化的原因时，你就知道自己在产品不同阶段该干嘛了。</p><p>第三步，从知识点到技能，关键字就三个：试错，实践，总结。可能有人会问，试错和实践不是一个意思嘛？这里的区别就是，试错是自己私下做的，得到知识点后，他们各种方式组合到一起，看是否合理（这个步骤，在脑子里或者自己动笔画画就可以完成）。将自己试错的结果在时机工作中实践，并在针对每次实践的结果进行总结。循环执行，就能培养一种能力。切记试错的价值，在于你在第二步获得了多少细节的知识点，也可以叫做维度。如果你没有经过第一步第二步，只是单纯从第三步开始，其实试不试错的没有意义。因为你那的都是别人成熟的解决方案。价值不大。因为“失败是成功他妈！”你都没有失败的经验，拿脑门子谈成功啊！</p><p>第四步，从技能到智慧，关键字：执行，复盘，审查，检视。这块就不说了，贪多嚼不烂（得开会去了），只能说每一个大佬都是复盘高手。而后两个词一般人就更难做到了。所以说不说也就那么回事了。</p><h2 id="二、产品和运营具体的落地区别？"><a href="#二、产品和运营具体的落地区别？" class="headerlink" title="二、产品和运营具体的落地区别？"></a>二、产品和运营具体的落地区别？</h2><h4 id="描述：-1"><a href="#描述：-1" class="headerlink" title="描述："></a>描述：</h4><blockquote><p>现在有个困扰，按以往经验来说产品是界定长期价值，创造和规划，运营是维护，那么在维护过程中发现创造的产品与实际用户需求有偏差，那么就需要重新梳理和判断价值，所以产品运营不分家。既然是上面说的这样，是不是产品调研时运营去参加，运营维护时产品去参加，都去达成一个共识，就算这样也会慢慢形成一种，运营越来越懂用户，产品一直跟着运营跑，而且运营关注的指标，比如停留，转化，拉新和产品关注的使用率，使用体验，是不完全重合的，那是不是未来市场更趋向于去找又懂产品又懂运营的人呢？分部门，不管配合有多默契，还是会对业务或者用户理解有偏差啊</p></blockquote><h4 id="回答：-1"><a href="#回答：-1" class="headerlink" title="回答："></a>回答：</h4><p>看到题主的内容主要是围绕C端产品与运营的区别在思考。都知道作为C端产品人，可以不干运营，但要懂运营。</p><p>因为C端所有东西就是：拉新，促活，留存，拉活跃，转单。转单不管是外卖还是社交，以结果为主。所有的运营手段都是为了某个目标事件来执行的。所以不管哪个运营手段，就像拉新这个事情，会有不同的运营方法。每种目标都是特定的方法来针对性的解决某项任务。知道了这些后，设计产品，发现如果不利于运营，那产品就废了。</p><p>C端要为了用户而用户。如何获得用户感知，一部分产品数据为主，另一部分运营为主。运营会告诉我们怎么带着C端用户，数据告诉我，C端拿我给运营设计的产品玩的好不好。相互印证。</p><p>作为一个高等级C端产品人，是一定要懂运营的。产品岗位是一个复合能力要求极高的岗位。但懂产品很难成长。换句人艰必拆的大实话，随便拎一个大厂的C端产品负责人，你聊上几句或者看看对方的规划。你会发现对方的其实都是站在大运营角度去思考问题和规划布局。</p><h2 id="三、toB和-toC-产品是如何定义的？"><a href="#三、toB和-toC-产品是如何定义的？" class="headerlink" title="三、toB和 toC 产品是如何定义的？"></a>三、toB和 toC 产品是如何定义的？</h2><h4 id="描述：-2"><a href="#描述：-2" class="headerlink" title="描述："></a>描述：</h4><blockquote><p>toB和toC产品的区别我是知道的，比如从目标用户及使用场景上、决策使用上、PM调研及产品设计上、不同端产品受限因素上、盈利模式上、对PM能力要求异同点上等等我是知道这些差异的！但是比如淘宝APP，大家把归之为toC产品，我就有点好奇，它为什么是toC：<br>首先说下我理解的toC：toC就是产品的前台页面中只用户一个角色就可以完成所有操作，比如我们手电筒的使用，闹钟的使用，不需要其他角色的人来参与才能完成的产品叫做toC产品！<br>这里讨论产品是toB还是toC说的只是产品前台，不包括后台管理系统，应该没错吧？但淘宝我就觉得很疑问：用户下单后，还需要有店铺人员在订单上操作才能将订单流转到配货、发货状态，这就涉及两个角色才能将订单运转下去了，而不是只用户一个角色了，这怎么还能是toC产品呢！<br>入行不久的产品新人的疑问，大家对此处所有想法，诚邀各位一起加入讨论，谢谢大家！</p></blockquote><h4 id="回答：-2"><a href="#回答：-2" class="headerlink" title="回答："></a>回答：</h4><ul><li>B端是定制化业务，解决专业性，垂直的行业问题。</li><li>C端是定向化业务，解决大众问题，</li></ul><p>C端的链路跟B端的链路不同，定制是我有什么，我给什么。定向是他要什么，我就给他什么。</p><p>所以淘宝的用户端产品是定向还是定制呢？整个淘宝分为很多的部门及产品，像1688就主要是B端产品为主。</p><h4 id="B端与C端的产品人思维区别。"><a href="#B端与C端的产品人思维区别。" class="headerlink" title="B端与C端的产品人思维区别。"></a>B端与C端的产品人思维区别。</h4><ul><li>C端：做产品的人可以不干运营，但要懂运营。</li><li>B端：做产品的人可以不干销售，但要懂业务。</li></ul><p>B端：如果没有跟销售深度的了解过具体业务，那不管产品设计还是项目管理，都会有偏颇。</p><p>C端：因为C端所有东西就是：拉新，促活，留存，拉活跃，转单。转单不管是外卖还是社交，以结果件为主。所有的运营手段都是为了某件目的事情来走的。所以不管哪个运营手段，就像拉新这个事情，会有不同的运营方法。每种目标都是特定的方法来针对性的解决某项任务。</p><p>B端强调效率和简单。C端主要围绕留存。</p><p>C端要为了用户而用户。如何获得用户感知，一部分产品数据为主，另一部分运营为主。运营会告诉我们怎么带着C端用户，数据告诉我C端拿我给运营设计的产品玩的好不好。相互印证。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="一、产品初学者多做原型有用吗？"><a href="#一、产品初学者多做原型有用吗？" class="headerlink" title="一、产品初学者多做原型有用吗？"></a>一、产品初学者多做原型有用吗？</h2><span id="more"></span><h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a>描述：</h4><blockquote><p>对于产品初学者。多做原型有用吗？</p></blockquote><h4 id="回答："><a href="#回答：" class="headerlink" title="回答："></a>回答：</h4><p>对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑固定，如果没有自我更新的动力是挺难突出瓶颈的。比如我自己，明知道怎么能突破，但真干起来，那真得很难（时间不够，也无法放弃自己原本的逻辑习惯）。如何建立产品的方法论。这个模型应该挺多人都见过。</p><p>俗话说：100条数据能得到1条信息，100条信息得到1条知识。25条知识学会一种技能，25个技能明白一个智慧。</p><p>绝大多数人，包括产品人，都有一种懒病，所以很少有人会从数据层开始向上学习，而大多都是从知识层向上学习。所以就会存在，当被问及你的产品方法论是什么的时候，答出来的几乎都是书上写的，网上传的，或者别人家做的。</p><p>正常大多数产品新人接到的第一份工作都是“竞品分析”报告，那新人是否会考虑什么是竞品分析，为什么要做竞品分析，到底如何才能做一份好的竞品分析？</p><p>其实竞品分析报告作为第一个任务的目的，就是提高新人的产品方面的辨识能力。这个能力不夸张的说是80%产品人缺失或明显待提高的重要能力。这根据他们开始学产品时的思维模式和基础有直接关系。</p><p>那我简单说一下什么是辨识能力，以及它的用处。这里就涉及了上面的模型。从数据到信息，就是辨识能力的提高。做某一方向的产品调研时，你是否看过足够多的案例，一百个案例中，你如何辨别出他们的差异性？这里可能有人没理解（我语文不咋地）可以参照问题五这个case，我与题主的思维问题的区别，就是我们之间的辨识度存在差异，所以思考问题的维度和深度就有区别，这并不是我比他智商高多少，只能说踩过的坑多，思考就多了。</p><p>所以新人第一步该做的是，在你从事的赛道或行业中，收集足够多的产品case，比如医疗，那就是市面上但凡听说过的医疗APP全看一边，把所有的页面截图。然后通过每个APP的自己的产品特点和迭代路径，辨识出他们都是什么样的商业重心和用户特点。这是一个浩瀚的工程。但是这个直接收益，就是当你整理完成后，不管任何人说出任何一个功能，你都能立刻对应出竞品是谁，对方怎么做的，怎么迭代的，你要模仿之路大概是个什么样。而不是道听途说，人云亦云，天马行空的想象。这个工作就好比要学绝世武功，那都得从蹲马步开始。</p><p>第二步，当你能坚持完成第一步之后，就进入了从信息到知识的阶段。这一步就两个关键字，区分和归类。这里重点在于区分，因为绝大多数人由于开始的懒惰和想走捷径。都是在做归类。而真正的建立自己的产品模型，是从区分开始。区分是自下而上（信息-&gt;知识），归类是自上而下（知识-信息）。如果开始你用的归类，最大的问题是你用的是别人的知识，不是自己总结的。差距就是不够立体和缺失细节。这也是大佬和普通人的区别，成败在于对细节的把控。当你自己去执行从信息到知识阶段的区分工作时，你一定会发现一些你无法从别人（书，网文，他人）学到的细节，而这些细节会觉得你未来天花板的高度。比如上一段，当你区分出竞品每次迭代的区别，并且结合他们的业务，找到迭代优化的原因时，你就知道自己在产品不同阶段该干嘛了。</p><p>第三步，从知识点到技能，关键字就三个：试错，实践，总结。可能有人会问，试错和实践不是一个意思嘛？这里的区别就是，试错是自己私下做的，得到知识点后，他们各种方式组合到一起，看是否合理（这个步骤，在脑子里或者自己动笔画画就可以完成）。将自己试错的结果在时机工作中实践，并在针对每次实践的结果进行总结。循环执行，就能培养一种能力。切记试错的价值，在于你在第二步获得了多少细节的知识点，也可以叫做维度。如果你没有经过第一步第二步，只是单纯从第三步开始，其实试不试错的没有意义。因为你那的都是别人成熟的解决方案。价值不大。因为“失败是成功他妈！”你都没有失败的经验，拿脑门子谈成功啊！</p><p>第四步，从技能到智慧，关键字：执行，复盘，审查，检视。这块就不说了，贪多嚼不烂（得开会去了），只能说每一个大佬都是复盘高手。而后两个词一般人就更难做到了。所以说不说也就那么回事了。</p><h2 id="二、产品和运营具体的落地区别？"><a href="#二、产品和运营具体的落地区别？" class="headerlink" title="二、产品和运营具体的落地区别？"></a>二、产品和运营具体的落地区别？</h2><h4 id="描述：-1"><a href="#描述：-1" class="headerlink" title="描述："></a>描述：</h4><blockquote><p>现在有个困扰，按以往经验来说产品是界定长期价值，创造和规划，运营是维护，那么在维护过程中发现创造的产品与实际用户需求有偏差，那么就需要重新梳理和判断价值，所以产品运营不分家。既然是上面说的这样，是不是产品调研时运营去参加，运营维护时产品去参加，都去达成一个共识，就算这样也会慢慢形成一种，运营越来越懂用户，产品一直跟着运营跑，而且运营关注的指标，比如停留，转化，拉新和产品关注的使用率，使用体验，是不完全重合的，那是不是未来市场更趋向于去找又懂产品又懂运营的人呢？分部门，不管配合有多默契，还是会对业务或者用户理解有偏差啊</p></blockquote><h4 id="回答：-1"><a href="#回答：-1" class="headerlink" title="回答："></a>回答：</h4><p>看到题主的内容主要是围绕C端产品与运营的区别在思考。都知道作为C端产品人，可以不干运营，但要懂运营。</p><p>因为C端所有东西就是：拉新，促活，留存，拉活跃，转单。转单不管是外卖还是社交，以结果为主。所有的运营手段都是为了某个目标事件来执行的。所以不管哪个运营手段，就像拉新这个事情，会有不同的运营方法。每种目标都是特定的方法来针对性的解决某项任务。知道了这些后，设计产品，发现如果不利于运营，那产品就废了。</p><p>C端要为了用户而用户。如何获得用户感知，一部分产品数据为主，另一部分运营为主。运营会告诉我们怎么带着C端用户，数据告诉我，C端拿我给运营设计的产品玩的好不好。相互印证。</p><p>作为一个高等级C端产品人，是一定要懂运营的。产品岗位是一个复合能力要求极高的岗位。但懂产品很难成长。换句人艰必拆的大实话，随便拎一个大厂的C端产品负责人，你聊上几句或者看看对方的规划。你会发现对方的其实都是站在大运营角度去思考问题和规划布局。</p><h2 id="三、toB和-toC-产品是如何定义的？"><a href="#三、toB和-toC-产品是如何定义的？" class="headerlink" title="三、toB和 toC 产品是如何定义的？"></a>三、toB和 toC 产品是如何定义的？</h2><h4 id="描述：-2"><a href="#描述：-2" class="headerlink" title="描述："></a>描述：</h4><blockquote><p>toB和toC产品的区别我是知道的，比如从目标用户及使用场景上、决策使用上、PM调研及产品设计上、不同端产品受限因素上、盈利模式上、对PM能力要求异同点上等等我是知道这些差异的！但是比如淘宝APP，大家把归之为toC产品，我就有点好奇，它为什么是toC：<br>首先说下我理解的toC：toC就是产品的前台页面中只用户一个角色就可以完成所有操作，比如我们手电筒的使用，闹钟的使用，不需要其他角色的人来参与才能完成的产品叫做toC产品！<br>这里讨论产品是toB还是toC说的只是产品前台，不包括后台管理系统，应该没错吧？但淘宝我就觉得很疑问：用户下单后，还需要有店铺人员在订单上操作才能将订单流转到配货、发货状态，这就涉及两个角色才能将订单运转下去了，而不是只用户一个角色了，这怎么还能是toC产品呢！<br>入行不久的产品新人的疑问，大家对此处所有想法，诚邀各位一起加入讨论，谢谢大家！</p></blockquote><h4 id="回答：-2"><a href="#回答：-2" class="headerlink" title="回答："></a>回答：</h4><ul><li>B端是定制化业务，解决专业性，垂直的行业问题。</li><li>C端是定向化业务，解决大众问题，</li></ul><p>C端的链路跟B端的链路不同，定制是我有什么，我给什么。定向是他要什么，我就给他什么。</p><p>所以淘宝的用户端产品是定向还是定制呢？整个淘宝分为很多的部门及产品，像1688就主要是B端产品为主。</p><h4 id="B端与C端的产品人思维区别。"><a href="#B端与C端的产品人思维区别。" class="headerlink" title="B端与C端的产品人思维区别。"></a>B端与C端的产品人思维区别。</h4><ul><li>C端：做产品的人可以不干运营，但要懂运营。</li><li>B端：做产品的人可以不干销售，但要懂业务。</li></ul><p>B端：如果没有跟销售深度的了解过具体业务，那不管产品设计还是项目管理，都会有偏颇。</p><p>C端：因为C端所有东西就是：拉新，促活，留存，拉活跃，转单。转单不管是外卖还是社交，以结果件为主。所有的运营手段都是为了某件目的事情来走的。所以不管哪个运营手段，就像拉新这个事情，会有不同的运营方法。每种目标都是特定的方法来针对性的解决某项任务。</p><p>B端强调效率和简单。C端主要围绕留存。</p><p>C端要为了用户而用户。如何获得用户感知，一部分产品数据为主，另一部分运营为主。运营会告诉我们怎么带着C端用户，数据告诉我C端拿我给运营设计的产品玩的好不好。相互印证。</p>]]></content>
     
     
-    <summary type="html">&lt;h2 id=&quot;一、产品初学者多做原型有用吗？&quot;&gt;&lt;a href=&quot;#一、产品初学者多做原型有用吗？&quot; class=&quot;headerlink&quot; title=&quot;一、产品初学者多做原型有用吗？&quot;&gt;&lt;/a&gt;一、产品初学者多做原型有用吗？&lt;/h2&gt;&lt;h4 id=&quot;描述：&quot;&gt;&lt;a href=&quot;#描述：&quot; class=&quot;headerlink&quot; title=&quot;描述：&quot;&gt;&lt;/a&gt;描述：&lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;对于产品初学者。多做原型有用吗？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&quot;回答：&quot;&gt;&lt;a href=&quot;#回答：&quot; class=&quot;headerlink&quot; title=&quot;回答：&quot;&gt;&lt;/a&gt;回答：&lt;/h4&gt;&lt;p&gt;对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑固定，如果没有自我更新的动力是挺难突出瓶颈的。比如我自己，明知道怎么能突破，但真干起来，那真得很难（时间不够，也无法放弃自己原本的逻辑习惯）。如何建立产品的方法论。这个模型应该挺多人都见过。&lt;/p&gt;
-&lt;p&gt;俗话说：100条数据能得到1条信息，100条信息得到1条知识。25条知识学会一种技能，25个技能明白一个智慧。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;一、产品初学者多做原型有用吗？&quot;&gt;&lt;a href=&quot;#一、产品初学者多做原型有用吗？&quot; class=&quot;headerlink&quot; title=&quot;一、产品初学者多做原型有用吗？&quot;&gt;&lt;/a&gt;一、产品初学者多做原型有用吗？&lt;/h2&gt;</summary>
     
     
     
@@ -38,42 +34,18 @@
   </entry>
   
   <entry>
-    <title>12-03 🎂</title>
+    <title>12-03 🎂 仙女下凡</title>
     <link href="http://example.com/2021/12/03/12-03/"/>
     <id>http://example.com/2021/12/03/12-03/</id>
     <published>2021-12-03T15:37:58.000Z</published>
     <updated>2021-12-03T15:37:58.000Z</updated>
     
-    <content type="html"><![CDATA[<p>对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑固定，如果没有自我更新的动力是挺难突出瓶颈的。比如我自己，明知道怎么能突破，但真干起来，那真得很难（时间不够，也无法放弃自己原本的逻辑习惯）。如何建立产品的方法论。这个模型应该挺多人都见过。</p><p>🎂<br>happy birthday</p><p>对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑固定，如果没有自我更新的动力是挺难突出瓶颈的。比如我自己，明知道怎么能突破，但真干起来，那真得很难（时间不够，也无法放弃自己原本的逻辑习惯）。如何建立产品的方法论。这个模型应该挺多人都见过。</p>]]></content>
+    <content type="html"><![CDATA[<p>🎂<br>happy birthday<br>对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑固定，如果没有自我更新的动力是挺难突出瓶颈的。比如我自己，明知道怎么能突破，但真干起来，那真得很难（时间不够，也无法放弃自己原本的逻辑习惯）。如何建立产品的方法论。这个模型应该挺多人都见过。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑固定，如果没有自我更新的动力是挺难突出瓶颈的。比</summary>
-      
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    <category term="仙女下凡" scheme="http://example.com/categories/2021/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>我们总是用尖锐的语言伪装懦弱的自己😄 🎂</title>
-    <link href="http://example.com/2021/10/18/10-18-01/"/>
-    <id>http://example.com/2021/10/18/10-18-01/</id>
-    <published>2021-10-18T05:45:42.000Z</published>
-    <updated>2021-10-18T05:45:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;</summary>
+    <summary type="html">&lt;p&gt;🎂&lt;br&gt;happy birthday&lt;br&gt;对于产品初学者的话，原型工具会用就行，做原型是一种实践方式，如果是初学者那第一步不应该是这个，最好从基础做起建立自己的产品方法论。这种事对于初学者来说比干了四五年的人好做多了。不过就是费事费力。因为干了四五年的产品大多做事逻辑</summary>
       
     
     
@@ -81,64 +53,21 @@
     <category term="2021" scheme="http://example.com/categories/2021/"/>
     
     
-    <category term="10月" scheme="http://example.com/tags/10%E6%9C%88/"/>
-    
   </entry>
   
   <entry>
-    <title>少有人走的路：心智成熟的旅程😄</title>
-    <link href="http://example.com/2021/10/17/10-17-01/"/>
-    <id>http://example.com/2021/10/17/10-17-01/</id>
-    <published>2021-10-17T12:56:08.000Z</published>
-    <updated>2021-10-17T12:56:08.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-    <category term="10月" scheme="http://example.com/tags/10%E6%9C%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从择业角度思考B端和C端产品的区别</title>
-    <link href="http://example.com/2021/10/16/%E5%9B%BE_10-16-01/"/>
-    <id>http://example.com/2021/10/16/%E5%9B%BE_10-16-01/</id>
-    <published>2021-10-15T18:16:06.000Z</published>
-    <updated>2021-10-15T18:16:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images10.jpeg"></p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images8.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images7.jpeg"></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images10.jpeg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-    <category term="B端" scheme="http://example.com/tags/B%E7%AB%AF/"/>
-    
-    <category term="C端" scheme="http://example.com/tags/C%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>10-15-01</title>
+    <title>😈</title>
     <link href="http://example.com/2021/10/15/10-15-01/"/>
     <id>http://example.com/2021/10/15/10-15-01/</id>
     <published>2021-10-15T03:04:12.000Z</published>
     <updated>2021-10-15T03:04:12.000Z</updated>
     
-    <content type="html"><![CDATA[<p>😈</p>]]></content>
+    <content type="html"><![CDATA[<p>😈<br>大师大师来得及案件达卡视角打卡机打卡机SD卡京东卡佳都科技爱哭的骄傲肯德基爱可登金阿奎登记卡</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;😈&lt;/p&gt;
+    <summary type="html">&lt;p&gt;😈&lt;br&gt;大师大师来得及案件达卡视角打卡机打卡机SD卡京东卡佳都科技爱哭的骄傲肯德基爱可登金阿奎登记卡&lt;/p&gt;
 </summary>
       
     
@@ -152,64 +81,19 @@
   </entry>
   
   <entry>
-    <title>找一个可以说话的人</title>
-    <link href="http://example.com/2021/10/14/10-14-04/"/>
-    <id>http://example.com/2021/10/14/10-14-04/</id>
-    <published>2021-10-14T00:50:44.000Z</published>
-    <updated>2021-10-14T00:50:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>有时候，我们不说话，不等于没有话说。<br>有时候，是别人磨叽得太多，自己不想说了；<br>有时候，是自己顾虑得太多，最终无心说了。</p><p>因为说了未必有人会听，听了未必有人会懂。<br>不听，最多是失望；<br>而不懂，才会真正的叫人绝望。<br>还是不说了吧，怕一出口，就伤了自己。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;有时候，我们不说话，不等于没有话说。&lt;br&gt;有时候，是别人磨叽得太多，自己不想说了；&lt;br&gt;有时候，是自己顾虑得太多，最终无心说了。&lt;/p&gt;
-&lt;p&gt;因为说了未必有人会听，听了未必有人会懂。&lt;br&gt;不听，最多是失望；&lt;br&gt;而不懂，才会真正的叫人绝望。&lt;br&gt;还是不说了吧，怕</summary>
-      
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>网吧</title>
-    <link href="http://example.com/2021/10/14/%E5%9B%BE_10-14-01/"/>
-    <id>http://example.com/2021/10/14/%E5%9B%BE_10-14-01/</id>
-    <published>2021-10-13T18:54:17.000Z</published>
-    <updated>2021-10-13T18:54:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images10.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images8.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images7.jpeg"></p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images10.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images8.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images7.jpeg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
-    
-    <category term="10月" scheme="http://example.com/tags/10%E6%9C%88/"/>
-    
-    <category term="朋友" scheme="http://example.com/tags/%E6%9C%8B%E5%8F%8B/"/>
-    
-    <category term="散文" scheme="http://example.com/tags/%E6%95%A3%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
     <title>威海必去4大景点</title>
     <link href="http://example.com/2021/09/30/%E5%A8%81%E6%B5%B7%E5%BF%85%E5%8E%BB4%E5%A4%A7%E6%99%AF%E7%82%B9/"/>
     <id>http://example.com/2021/09/30/%E5%A8%81%E6%B5%B7%E5%BF%85%E5%8E%BB4%E5%A4%A7%E6%99%AF%E7%82%B9/</id>
     <published>2021-09-29T18:42:31.000Z</published>
     <updated>2021-09-29T18:42:31.000Z</updated>
     
-    <content type="html"><![CDATA[<p>威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。<span id="more"></span>但是威海却是我国著名的旅游城市，境内有延长的海岸线和优质的沙滩，拥有让全国羡慕的优良的空气和碧海蓝天。旅游资源丰富众多，下面就介绍下来威海旅游必去的5个景点，每一个都具有很强的代表性，你去过几个？</p><h3 id="刘公岛"><a href="#刘公岛" class="headerlink" title="刘公岛"></a>刘公岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=163776632,249057586&fm=253&fmt=auto&app=138&f=JPEG.jpg" alt="GitHub Mark"></p><p>来威海旅游的外地朋友，我相信刘公岛是一个必去景点。刘公岛风景区可以说是威海的一张名片，提到刘公岛，人们自然想到威海。提到威海，人们自然会联想的刘公岛。正如刘公岛那句经典的旅游宣传词一样，刘公岛不仅仅是一个岛。的确是，在刘公岛，欣赏到优美的岛屿风景那都是其次的，最重要的是刘公岛的人文知识，这里是甲午中日战争的发生地，近距离接受爱国主义教育洗礼，缅怀先烈，不忘国耻。同时在岛上，也能看到大量英租时期遗留下的英式建筑。</p><h3 id="海驴岛"><a href="#海驴岛" class="headerlink" title="海驴岛"></a>海驴岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=2509046422,3701455973&fm=26&fmt=auto.jpg" alt="海驴岛"></p><p>威海作为一个海滨城市，拥有近千公里的海岸线，在近千公里的海岸线上，分布着大大小小168个海岛。来威海旅游除了刘公岛，我首先推荐的景区就是海驴岛，因为会超出我们的旅行期待。去过很多地方旅游，不知你是否和我一样，在网上看到的景区图片很美很期待，到了目的地却特别失望，有一定的落差。海驴岛却截然不同，绝对超出你的预期值。</p><p>海驴岛，远方遥望，层层云雾，山海相连，海上仙山，虚无缥缈，环岛而行，无数海鸟，盘旋而上，或悲或鸣，或击长空，此情此景，别样生动，登岛而上，海蚀地貌，山水交融，怪石嶙立，雄伟壮观，海水深情，波涛汹涌，步步皆景，景景生情，人间仙境，流连忘返，回味无穷。这是我2017年游览完海驴岛后写的打油诗游记，至今忘不了无数海鸥翱翔在蓝天，和岛屿上怪石林立的景象。</p><h3 id="成山头风景区"><a href="#成山头风景区" class="headerlink" title="成山头风景区"></a>成山头风景区</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=649375019,3568548502&fm=26&fmt=auto.jpg" alt="成山头风景区"></p><p>推荐成山头的理由是中国陆地与大海交界处的最东端，是最早看到海上日出的地方。成山头风景区位于威海荣成成山镇，又名天尽头，三面环海，一面环山，与韩国隔海相望。晴天的时候风景确实漂亮，但是成山头又是褒贬不一的景区，口碑两极分化严重。有的人认为商业味太浓，借用最东端之名，把海边圈起来弄一个景区，并且门票不菲，不值这个价格。成山头风景区还带有一定的神话色彩，古时候人们认为这里是日神居住的地方，所以传说秦始皇曾经两次到过这里，求长生不死灵丹妙药。</p><h3 id="东楮岛"><a href="#东楮岛" class="headerlink" title="东楮岛"></a>东楮岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=3272172318,3045566939&fm=26&fmt=auto.jpg" alt="东楮岛"></p><p>威海还有一个值得看的景色就是海草房，这种以草为顶，以石为墙的民居，看上去憨态可掬，像极了童话中的房屋。仅存在我国的胶东地区，世界罕见，不仅评为山东非物质文化遗产，也是世界著名生态民居。但是来威海的游客看海草房，大多数选择人山人海的烟墩角，却忽略了人少景美的东楮岛。</p>]]></content>
+    <content type="html"><![CDATA[<p>威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。但是威海却是我国著名的旅游城市，境内有延长的海岸线和优质的沙滩，拥有让全国羡慕的优良的空气和碧海蓝天。旅游资源丰富众多，下面就介绍下来威海旅游必去的5个景点，每一个都具有很强的代表性，你去过几个？</p><h3 id="刘公岛"><a href="#刘公岛" class="headerlink" title="刘公岛"></a>刘公岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=163776632,249057586&fm=253&fmt=auto&app=138&f=JPEG.jpg" alt="GitHub Mark"></p><p>来威海旅游的外地朋友，我相信刘公岛是一个必去景点。刘公岛风景区可以说是威海的一张名片，提到刘公岛，人们自然想到威海。提到威海，人们自然会联想的刘公岛。正如刘公岛那句经典的旅游宣传词一样，刘公岛不仅仅是一个岛。的确是，在刘公岛，欣赏到优美的岛屿风景那都是其次的，最重要的是刘公岛的人文知识，这里是甲午中日战争的发生地，近距离接受爱国主义教育洗礼，缅怀先烈，不忘国耻。同时在岛上，也能看到大量英租时期遗留下的英式建筑。</p><h3 id="海驴岛"><a href="#海驴岛" class="headerlink" title="海驴岛"></a>海驴岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=2509046422,3701455973&fm=26&fmt=auto.jpg" alt="海驴岛"></p><p>威海作为一个海滨城市，拥有近千公里的海岸线，在近千公里的海岸线上，分布着大大小小168个海岛。来威海旅游除了刘公岛，我首先推荐的景区就是海驴岛，因为会超出我们的旅行期待。去过很多地方旅游，不知你是否和我一样，在网上看到的景区图片很美很期待，到了目的地却特别失望，有一定的落差。海驴岛却截然不同，绝对超出你的预期值。</p><p>海驴岛，远方遥望，层层云雾，山海相连，海上仙山，虚无缥缈，环岛而行，无数海鸟，盘旋而上，或悲或鸣，或击长空，此情此景，别样生动，登岛而上，海蚀地貌，山水交融，怪石嶙立，雄伟壮观，海水深情，波涛汹涌，步步皆景，景景生情，人间仙境，流连忘返，回味无穷。这是我2017年游览完海驴岛后写的打油诗游记，至今忘不了无数海鸥翱翔在蓝天，和岛屿上怪石林立的景象。</p><h3 id="成山头风景区"><a href="#成山头风景区" class="headerlink" title="成山头风景区"></a>成山头风景区</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=649375019,3568548502&fm=26&fmt=auto.jpg" alt="成山头风景区"></p><p>推荐成山头的理由是中国陆地与大海交界处的最东端，是最早看到海上日出的地方。成山头风景区位于威海荣成成山镇，又名天尽头，三面环海，一面环山，与韩国隔海相望。晴天的时候风景确实漂亮，但是成山头又是褒贬不一的景区，口碑两极分化严重。有的人认为商业味太浓，借用最东端之名，把海边圈起来弄一个景区，并且门票不菲，不值这个价格。成山头风景区还带有一定的神话色彩，古时候人们认为这里是日神居住的地方，所以传说秦始皇曾经两次到过这里，求长生不死灵丹妙药。</p><h3 id="东楮岛"><a href="#东楮岛" class="headerlink" title="东楮岛"></a>东楮岛</h3><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/u=3272172318,3045566939&fm=26&fmt=auto.jpg" alt="东楮岛"></p><p>威海还有一个值得看的景色就是海草房，这种以草为顶，以石为墙的民居，看上去憨态可掬，像极了童话中的房屋。仅存在我国的胶东地区，世界罕见，不仅评为山东非物质文化遗产，也是世界著名生态民居。但是来威海的游客看海草房，大多数选择人山人海的烟墩角，却忽略了人少景美的东楮岛。</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。</summary>
+      
+      
+    <summary type="html">&lt;p&gt;威海是山东最东端的海滨城市，是距离韩国和日本最近的中国城市。面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。但是威海却是我国著名的旅游城市，境内有延长的海岸线和优质的沙滩，拥有让全国羡慕的优良的空气和碧海蓝天。旅游资源丰富众多，下面就介绍下来威海旅</summary>
+      
     
     
     
@@ -224,92 +108,12 @@
     
     <category term="东楮岛" scheme="http://example.com/tags/%E4%B8%9C%E6%A5%AE%E5%B2%9B/"/>
     
-  </entry>
-  
-  <entry>
-    <title>01-08-02</title>
-    <link href="http://example.com/2021/01/08/11-08-02/"/>
-    <id>http://example.com/2021/01/08/11-08-02/</id>
-    <published>2021-01-08T12:59:42.000Z</published>
-    <updated>2021-01-08T12:59:42.000Z</updated>
-    
-    
-    
-    
-    <category term="2021" scheme="http://example.com/categories/2021/"/>
-    
+    <category term="威海" scheme="http://example.com/tags/%E5%A8%81%E6%B5%B7/"/>
     
   </entry>
   
   <entry>
-    <title>10-31-03</title>
-    <link href="http://example.com/2020/10/31/10-31-03/"/>
-    <id>http://example.com/2020/10/31/10-31-03/</id>
-    <published>2020-10-31T07:46:24.000Z</published>
-    <updated>2020-10-31T07:46:24.000Z</updated>
-    
-    
-    
-    
-    <category term="2020" scheme="http://example.com/categories/2020/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>10-31-02</title>
-    <link href="http://example.com/2020/10/31/10-31-02/"/>
-    <id>http://example.com/2020/10/31/10-31-02/</id>
-    <published>2020-10-31T07:46:21.000Z</published>
-    <updated>2020-10-31T07:46:21.000Z</updated>
-    
-    
-    
-    
-    <category term="2020" scheme="http://example.com/categories/2020/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>10-31-01</title>
-    <link href="http://example.com/2020/10/31/10-31-01/"/>
-    <id>http://example.com/2020/10/31/10-31-01/</id>
-    <published>2020-10-31T07:46:19.000Z</published>
-    <updated>2020-10-31T07:46:19.000Z</updated>
-    
-    
-    
-    
-    <category term="2020" scheme="http://example.com/categories/2020/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>10-22-10</title>
-    <link href="http://example.com/2020/10/22/img_10-22-10/"/>
-    <id>http://example.com/2020/10/22/img_10-22-10/</id>
-    <published>2020-10-22T14:09:48.000Z</published>
-    <updated>2020-10-22T14:09:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images10.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images8.jpeg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images7.jpeg"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images35.jpeg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images14.jpeg&quot;</summary>
-      
-    
-    
-    
-    <category term="2020" scheme="http://example.com/categories/2020/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>B端与C端的区别，并分析B端的SAAS市场</title>
+    <title>图||景色欣赏</title>
     <link href="http://example.com/2020/10/16/img_10-16-02/"/>
     <id>http://example.com/2020/10/16/img_10-16-02/</id>
     <published>2020-10-15T18:20:45.000Z</published>
@@ -328,16 +132,12 @@
     <category term="2020" scheme="http://example.com/categories/2020/"/>
     
     
-    <category term="B端" scheme="http://example.com/tags/B%E7%AB%AF/"/>
-    
-    <category term="C端" scheme="http://example.com/tags/C%E7%AB%AF/"/>
-    
-    <category term="SAAS" scheme="http://example.com/tags/SAAS/"/>
+    <category term="旅游" scheme="http://example.com/tags/%E6%97%85%E6%B8%B8/"/>
     
   </entry>
   
   <entry>
-    <title>😍</title>
+    <title>图😍</title>
     <link href="http://example.com/2020/10/15/img_10-15-02/"/>
     <id>http://example.com/2020/10/15/img_10-15-02/</id>
     <published>2020-10-15T12:11:00.000Z</published>
@@ -356,22 +156,7 @@
     <category term="2020" scheme="http://example.com/categories/2020/"/>
     
     
-    <category term="10月" scheme="http://example.com/tags/10%E6%9C%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>06-27-02</title>
-    <link href="http://example.com/2020/06/27/11-27-02/"/>
-    <id>http://example.com/2020/06/27/11-27-02/</id>
-    <published>2020-06-27T10:20:37.000Z</published>
-    <updated>2020-06-27T10:20:37.000Z</updated>
-    
-    
-    
-    
-    <category term="2020" scheme="http://example.com/categories/2020/"/>
-    
+    <category term="旅游" scheme="http://example.com/tags/%E6%97%85%E6%B8%B8/"/>
     
   </entry>
   

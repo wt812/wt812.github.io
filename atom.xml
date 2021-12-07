@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-06T07:15:31.000Z</updated>
+  <updated>2021-12-07T04:54:09.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一组图片--额济纳</title>
+    <link href="http://example.com/2021/12/07/%E4%B8%80%E7%BB%84%E5%9B%BE%E7%89%87-%E9%A2%9D%E6%B5%8E%E7%BA%B3/"/>
+    <id>http://example.com/2021/12/07/%E4%B8%80%E7%BB%84%E5%9B%BE%E7%89%87-%E9%A2%9D%E6%B5%8E%E7%BA%B3/</id>
+    <published>2021-12-07T04:54:09.000Z</published>
+    <updated>2021-12-07T04:54:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images1.JPG"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images2.JPG"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images3.JPG"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images4.JPG"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/images5.JPG"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images1.JPG&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/images2.JPG&quot;&gt;&lt;br</summary>
+      
+    
+    
+    
+    
+    <category term="2021" scheme="http://example.com/tags/2021/"/>
+    
+    <category term="额济纳" scheme="http://example.com/tags/%E9%A2%9D%E6%B5%8E%E7%BA%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>故事听多了</title>
+    <link href="http://example.com/2021/12/07/%E6%95%85%E4%BA%8B%E5%90%AC%E5%A4%9A%E4%BA%86/"/>
+    <id>http://example.com/2021/12/07/%E6%95%85%E4%BA%8B%E5%90%AC%E5%A4%9A%E4%BA%86/</id>
+    <published>2021-12-07T04:50:25.000Z</published>
+    <updated>2021-12-07T04:50:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>午休的时间喜欢听故事入睡，有历史的、乡村奇异的，听着听着睡不着了!<span id="more"></span></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;午休的时间喜欢听故事入睡，有历史的、乡村奇异的，听着听着睡不着了!</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>天气不错，挺风和日丽的</title>
+    <link href="http://example.com/2021/12/07/12-07/"/>
+    <id>http://example.com/2021/12/07/12-07/</id>
+    <published>2021-12-07T01:53:17.000Z</published>
+    <updated>2021-12-07T01:53:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>中午的事</title>

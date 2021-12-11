@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/archives/index.html</loc>
+    <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2021-12-03</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://example.com/archives/index.html</loc>
     
     <lastmod>2021-12-03</lastmod>
     

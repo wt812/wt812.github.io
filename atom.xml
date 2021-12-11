@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-10T03:22:45.000Z</updated>
+  <updated>2021-12-11T02:25:18.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS文字渐变</title>
+    <link href="http://example.com/2021/12/11/CSS%E6%96%87%E5%AD%97%E6%B8%90%E5%8F%98/"/>
+    <id>http://example.com/2021/12/11/CSS%E6%96%87%E5%AD%97%E6%B8%90%E5%8F%98/</id>
+    <published>2021-12-11T02:25:18.000Z</published>
+    <updated>2021-12-11T02:25:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<pre>@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {     .masked{        background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);        -webkit-text-fill-color: transparent;        -webkit-background-clip: text;        -webkit-background-size: 200% 100%;        -webkit-animation: masked-animation 4s infinite linear;    }}@-webkit-keyframes masked-animation {    0%  { background-position: 0 0;}    100% { background-position: -100% 0;}}</pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+    .masked{
+        background-image: -webkit-lin</summary>
+      
+    
+    
+    
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+  </entry>
   
   <entry>
     <title>夜的美</title>
@@ -63,8 +88,8 @@
   
   <entry>
     <title>故事听多了</title>
-    <link href="http://example.com/2021/12/07/%E6%95%85%E4%BA%8B%E5%90%AC%E5%A4%9A%E4%BA%86/"/>
-    <id>http://example.com/2021/12/07/%E6%95%85%E4%BA%8B%E5%90%AC%E5%A4%9A%E4%BA%86/</id>
+    <link href="http://example.com/2021/12/07/%E6%95%85%E4%BA%8B/"/>
+    <id>http://example.com/2021/12/07/%E6%95%85%E4%BA%8B/</id>
     <published>2021-12-07T04:50:25.000Z</published>
     <updated>2021-12-07T04:50:25.000Z</updated>
     
@@ -101,8 +126,8 @@
   
   <entry>
     <title>一个不好的消息</title>
-    <link href="http://example.com/2021/12/06/%E4%B8%80%E4%B8%AA%E4%B8%8D%E5%A5%BD%E7%9A%84%E6%B6%88%E6%81%AF/"/>
-    <id>http://example.com/2021/12/06/%E4%B8%80%E4%B8%AA%E4%B8%8D%E5%A5%BD%E7%9A%84%E6%B6%88%E6%81%AF/</id>
+    <link href="http://example.com/2021/12/06/%E4%B8%80%E4%B8%AA%E6%B6%88%E6%81%AF/"/>
+    <id>http://example.com/2021/12/06/%E4%B8%80%E4%B8%AA%E6%B6%88%E6%81%AF/</id>
     <published>2021-12-06T07:15:31.000Z</published>
     <updated>2021-12-06T07:15:31.000Z</updated>
     

@@ -56,15 +56,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2020/10/15/%E5%9B%BE%F0%9F%98%8D/</loc>
-    
-    <lastmod>2020-10-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</loc>
     
     <lastmod>2021-12-10</lastmod>
@@ -74,7 +65,25 @@
   </url>
   
   <url>
+    <loc>http://example.com/2020/10/15/%E5%9B%BE%F0%9F%98%8D/</loc>
+    
+    <lastmod>2020-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</loc>
+    
+    <lastmod>2021-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2021/12/07/%E6%95%85%E4%BA%8B/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -92,27 +101,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/12/07/%E6%95%85%E4%BA%8B/</loc>
-    
-    <lastmod>2021-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/404.html</loc>
     
     <lastmod>2021-10-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2021-12-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -131,6 +122,15 @@
     <loc>http://example.com/Markdown/index.html</loc>
     
     <lastmod>2021-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/index.html</loc>
+    
+    <lastmod>2021-12-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

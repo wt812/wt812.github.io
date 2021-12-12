@@ -92,15 +92,15 @@
   width: 130px;
   height: 40px;
   /*background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%);  W3C */
-  background: rgba(0,0,0,.9);
-  border: none;
+  background: none;
+  border: 1px rgba(0,0,0,0.1) solid;
   border-radius: 100px;
   position: relative;
   /* border-bottom: 1px solid #2b8bc6; */
-  color: #fbfbfb;
+  color: #888;
   /* font-weight: 600; */
   /* font-family: 'Open Sans', sans-serif; */
-  font-size: 15px;
+  font-size: 13px;
   text-indent: 5px;
   cursor: pointer;
   display: block;

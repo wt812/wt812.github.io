@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-15T12:18:23.000Z</updated>
+  <updated>2021-12-17T10:05:35.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>day</title>
+    <link href="http://example.com/2021/12/17/day/"/>
+    <id>http://example.com/2021/12/17/day/</id>
+    <published>2021-12-17T10:05:35.000Z</published>
+    <updated>2021-12-17T10:05:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-1.GIF"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-2.GIF"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-3.GIF"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-1.GIF&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-</summary>
+      
+    
+    
+    
+    
+    <category term="gif" scheme="http://example.com/tags/gif/"/>
+    
+    <category term="snake" scheme="http://example.com/tags/snake/"/>
+    
+  </entry>
   
   <entry>
     <title>小的时候</title>

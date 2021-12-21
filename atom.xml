@@ -23,21 +23,24 @@
     <published>2021-12-20T15:46:18.000Z</published>
     <updated>2021-12-20T15:46:18.000Z</updated>
     
-    <content type="html"><![CDATA[<ul><li>查看所有的历史版本，获取你git的某个历史版本的id， git log</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></p><ul><li>回退本地代码库：git reset –hard ID</li><li>推送到远程服务器：git push -f -u origin master</li><li>重新拉代码：git pull</li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li>查看所有的历史版本，获取你git的某个历史版本的id， git log<br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></li><li>复制commit对应的字符串</li><li>回退本地代码库：git reset –hard 字符串</li><li>推送到远程服务器：git push -f -u origin master</li><li>重新拉代码：git pull</li></ul>]]></content>
     
     
       
       
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;查看所有的历史版本，获取你git的某个历史版本的id， git log&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-</summary>
+&lt;li&gt;查看所有的历史版本，获取你git的某个历史版本的id， git log&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg&quot;&gt;&lt;/li&gt;
+&lt;li&gt;复制commit对应的</summary>
       
     
     
     
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+    <category term="git" scheme="http://example.com/tags/git/"/>
+    
+    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -62,8 +65,8 @@
     
     
     
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
     
-    <category term="2021" scheme="http://example.com/tags/2021/"/>
     
     <category term="软枣" scheme="http://example.com/tags/%E8%BD%AF%E6%9E%A3/"/>
     
@@ -93,6 +96,10 @@
     
     
     
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -114,6 +121,10 @@
     
     
     
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -131,6 +142,10 @@
     
     
     
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -148,6 +163,10 @@
     
     
     
+    <category term="2021" scheme="http://example.com/categories/2021/"/>
+    
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -190,6 +209,8 @@
     
     <category term="2021" scheme="http://example.com/categories/2021/"/>
     
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -247,8 +268,8 @@
     
     
     
+    <category term="2019" scheme="http://example.com/categories/2019/"/>
     
-    <category term="2019" scheme="http://example.com/tags/2019/"/>
     
     <category term="夏天" scheme="http://example.com/tags/%E5%A4%8F%E5%A4%A9/"/>
     
@@ -291,12 +312,12 @@
     
     
     
+    <category term="2019" scheme="http://example.com/categories/2019/"/>
     
-    <category term="2019" scheme="http://example.com/tags/2019/"/>
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
     <category term="夏天" scheme="http://example.com/tags/%E5%A4%8F%E5%A4%A9/"/>
-    
-    <category term="七月" scheme="http://example.com/tags/%E4%B8%83%E6%9C%88/"/>
     
   </entry>
   
@@ -317,8 +338,8 @@
     
     
     
+    <category term="2012" scheme="http://example.com/categories/2012/"/>
     
-    <category term="2012" scheme="http://example.com/tags/2012/"/>
     
     <category term="额济纳" scheme="http://example.com/tags/%E9%A2%9D%E6%B5%8E%E7%BA%B3/"/>
     

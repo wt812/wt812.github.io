@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-15T12:18:23.000Z</updated>
+  <updated>2021-12-20T15:46:18.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git回退历史版本</title>
+    <link href="http://example.com/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/"/>
+    <id>http://example.com/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</id>
+    <published>2021-12-20T15:46:18.000Z</published>
+    <updated>2021-12-20T15:46:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>查看所有的历史版本，获取你git的某个历史版本的id， git log</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></p><ul><li>回退本地代码库：git reset –hard ID</li><li>推送到远程服务器：git push -f -u origin master</li><li>重新拉代码：git pull</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;查看所有的历史版本，获取你git的某个历史版本的id， git log&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>有些零食叫做回忆</title>

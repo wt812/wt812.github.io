@@ -315,9 +315,9 @@
     <category term="2019" scheme="http://example.com/categories/2019/"/>
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="夏天" scheme="http://example.com/tags/%E5%A4%8F%E5%A4%A9/"/>
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   

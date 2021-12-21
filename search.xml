@@ -10,6 +10,39 @@
       </categories>
   </entry>
   <entry>
+    <title>git回退历史版本</title>
+    <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<ul>
+<li>查看所有的历史版本，获取你git的某个历史版本的id， git log<br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></li>
+<li>复制commit对应的字符串</li>
+<li>回退本地代码库：git reset –hard 字符串</li>
+<li>推送到远程服务器：git push -f -u origin master</li>
+<li>重新拉代码：git pull</li>
+</ul>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一日三餐</title>
+    <url>/2021/12/11/%E4%B8%80%E5%A4%A9/</url>
+    <content><![CDATA[<h4 id="早饭"><a href="#早饭" class="headerlink" title="早饭"></a>早饭</h4><p>油条2根、小米粥2碗</p>
+<h4 id="午饭"><a href="#午饭" class="headerlink" title="午饭"></a>午饭</h4><p>没吃</p>
+<h4 id="晚饭"><a href="#晚饭" class="headerlink" title="晚饭"></a>晚饭</h4><p>凉拌黄瓜，新熬的小米粥 *不是早饭剩的</p>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>七月的小区</title>
     <url>/2019/07/15/%E4%B8%83%E6%9C%88%E7%9A%84%E5%B0%8F%E5%8C%BA/</url>
     <content><![CDATA[<center>
@@ -80,27 +113,8 @@
         <category>2019</category>
       </categories>
       <tags>
-        <tag>夏天</tag>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git回退历史版本</title>
-    <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
-    <content><![CDATA[<ul>
-<li>查看所有的历史版本，获取你git的某个历史版本的id， git log<br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></li>
-<li>复制commit对应的字符串</li>
-<li>回退本地代码库：git reset –hard 字符串</li>
-<li>推送到远程服务器：git push -f -u origin master</li>
-<li>重新拉代码：git pull</li>
-</ul>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>学习</tag>
+        <tag>夏天</tag>
       </tags>
   </entry>
   <entry>
@@ -141,6 +155,18 @@
       </tags>
   </entry>
   <entry>
+    <title>听故事</title>
+    <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
+    <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。 听着听着精神了睡不着了!<span id="more"></span></p>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>夜的美</title>
     <url>/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2.jpg"><br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/1.jpg"></p>
@@ -156,32 +182,6 @@
     <title>天气不错，挺风和日丽的</title>
     <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
     <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一日三餐</title>
-    <url>/2021/12/11/%E4%B8%80%E5%A4%A9/</url>
-    <content><![CDATA[<h4 id="早饭"><a href="#早饭" class="headerlink" title="早饭"></a>早饭</h4><p>油条2根、小米粥2碗</p>
-<h4 id="午饭"><a href="#午饭" class="headerlink" title="午饭"></a>午饭</h4><p>没吃</p>
-<h4 id="晚饭"><a href="#晚饭" class="headerlink" title="晚饭"></a>晚饭</h4><p>凉拌黄瓜，新熬的小米粥 *不是早饭剩的</p>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>听故事</title>
-    <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
-    <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。 听着听着精神了睡不着了!<span id="more"></span></p>
 ]]></content>
       <categories>
         <category>2021</category>

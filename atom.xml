@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-20T15:46:18.000Z</updated>
+  <updated>2021-12-21T12:25:41.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,20 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>属于hexo的404页面</title>
+    <link href="http://example.com/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/"/>
+    <id>http://example.com/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</id>
+    <published>2021-12-21T12:25:41.000Z</published>
+    <updated>2021-12-21T12:25:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul><li>souce目录下新建404.md，并将表头部分修改如下:</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.jpg"></p><br><h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul><li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.jpg"></p><br><ul><li>或者去 《<a href="https://codepen.io/search/pens?q=404" title="codepen">codepen</a> 》挑选喜欢的404页面</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;第一步-新建404-md&quot;&gt;&lt;a href=&quot;#第一步-新建404-md&quot; class=&quot;headerlink&quot; title=&quot;第一步 新建404.md&quot;&gt;&lt;/a&gt;第一步 新建404.md&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;souce目录下新建404.md，并将表头部分修</summary>
+      
+    
+    
+    
+    
+    <category term="404" scheme="http://example.com/tags/404/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git回退历史版本</title>
     <link href="http://example.com/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/"/>
     <id>http://example.com/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</id>
     <published>2021-12-20T15:46:18.000Z</published>
     <updated>2021-12-20T15:46:18.000Z</updated>
     
-    <content type="html"><![CDATA[<ul><li>查看所有的历史版本，获取你git的某个历史版本的id， git log<br><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></li><li>复制commit对应的字符串</li><li>回退本地代码库：git reset –hard 字符串</li><li>推送到远程服务器：git push -f -u origin master</li><li>重新拉代码：git pull</li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li>查看所有的历史版本，获取你git的某个历史版本的id， git log</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></p><ul><li>复制commit对应的字符串</li><li>回退本地代码库：git reset –hard 字符串</li><li>推送到远程服务器：git push -f -u origin master</li><li>重新拉代码：git pull</li></ul>]]></content>
     
     
       
       
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;查看所有的历史版本，获取你git的某个历史版本的id， git log&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg&quot;&gt;&lt;/li&gt;
-&lt;li&gt;复制commit对应的</summary>
+&lt;li&gt;查看所有的历史版本，获取你git的某个历史版本的id， git log&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+</summary>
       
     
     

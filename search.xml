@@ -182,6 +182,29 @@
       </tags>
   </entry>
   <entry>
+    <title>属于hexo的404页面</title>
+    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
+<li>souce目录下新建404.md，并将表头部分修改如下:</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.jpg"></p>
+<br>
+
+<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
+<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.jpg"></p>
+<br>
+
+<p>《<a href="https://codepen.io/search/pens?q=404" title="codepen">codepen</a> 》挑选喜欢的404页面</p>
+]]></content>
+      <tags>
+        <tag>404</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>天气不错，挺风和日丽的</title>
     <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
     <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
@@ -223,29 +246,6 @@
         <tag>成山头风景区</tag>
         <tag>东楮岛</tag>
         <tag>威海</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>属于hexo的404页面</title>
-    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
-<li>souce目录下新建404.md，并将表头部分修改如下:</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.jpg"></p>
-<br>
-
-<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
-<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.jpg"></p>
-<br>
-
-<p>《<a href="https://codepen.io/search/pens?q=404" title="codepen">codepen</a> 》挑选喜欢的404页面</p>
-]]></content>
-      <tags>
-        <tag>404</tag>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>

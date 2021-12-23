@@ -19,30 +19,7 @@
       </categories>
       <tags>
         <tag>git</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个消息</title>
-    <url>/2021/12/06/%E4%B8%80%E4%B8%AA%E6%B6%88%E6%81%AF/</url>
-    <content><![CDATA[<p>一个消息 🙅🏻‍♀️🙅🙅🏻‍</p>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>一日三餐</title>
-    <url>/2021/12/11/%E4%B8%80%E5%A4%A9/</url>
-    <content><![CDATA[<h4 id="早饭"><a href="#早饭" class="headerlink" title="早饭"></a>早饭</h4><p>油条2根、小米粥2碗</p>
-<h4 id="午饭"><a href="#午饭" class="headerlink" title="午饭"></a>午饭</h4><p>没吃</p>
-<h4 id="晚饭"><a href="#晚饭" class="headerlink" title="晚饭"></a>晚饭</h4><p>凉拌黄瓜，新熬的小米粥 *不是早饭剩的</p>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
+        <tag>技术</tag>
       </tags>
   </entry>
   <entry>
@@ -238,7 +215,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![markdown](url &quot;markdown&quot;)</span><br></pre></td></tr></table></figure>
 <p>示范<br><img src="https://img1.baidu.com/it/u=1613194509,3683268681&fm=26&fmt=auto" alt="markdown" title="markdown"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;http://ibruce.info&gt;</span><br><span class="line">&lt;bu.ru@qq.com&gt;</span><br></pre></td></tr></table></figure>
-<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#98;&#117;&#46;&#x72;&#117;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;">&#98;&#117;&#46;&#x72;&#117;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#x75;&#x2e;&#x72;&#117;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#x6d;">&#x62;&#x75;&#x2e;&#x72;&#117;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#x6d;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 作为网址变量 [Google][1]</span><br><span class="line">用 yahoo 作为网址变量 [Yahoo][yahoo]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line">[1]: http://www.google.com</span><br><span class="line">[yahoo]: http://www.yahoo.com</span><br></pre></td></tr></table></figure>
 <p>示范<br>然后在文档的结尾为变量赋值（网址）<br>[1]: <a href="http://www.google.com/">http://www.google.com</a><br>[yahoo]: <a href="http://www.yahoo.com/">http://www.yahoo.com</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Markdown中的转义字符为\，转义的有：</span><br><span class="line">\\ 反斜杠</span><br><span class="line">\` 反引号</span><br><span class="line">\* 星号</span><br><span class="line">\_ 下划线</span><br><span class="line">\&#123;\&#125; 大括号</span><br><span class="line">\[\] 中括号</span><br><span class="line">\(\) 小括号</span><br><span class="line">\# 井号</span><br><span class="line">\+ 加号</span><br><span class="line">\- 减号</span><br><span class="line">\. 英文句号</span><br><span class="line">\! 感叹号	</span><br></pre></td></tr></table></figure>
@@ -248,8 +225,31 @@
         <category>2021</category>
       </categories>
       <tags>
-        <tag>学习</tag>
+        <tag>技术</tag>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个消息</title>
+    <url>/2021/12/06/%E4%B8%80%E4%B8%AA%E6%B6%88%E6%81%AF/</url>
+    <content><![CDATA[<p>一个消息 🙅🏻‍♀️🙅🙅🏻‍</p>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一日三餐</title>
+    <url>/2021/12/11/%E4%B8%80%E5%A4%A9/</url>
+    <content><![CDATA[<h4 id="早饭"><a href="#早饭" class="headerlink" title="早饭"></a>早饭</h4><p>油条2根、小米粥2碗</p>
+<h4 id="午饭"><a href="#午饭" class="headerlink" title="午饭"></a>午饭</h4><p>没吃</p>
+<h4 id="晚饭"><a href="#晚饭" class="headerlink" title="晚饭"></a>晚饭</h4><p>凉拌黄瓜，新熬的小米粥 *不是早饭剩的</p>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -433,6 +433,28 @@
       </tags>
   </entry>
   <entry>
+    <title>属于hexo的404页面</title>
+    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
+<li>souce目录下新建404.md，并将表头部分修改如下:</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.jpg"></p>
+<br>
+
+<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
+<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.jpg"></p>
+<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><p>《<a href="https://codepen.io/search/pens?q=404" title="codepen">codepen</a> 》挑选喜欢的404页面</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>404</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>弯着腰，提着“灯”，想来我们也挺残忍的</title>
     <url>/2019/07/25/%E5%BC%AF%E7%9D%80%E8%85%B0%EF%BC%8C%E6%8F%90%E7%9D%80%E2%80%9C%E7%81%AF%E2%80%9D%EF%BC%8C%E6%83%B3%E6%9D%A5%E6%88%91%E4%BB%AC%E4%B9%9F%E6%8C%BA%E6%AE%8B%E5%BF%8D%E7%9A%84/</url>
     <content><![CDATA[<center>
@@ -532,27 +554,6 @@
         <tag>地瓜干</tag>
         <tag>小时候</tag>
         <tag>零食</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>属于hexo的404页面</title>
-    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
-<li>souce目录下新建404.md，并将表头部分修改如下:</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.jpg"></p>
-<br>
-
-<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
-<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.jpg"></p>
-<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><p>《<a href="https://codepen.io/search/pens?q=404" title="codepen">codepen</a> 》挑选喜欢的404页面</p>
-]]></content>
-      <tags>
-        <tag>404</tag>
-        <tag>hexo</tag>
       </tags>
   </entry>
 </search>

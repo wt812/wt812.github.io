@@ -9,6 +9,28 @@
       </categories>
   </entry>
   <entry>
+    <title>git回退历史版本</title>
+    <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<ul>
+<li>查看所有的历史版本，获取你git的某个历史版本的id， git log</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></p>
+<ul>
+<li>复制commit对应的字符串</li>
+<li>回退本地代码库：git reset –hard 字符串</li>
+<li>推送到远程服务器：git push -f -u origin master</li>
+<li>重新拉代码：git pull</li>
+</ul>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>常用的Markdown基础语法</title>
     <url>/2021/09/30/markdown/</url>
     <content><![CDATA[<p>Markdown是一种极简的『标记语言』，将文本转为HTML，通常为我大码农所用。其不追求大而全，简洁至上，正所谓不求最贵，只求最好！</p>
@@ -201,7 +223,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![markdown](url &quot;markdown&quot;)</span><br></pre></td></tr></table></figure>
 <p>示范<br><img src="https://img1.baidu.com/it/u=1613194509,3683268681&fm=26&fmt=auto" alt="markdown" title="markdown"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;http://ibruce.info&gt;</span><br><span class="line">&lt;bu.ru@qq.com&gt;</span><br></pre></td></tr></table></figure>
-<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#98;&#117;&#46;&#114;&#x75;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;">&#98;&#117;&#46;&#114;&#x75;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#117;&#46;&#114;&#x75;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;">&#x62;&#117;&#46;&#114;&#x75;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 作为网址变量 [Google][1]</span><br><span class="line">用 yahoo 作为网址变量 [Yahoo][yahoo]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line">[1]: http://www.google.com</span><br><span class="line">[yahoo]: http://www.yahoo.com</span><br></pre></td></tr></table></figure>
 <p>示范<br>然后在文档的结尾为变量赋值（网址）<br>[1]: <a href="http://www.google.com/">http://www.google.com</a><br>[yahoo]: <a href="http://www.yahoo.com/">http://www.yahoo.com</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Markdown中的转义字符为\，转义的有：</span><br><span class="line">\\ 反斜杠</span><br><span class="line">\` 反引号</span><br><span class="line">\* 星号</span><br><span class="line">\_ 下划线</span><br><span class="line">\&#123;\&#125; 大括号</span><br><span class="line">\[\] 中括号</span><br><span class="line">\(\) 小括号</span><br><span class="line">\# 井号</span><br><span class="line">\+ 加号</span><br><span class="line">\- 减号</span><br><span class="line">\. 英文句号</span><br><span class="line">\! 感叹号	</span><br></pre></td></tr></table></figure>
@@ -211,9 +233,18 @@
         <category>2021</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
         <tag>技术</tag>
+        <tag>markdown</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>一个消息</title>
+    <url>/2021/12/06/%E4%B8%80%E4%B8%AA%E6%B6%88%E6%81%AF/</url>
+    <content><![CDATA[<p>一个消息 🙅🏻‍♀️🙅🙅🏻‍</p>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
   </entry>
   <entry>
     <title>一日三餐</title>
@@ -227,6 +258,60 @@
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>developer.mozilla.org/zh-CN/docs/Web/CSS</title>
+    <url>/2021/12/24/wwww.google.com/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>仙女下凡</title>
+    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十月,我去过额济纳</title>
+    <url>/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-3.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-2.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-1.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-10.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-9.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-8.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-7.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-5.JPG"></p>
+]]></content>
+      <categories>
+        <category>2012</category>
+      </categories>
+      <tags>
+        <tag>额济纳</tag>
+        <tag>旅游</tag>
+        <tag>十月</tag>
+        <tag>国庆节</tag>
       </tags>
   </entry>
   <entry>
@@ -325,106 +410,9 @@
       </tags>
   </entry>
   <entry>
-    <title>git回退历史版本</title>
-    <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
-    <content><![CDATA[<ul>
-<li>查看所有的历史版本，获取你git的某个历史版本的id， git log</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.jpg"></p>
-<ul>
-<li>复制commit对应的字符串</li>
-<li>回退本地代码库：git reset –hard 字符串</li>
-<li>推送到远程服务器：git push -f -u origin master</li>
-<li>重新拉代码：git pull</li>
-</ul>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>仙女下凡</title>
-    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个消息</title>
-    <url>/2021/12/06/%E4%B8%80%E4%B8%AA%E6%B6%88%E6%81%AF/</url>
-    <content><![CDATA[<p>一个消息 🙅🏻‍♀️🙅🙅🏻‍</p>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>十月,我去过额济纳</title>
-    <url>/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-3.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-2.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-1.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-10.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-9.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-8.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-7.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-5.JPG"></p>
-]]></content>
-      <categories>
-        <category>2012</category>
-      </categories>
-      <tags>
-        <tag>额济纳</tag>
-        <tag>旅游</tag>
-        <tag>十月</tag>
-        <tag>国庆节</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>developer.mozilla.org/zh-CN/docs/Web/CSS</title>
-    <url>/2021/12/24/wwww.google.com/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-  </entry>
-  <entry>
     <title>听故事</title>
     <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
     <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。<br>听着听着精神了睡不着了!<span id="more"></span></p>
-]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>天气不错，挺风和日丽的</title>
-    <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
-    <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
 ]]></content>
       <categories>
         <category>2021</category>
@@ -438,6 +426,18 @@
     <url>/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2.jpg"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/1.jpg">传媒大学北门过阶梯</p>
+]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>天气不错，挺风和日丽的</title>
+    <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
+    <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
 ]]></content>
       <categories>
         <category>2021</category>
@@ -518,14 +518,6 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2021/12/24/%E5%B9%B3%E5%AE%89%E5%A4%9C%E5%89%8D%E5%A4%9C%E9%80%9A%E5%AE%B5-1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>2021</category>
-      </categories>
-  </entry>
-  <entry>
     <title>弯着腰，提着“灯”，想来我们也挺残忍的</title>
     <url>/2019/07/25/%E5%BC%AF%E7%9D%80%E8%85%B0%EF%BC%8C%E6%8F%90%E7%9D%80%E2%80%9C%E7%81%AF%E2%80%9D%EF%BC%8C%E6%83%B3%E6%9D%A5%E6%88%91%E4%BB%AC%E4%B9%9F%E6%8C%BA%E6%AE%8B%E5%BF%8D%E7%9A%84/</url>
     <content><![CDATA[<center>
@@ -600,6 +592,14 @@
         <tag>知了</tag>
         <tag>雨</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/12/24/%E5%B9%B3%E5%AE%89%E5%A4%9C%E5%89%8D%E5%A4%9C%E9%80%9A%E5%AE%B5-1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>2021</category>
+      </categories>
   </entry>
   <entry>
     <title>有些零食叫做回忆</title>

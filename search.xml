@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>/2021/12/25/Xmas/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>git回退历史版本</title>
     <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
     <content><![CDATA[<ul>
@@ -25,6 +20,11 @@
       <tags>
         <tag>git</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/12/25/Xmas/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>常用的Markdown基础语法</title>
@@ -219,7 +219,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![markdown](url &quot;markdown&quot;)</span><br></pre></td></tr></table></figure>
 <p>示范<br><img src="https://img1.baidu.com/it/u=1613194509,3683268681&fm=26&fmt=auto" alt="markdown" title="markdown"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;http://ibruce.info&gt;</span><br><span class="line">&lt;bu.ru@qq.com&gt;</span><br></pre></td></tr></table></figure>
-<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#117;&#46;&#x72;&#117;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;">&#x62;&#117;&#46;&#x72;&#117;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#117;&#46;&#114;&#117;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#x62;&#117;&#46;&#114;&#117;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 作为网址变量 [Google][1]</span><br><span class="line">用 yahoo 作为网址变量 [Yahoo][yahoo]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line">[1]: http://www.google.com</span><br><span class="line">[yahoo]: http://www.yahoo.com</span><br></pre></td></tr></table></figure>
 <p>示范<br>然后在文档的结尾为变量赋值（网址）<br>[1]: <a href="http://www.google.com/">http://www.google.com</a><br>[yahoo]: <a href="http://www.yahoo.com/">http://www.yahoo.com</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Markdown中的转义字符为\，转义的有：</span><br><span class="line">\\ 反斜杠</span><br><span class="line">\` 反引号</span><br><span class="line">\* 星号</span><br><span class="line">\_ 下划线</span><br><span class="line">\&#123;\&#125; 大括号</span><br><span class="line">\[\] 中括号</span><br><span class="line">\(\) 小括号</span><br><span class="line">\# 井号</span><br><span class="line">\+ 加号</span><br><span class="line">\- 减号</span><br><span class="line">\. 英文句号</span><br><span class="line">\! 感叹号	</span><br></pre></td></tr></table></figure>
@@ -368,28 +368,6 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
-    <title>仙女下凡</title>
-    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生日快乐</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>十月,我去过额济纳</title>
     <url>/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p>
@@ -413,6 +391,28 @@
       </tags>
   </entry>
   <entry>
+    <title>仙女下凡</title>
+    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生日快乐</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>听故事</title>
     <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
     <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。<br>听着听着精神了睡不着了!<span id="more"></span></p>
@@ -426,15 +426,6 @@
     <url>/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2.jpg"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/1.jpg">传媒大学北门过阶梯</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>天气不错，挺风和日丽的</title>
-    <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
-    <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -481,6 +472,15 @@
       </tags>
   </entry>
   <entry>
+    <title>天气不错，挺风和日丽的</title>
+    <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
+    <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
     <title>属于hexo的404页面</title>
     <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
     <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
@@ -516,6 +516,44 @@
       <categories>
         <category>生活</category>
       </categories>
+  </entry>
+  <entry>
+    <title>有些零食叫做回忆</title>
+    <url>/2021/12/15/%E6%9C%89%E4%BA%9B%E9%9B%B6%E9%A3%9F%E5%8F%AB%E5%81%9A%E5%9B%9E%E5%BF%86/</url>
+    <content><![CDATA[<p>以下两种“零食”在孩提时我是都吃过的</p>
+<p>一种叫软枣<br>一种叫熟地瓜干<br><br><br><br></p>
+<h5>先<br>说<br>说<br>软<br>枣</h5>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-3.jpg"></p>
+<p>软枣，家乡的人总是这么称呼它。</p>
+<blockquote>
+<p>学名软枣子，百科别名又叫牛奶枣、野柿子、丁香枣等相同的食物在不同地域叫法自然也大不同。软枣主要分布于东北地区及河北、山西、陕西、山东、安徽、浙江、江西、河南、湖北、云南等地。</p>
+</blockquote>
+<p>它外黑，果肉呈棕、黑色，有核、无核两种。秋末冬初是果实成熟期这时便可以采摘，刚摘下来清洗后即可鲜用，当然晒干后食用口感更佳。软枣的果实捏起来有点软，吃起来还捎带些粘牙，稍硬一点的嚼劲十足，无论是软还是稍硬的难免有极少果肉是略带一些涩。</p>
+<p>小时候吃过的软枣也都是用自家种的玉米或农作物去兑换，多少的比例我是记不得了，反正每次听到胡同里传来吆喝卖软枣的，家里都多少少都是要满足我们的胃口。</p>
+<p>软枣~ 软枣~</p>
+<p>呀！卖软枣的又来了。</p>
+<p>小伙伴们会不约而同、又或三五成群结伴出现在胡同口成群的簇拥围堵着叫卖软枣的人，稍后也总会有大人们手里提着各式各样的货币等着兑换。得到软枣的小伙伴你一言我一语细细的品尝着。这种当时在农村显得格外稀罕的零食，吃完一次却又总想着吃第二次，其实吃多了也不好，食物的特殊性不太利于消化排便，吃过的人也大都知道这一点。所以各自家的孩子每次吃完大人们却总难免又有些担心害怕。</p>
+<p>前段时间我从网上购买了一些软枣，产地是老家附近，收到货后迫不及待的打开品尝，特想再重温一下昔日的感觉，却再也没能找回记忆中的味道，这或许是当下的环境，也可能是产地的原因。<br><br><br><br></p>
+<h5>再<br>说<br>说<br>地<br>瓜<br>干</h5>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-1.jpg"></p>
+<p>借用一句<code>“往往高端的食材,只需采用朴素的烹饪方法”</code>去形容再合适不过了。</p>
+<p>晒地瓜干却是个仔细认真的活儿。</p>
+<p>新鲜的地瓜经过筛选、窖藏、去水分及待淀粉转换成糖分。再拿出来削皮、清洗，后经过木柴猛火蒸熟、冷却、切片等步骤，最后或用荆棘枝穿起来挂在房前屋后的通风处，或均匀的摆放在墙头屋脊，经过一个月的自然晾晒，收起前需清除灰尘才可用干净的布包起来，放在通风的地方存放，用不了多久就使得原本棕黑色的熟地瓜干布满了雪白的糖霜，到了腊月将地瓜干拿出来分享</p>
+<p>我也总喜欢将它当做零食装在衣兜里，吃的时候取出好好享受这“美味”。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>软枣</tag>
+        <tag>地瓜干</tag>
+        <tag>小时候</tag>
+        <tag>零食</tag>
+      </tags>
   </entry>
   <entry>
     <title>弯着腰，提着“灯”，想来我们也挺残忍的</title>
@@ -591,44 +629,6 @@
         <tag>夏天</tag>
         <tag>知了</tag>
         <tag>雨</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有些零食叫做回忆</title>
-    <url>/2021/12/15/%E6%9C%89%E4%BA%9B%E9%9B%B6%E9%A3%9F%E5%8F%AB%E5%81%9A%E5%9B%9E%E5%BF%86/</url>
-    <content><![CDATA[<p>以下两种“零食”在孩提时我是都吃过的</p>
-<p>一种叫软枣<br>一种叫熟地瓜干<br><br><br><br></p>
-<h5>先<br>说<br>说<br>软<br>枣</h5>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-3.jpg"></p>
-<p>软枣，家乡的人总是这么称呼它。</p>
-<blockquote>
-<p>学名软枣子，百科别名又叫牛奶枣、野柿子、丁香枣等相同的食物在不同地域叫法自然也大不同。软枣主要分布于东北地区及河北、山西、陕西、山东、安徽、浙江、江西、河南、湖北、云南等地。</p>
-</blockquote>
-<p>它外黑，果肉呈棕、黑色，有核、无核两种。秋末冬初是果实成熟期这时便可以采摘，刚摘下来清洗后即可鲜用，当然晒干后食用口感更佳。软枣的果实捏起来有点软，吃起来还捎带些粘牙，稍硬一点的嚼劲十足，无论是软还是稍硬的难免有极少果肉是略带一些涩。</p>
-<p>小时候吃过的软枣也都是用自家种的玉米或农作物去兑换，多少的比例我是记不得了，反正每次听到胡同里传来吆喝卖软枣的，家里都多少少都是要满足我们的胃口。</p>
-<p>软枣~ 软枣~</p>
-<p>呀！卖软枣的又来了。</p>
-<p>小伙伴们会不约而同、又或三五成群结伴出现在胡同口成群的簇拥围堵着叫卖软枣的人，稍后也总会有大人们手里提着各式各样的货币等着兑换。得到软枣的小伙伴你一言我一语细细的品尝着。这种当时在农村显得格外稀罕的零食，吃完一次却又总想着吃第二次，其实吃多了也不好，食物的特殊性不太利于消化排便，吃过的人也大都知道这一点。所以各自家的孩子每次吃完大人们却总难免又有些担心害怕。</p>
-<p>前段时间我从网上购买了一些软枣，产地是老家附近，收到货后迫不及待的打开品尝，特想再重温一下昔日的感觉，却再也没能找回记忆中的味道，这或许是当下的环境，也可能是产地的原因。<br><br><br><br></p>
-<h5>再<br>说<br>说<br>地<br>瓜<br>干</h5>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-1.jpg"></p>
-<p>借用一句<code>“往往高端的食材,只需采用朴素的烹饪方法”</code>去形容再合适不过了。</p>
-<p>晒地瓜干却是个仔细认真的活儿。</p>
-<p>新鲜的地瓜经过筛选、窖藏、去水分及待淀粉转换成糖分。再拿出来削皮、清洗，后经过木柴猛火蒸熟、冷却、切片等步骤，最后或用荆棘枝穿起来挂在房前屋后的通风处，或均匀的摆放在墙头屋脊，经过一个月的自然晾晒，收起前需清除灰尘才可用干净的布包起来，放在通风的地方存放，用不了多久就使得原本棕黑色的熟地瓜干布满了雪白的糖霜，到了腊月将地瓜干拿出来分享</p>
-<p>我也总喜欢将它当做零食装在衣兜里，吃的时候取出好好享受这“美味”。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>软枣</tag>
-        <tag>地瓜干</tag>
-        <tag>小时候</tag>
-        <tag>零食</tag>
       </tags>
   </entry>
 </search>

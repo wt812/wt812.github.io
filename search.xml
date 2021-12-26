@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2021/12/25/Xmas/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>git回退历史版本</title>
     <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
     <content><![CDATA[<ul>
@@ -20,11 +25,6 @@
       <tags>
         <tag>git</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2021/12/25/Xmas/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>常用的Markdown基础语法</title>
@@ -219,7 +219,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![markdown](url &quot;markdown&quot;)</span><br></pre></td></tr></table></figure>
 <p>示范<br><img src="https://img1.baidu.com/it/u=1613194509,3683268681&fm=26&fmt=auto" alt="markdown" title="markdown"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;http://ibruce.info&gt;</span><br><span class="line">&lt;bu.ru@qq.com&gt;</span><br></pre></td></tr></table></figure>
-<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#117;&#46;&#114;&#117;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#x62;&#117;&#46;&#114;&#117;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a></p>
+<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#x75;&#x2e;&#114;&#117;&#x40;&#113;&#x71;&#46;&#99;&#111;&#109;">&#x62;&#x75;&#x2e;&#114;&#117;&#x40;&#113;&#x71;&#46;&#99;&#111;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 作为网址变量 [Google][1]</span><br><span class="line">用 yahoo 作为网址变量 [Yahoo][yahoo]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line">[1]: http://www.google.com</span><br><span class="line">[yahoo]: http://www.yahoo.com</span><br></pre></td></tr></table></figure>
 <p>示范<br>然后在文档的结尾为变量赋值（网址）<br>[1]: <a href="http://www.google.com/">http://www.google.com</a><br>[yahoo]: <a href="http://www.yahoo.com/">http://www.yahoo.com</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Markdown中的转义字符为\，转义的有：</span><br><span class="line">\\ 反斜杠</span><br><span class="line">\` 反引号</span><br><span class="line">\* 星号</span><br><span class="line">\_ 下划线</span><br><span class="line">\&#123;\&#125; 大括号</span><br><span class="line">\[\] 中括号</span><br><span class="line">\(\) 小括号</span><br><span class="line">\# 井号</span><br><span class="line">\+ 加号</span><br><span class="line">\- 减号</span><br><span class="line">\. 英文句号</span><br><span class="line">\! 感叹号	</span><br></pre></td></tr></table></figure>
@@ -352,20 +352,35 @@
       </tags>
   </entry>
   <entry>
-    <title>事半功倍的小工具(在线版)</title>
+    <title>事半功倍的在线小工具</title>
     <url>/2021/12/25/%E4%BA%8B%E5%8D%8A%E5%8A%9F%E5%80%8D%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>工作中或多或少要借助一些网页上的小工具弥办公规软件的短板，<br>使用这些小工具可以帮你快速、高效的将你工作效率事半功倍<br>以下介绍几种网页常用的小工具</p>
+<h4 id="tinypng"><a href="#tinypng" class="headerlink" title="tinypng"></a>tinypng</h4><p>这是一款智能图片压缩工具，支持webp，png，JPEG<br>免费版支持一次20张、每张不超过5M的图片同时处理<br>使用方法很简单，只要将需要处理的图片拖拽到界面即可</p>
+<h4 id="PNGGauntlet"><a href="#PNGGauntlet" class="headerlink" title="PNGGauntlet"></a>PNGGauntlet</h4><h4 id="CSS-Sprites（CSS雪碧图拼接）"><a href="#CSS-Sprites（CSS雪碧图拼接）" class="headerlink" title="CSS Sprites（CSS雪碧图拼接）"></a>CSS Sprites（CSS雪碧图拼接）</h4><h4 id="CSS-在线渐变功能（功能强大）"><a href="#CSS-在线渐变功能（功能强大）" class="headerlink" title="CSS 在线渐变功能（功能强大）"></a>CSS 在线渐变功能（功能强大）</h4><h4 id="CSS-缓动动画工具"><a href="#CSS-缓动动画工具" class="headerlink" title="CSS 缓动动画工具"></a>CSS 缓动动画工具</h4><h4 id="svgminify-（SVG-压缩）"><a href="#svgminify-（SVG-压缩）" class="headerlink" title="svgminify （SVG 压缩）"></a>svgminify （SVG 压缩）</h4><h4 id="optimizilla图片验收（支持多语言）"><a href="#optimizilla图片验收（支持多语言）" class="headerlink" title="optimizilla图片验收（支持多语言）"></a>optimizilla图片验收（支持多语言）</h4><p><a href="https://imagecompressor.com/zh/">https://imagecompressor.com/zh/</a></p>
+<h4 id="在线ps-（）"><a href="#在线ps-（）" class="headerlink" title="在线ps （）"></a>在线ps （）</h4><p><a href="https://www.photopea.com/">https://www.photopea.com/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>仙女下凡</title>
+    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="cd554a4315d55080a6f222f7644022cc5fe9b7dc153ee8237841020f8ad49623">165d50f05814027fb7fe5e4ae8a088d89b384fbfe7ed30ac887aac58d238bfdb398e3f14336c2f533dc73b2e475e7f24fb2071b886fd389229cc1c1bf4db413e370fd182f6405791c3decd52c43b2d1141efc51e525914f9f1985d19538510e77e3e8acc53fadd806a5643f4bf413f2047075d6ddd53f60bf8cdcfb2eaa062f21ed63c1aa150fa0f0d4f8eede5035a20e68491bbc8b74428e9a640a3bebca401888e555b3375b7856c2d852e5a6e082ba9a25bc1715085d5fe37b4455ee5af25368f3414b75217147d0c346b7ae91dc8fbb1288dfe5086194580a4d2a51ddd9e847ce12db96faaf6f8b91c0cb8d0d0cbce54afada9b9b49ef0819369c68073b7b9761d839deeb38098b004cd1b909bd0faddaed688a0eecc5f731eb0dfc62d88d66f61b485e10c82c949958aab98b1fe215a578613fd3da18351449029c81e2913665216d99191dd9d336bcbca561cbcca428243d60d161376994fbc7569e4182d63daaf8e0e53d39ee86a41f8eca1241abe202e2979cde6727e0d2dcb752885c5c4d432c96f5c427a7d2cd33120bf23dbb5bffa54d6a081dbc58a480bcba518f05cd95958cd2709d380f0f693b8821a239bab6ae038af922852853dcf24b7801bf37bbd73f4e9c6b8ab1a51fa89708b2211768c452b6b94700b907e7a44144482d954a5f26e576fa44ba1e94fa0f5ef49e54703ac3b6dbb9e231905e256fd63da3c27484f1700be23f5702e0f7c94517f776fa1b2a6f975876a0c3b10f786b6612188eb0f3d5f4acaef2e74966bb76f3a806bad05780eaf2660fa216c167d11d2e7df21d691166da2c1a38e543628fc0f0e2beb2a8c98aa3b275ae04940d5c398766128d56cecf944b23b4abf2cc1a58ee8f603888fb445c7d8c67db1ae37e57a10e0f77eea14633fe1c718fc2e49289087048926da2c3485512f7b3c01d7880e5ea009e268ef447171289909f2fd00644a0d2c331d1b0d00565320e7854a41577e6f0d63428152a398e9730ac5756872f3e55bc64b36511d8c8bbc9918c4351c58f75f844f01166e021b71443420b6860d098f8691278e7e633242d64a3645e5a554b5c67fda72a75297e9871ebf13de28c6c8918e6775106159a8852388ff27a964b11b81a155bc0b32e2d4508632e10b0b7ab17756b94cd1baaf66c3d0e9f3a3c0f6f87285772dd9d6107030c058e31f39a33ea7cd52ea48f82bf524c51c9e1a9bc449a4b40b23a66ead530c947f91473d6f473332570d19c0d8cc2d6ed9bc8406804f20d7943f10e98fb59115c86c639555b92d28a49fd1f9ea5459963ebc359bbaac54d8726ab047e07ca59a9620a7992a3335f76a684635824a5a42ef354c5afe8ff3cfe23c60e3124e98e44513281a0d17d1f12515a91a69006ef6ae476bdb2f70ad92b23efe480d1b52b4a0b83785b3ba6bf6b06dda12816457a9cac4fa70f6f97d44a550811b52da4a284a897326d1e98558d98067630de3b98b5402ed67bbc92ccb3ed9213a166b701c7b348137b22097243fe0dfbf3869de374a2d2ee291226100a5c684ac828f4c81278b8e7a1c61639aed3f0a1365a479794531612388e6e2e1fc1a8e4733aa4365d7cbd2c630c2c11c50385622dabfb791c922a5b9ff802cef70afeb3d6bde19035f35e9650c68f138fe8db2d71bdf15c5adc789f5fb47c915405a938a90964bd0e32c70149e02221bb468e26b99c61fd0ff119e5e85acdbab90ac338432b9299006fafe66a1a0a491c1d069012155151ad54b8dafabf88a41ebe5aab998840e6e26e7cc9c2d9ae92b30fc5e635e22dd97a3a6c9ae04126b96f01aed6261cd7b9e9e48e8db8f8a5a9b72624ea82a4a61594a816aa711bbb899b488864eae824a28b1fb1d430629a7fb540731a4b23d4af7cbca876fc368365b415c59be489e4f784a02ff4f99aadee0c6d91e4644aefd56d49d3a606e48c795e13a68c87eebd1c121a48c4e75ca32334628ec797b51ce47dfaeb3f5ac5927af2680caa995e094badf1801ff5518f5c30402ad53d9b8e506eb113441978bf0a832ad40694878a34ddcbf612e036577565b555ee653066ea633c9c063e54d291fddd15cfff686c10f73484d072cdee753902721c150a5c15597ce4dca8a4ea68b9fc63afc0fc46be9673a9a85d9b3b24c82d4d94bbe676b8f242f8d4ac0538b895d78d3fbdd45bcc691b1ba617dd9f5b5c4e2bfcfaab86592e7c642b33125e5dd9553ef6479f7988a89c96da0e5cea479e0109f9feecd5548389bc332f578304fa8abc8308bdb467e02db151813f5670d8d257b91dbcdbda7e34d72cd2fe0bf5a486bb1d755f33f3b1725dc791dd04918ffc29673e80410b9a91e3009420a3acdbe69e377fabe716bcd1b06a6dfbec3c1f6402780e5860b05cae94213dcc0fe2e8db242cd5c5aa892e7eff522ceff3c6f7c5323f618e70b8168f0cbcfe18cb137209c784b5fe077910a568c232aa80b7435c815e63136f4c2a4a29610b83702f5137aa953d53be124a67e02ab9d5dd43587aeb33846e5b2130642cef96c3b912ff5bd38f2413181fe7a6b2f70fe0590e414bc325a2aaee0e2771a1c25ea954b666c11b3d088d0c60e07af1f805deb5c827e1737df14bdb62cba599b7f332613f73d4c52e6e10b5902f00b1b6f219b09c82228b6dc14a4e54eefbab33e6f5715ca943ebf3dfdf055d59e236851d3e319c4bea54e1495d60692decc61b65ba1889b376e6138795c2d943d7edcd50c87fdf2269092d931cd8a8291f1149ea3ced1186431bb0c6dcd969b56</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
       <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
       </label>
     </div>
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生日快乐</tag>
+      </tags>
   </entry>
   <entry>
     <title>十月,我去过额济纳</title>
@@ -391,31 +406,18 @@
       </tags>
   </entry>
   <entry>
-    <title>仙女下凡</title>
-    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生日快乐</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>听故事</title>
     <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
     <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。<br>听着听着精神了睡不着了!<span id="more"></span></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>天气不错，挺风和日丽的</title>
+    <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
+    <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -472,15 +474,6 @@
       </tags>
   </entry>
   <entry>
-    <title>天气不错，挺风和日丽的</title>
-    <url>/2021/12/07/%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%EF%BC%8C%E6%8C%BA%E9%A3%8E%E5%92%8C%E6%97%A5%E4%B8%BD%E7%9A%84/</url>
-    <content><![CDATA[<p>温度11度，阳光温和，天气不错。适合户外运动🏃🏃🏻‍🏃🏻‍♀️<span id="more"></span></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
     <title>属于hexo的404页面</title>
     <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
     <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
@@ -516,44 +509,6 @@
       <categories>
         <category>生活</category>
       </categories>
-  </entry>
-  <entry>
-    <title>有些零食叫做回忆</title>
-    <url>/2021/12/15/%E6%9C%89%E4%BA%9B%E9%9B%B6%E9%A3%9F%E5%8F%AB%E5%81%9A%E5%9B%9E%E5%BF%86/</url>
-    <content><![CDATA[<p>以下两种“零食”在孩提时我是都吃过的</p>
-<p>一种叫软枣<br>一种叫熟地瓜干<br><br><br><br></p>
-<h5>先<br>说<br>说<br>软<br>枣</h5>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-3.jpg"></p>
-<p>软枣，家乡的人总是这么称呼它。</p>
-<blockquote>
-<p>学名软枣子，百科别名又叫牛奶枣、野柿子、丁香枣等相同的食物在不同地域叫法自然也大不同。软枣主要分布于东北地区及河北、山西、陕西、山东、安徽、浙江、江西、河南、湖北、云南等地。</p>
-</blockquote>
-<p>它外黑，果肉呈棕、黑色，有核、无核两种。秋末冬初是果实成熟期这时便可以采摘，刚摘下来清洗后即可鲜用，当然晒干后食用口感更佳。软枣的果实捏起来有点软，吃起来还捎带些粘牙，稍硬一点的嚼劲十足，无论是软还是稍硬的难免有极少果肉是略带一些涩。</p>
-<p>小时候吃过的软枣也都是用自家种的玉米或农作物去兑换，多少的比例我是记不得了，反正每次听到胡同里传来吆喝卖软枣的，家里都多少少都是要满足我们的胃口。</p>
-<p>软枣~ 软枣~</p>
-<p>呀！卖软枣的又来了。</p>
-<p>小伙伴们会不约而同、又或三五成群结伴出现在胡同口成群的簇拥围堵着叫卖软枣的人，稍后也总会有大人们手里提着各式各样的货币等着兑换。得到软枣的小伙伴你一言我一语细细的品尝着。这种当时在农村显得格外稀罕的零食，吃完一次却又总想着吃第二次，其实吃多了也不好，食物的特殊性不太利于消化排便，吃过的人也大都知道这一点。所以各自家的孩子每次吃完大人们却总难免又有些担心害怕。</p>
-<p>前段时间我从网上购买了一些软枣，产地是老家附近，收到货后迫不及待的打开品尝，特想再重温一下昔日的感觉，却再也没能找回记忆中的味道，这或许是当下的环境，也可能是产地的原因。<br><br><br><br></p>
-<h5>再<br>说<br>说<br>地<br>瓜<br>干</h5>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-1.jpg"></p>
-<p>借用一句<code>“往往高端的食材,只需采用朴素的烹饪方法”</code>去形容再合适不过了。</p>
-<p>晒地瓜干却是个仔细认真的活儿。</p>
-<p>新鲜的地瓜经过筛选、窖藏、去水分及待淀粉转换成糖分。再拿出来削皮、清洗，后经过木柴猛火蒸熟、冷却、切片等步骤，最后或用荆棘枝穿起来挂在房前屋后的通风处，或均匀的摆放在墙头屋脊，经过一个月的自然晾晒，收起前需清除灰尘才可用干净的布包起来，放在通风的地方存放，用不了多久就使得原本棕黑色的熟地瓜干布满了雪白的糖霜，到了腊月将地瓜干拿出来分享</p>
-<p>我也总喜欢将它当做零食装在衣兜里，吃的时候取出好好享受这“美味”。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>软枣</tag>
-        <tag>地瓜干</tag>
-        <tag>小时候</tag>
-        <tag>零食</tag>
-      </tags>
   </entry>
   <entry>
     <title>弯着腰，提着“灯”，想来我们也挺残忍的</title>
@@ -629,6 +584,44 @@
         <tag>夏天</tag>
         <tag>知了</tag>
         <tag>雨</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有些零食叫做回忆</title>
+    <url>/2021/12/15/%E6%9C%89%E4%BA%9B%E9%9B%B6%E9%A3%9F%E5%8F%AB%E5%81%9A%E5%9B%9E%E5%BF%86/</url>
+    <content><![CDATA[<p>以下两种“零食”在孩提时我是都吃过的</p>
+<p>一种叫软枣<br>一种叫熟地瓜干<br><br><br><br></p>
+<h5>先<br>说<br>说<br>软<br>枣</h5>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-3.jpg"></p>
+<p>软枣，家乡的人总是这么称呼它。</p>
+<blockquote>
+<p>学名软枣子，百科别名又叫牛奶枣、野柿子、丁香枣等相同的食物在不同地域叫法自然也大不同。软枣主要分布于东北地区及河北、山西、陕西、山东、安徽、浙江、江西、河南、湖北、云南等地。</p>
+</blockquote>
+<p>它外黑，果肉呈棕、黑色，有核、无核两种。秋末冬初是果实成熟期这时便可以采摘，刚摘下来清洗后即可鲜用，当然晒干后食用口感更佳。软枣的果实捏起来有点软，吃起来还捎带些粘牙，稍硬一点的嚼劲十足，无论是软还是稍硬的难免有极少果肉是略带一些涩。</p>
+<p>小时候吃过的软枣也都是用自家种的玉米或农作物去兑换，多少的比例我是记不得了，反正每次听到胡同里传来吆喝卖软枣的，家里都多少少都是要满足我们的胃口。</p>
+<p>软枣~ 软枣~</p>
+<p>呀！卖软枣的又来了。</p>
+<p>小伙伴们会不约而同、又或三五成群结伴出现在胡同口成群的簇拥围堵着叫卖软枣的人，稍后也总会有大人们手里提着各式各样的货币等着兑换。得到软枣的小伙伴你一言我一语细细的品尝着。这种当时在农村显得格外稀罕的零食，吃完一次却又总想着吃第二次，其实吃多了也不好，食物的特殊性不太利于消化排便，吃过的人也大都知道这一点。所以各自家的孩子每次吃完大人们却总难免又有些担心害怕。</p>
+<p>前段时间我从网上购买了一些软枣，产地是老家附近，收到货后迫不及待的打开品尝，特想再重温一下昔日的感觉，却再也没能找回记忆中的味道，这或许是当下的环境，也可能是产地的原因。<br><br><br><br></p>
+<h5>再<br>说<br>说<br>地<br>瓜<br>干</h5>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-17-1.jpg"></p>
+<p>借用一句<code>“往往高端的食材,只需采用朴素的烹饪方法”</code>去形容再合适不过了。</p>
+<p>晒地瓜干却是个仔细认真的活儿。</p>
+<p>新鲜的地瓜经过筛选、窖藏、去水分及待淀粉转换成糖分。再拿出来削皮、清洗，后经过木柴猛火蒸熟、冷却、切片等步骤，最后或用荆棘枝穿起来挂在房前屋后的通风处，或均匀的摆放在墙头屋脊，经过一个月的自然晾晒，收起前需清除灰尘才可用干净的布包起来，放在通风的地方存放，用不了多久就使得原本棕黑色的熟地瓜干布满了雪白的糖霜，到了腊月将地瓜干拿出来分享</p>
+<p>我也总喜欢将它当做零食装在衣兜里，吃的时候取出好好享受这“美味”。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>软枣</tag>
+        <tag>地瓜干</tag>
+        <tag>小时候</tag>
+        <tag>零食</tag>
       </tags>
   </entry>
 </search>

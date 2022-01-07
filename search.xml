@@ -6,7 +6,7 @@
     <content><![CDATA[<p>这一年心酸过，辛苦过<br>这一年也学会了释怀、学会了感恩</p>
 <span id="more"></span>
 
-<h4 id="写个2021年的记录"><a href="#写个2021年的记录" class="headerlink" title="写个2021年的记录"></a>写个2021年的记录</h4><ul>
+<h2 id="写个2021年的记录"><a href="#写个2021年的记录" class="headerlink" title="写个2021年的记录"></a>写个2021年的记录</h2><ul>
 <li>1月份常一个人漫步在高碑店通惠河一带思考、沉淀、积累</li>
 <li>2月份疫情原因决定在北京一个人过春节</li>
 <li>3月份CEO领导离职，自己也有了离职的打算，月底带孩子、爱人去了几处景区（故宫、景山公园、中山公园、天坛公园、北京野生动物园……）</li>
@@ -27,6 +27,27 @@
       </categories>
       <tags>
         <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git回退历史版本</title>
+    <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<ul>
+<li>查看所有的历史版本，获取你git的某个历史版本的id，<code>git log</code></li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.png"></p>
+<ul>
+<li>复制commit对应的字符串</li>
+<li>回退本地代码库：<code>git reset --hard</code> 字符串</li>
+<li>推送到远程服务器：<code>git push -f -u origin master</code></li>
+<li>重新拉代码：<code>git pull</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -222,7 +243,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![markdown](url &quot;markdown&quot;)</span><br></pre></td></tr></table></figure>
 <p>示范<br><img src="https://img1.baidu.com/it/u=1613194509,3683268681&fm=26&fmt=auto" alt="markdown" title="markdown"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;http://ibruce.info&gt;</span><br><span class="line">&lt;bu.ru@qq.com&gt;</span><br></pre></td></tr></table></figure>
-<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#x75;&#46;&#114;&#117;&#64;&#113;&#113;&#46;&#x63;&#111;&#x6d;">&#x62;&#x75;&#46;&#114;&#117;&#64;&#113;&#113;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>示范<br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#117;&#x2e;&#x72;&#x75;&#x40;&#113;&#113;&#x2e;&#x63;&#111;&#109;">&#x62;&#117;&#x2e;&#x72;&#x75;&#x40;&#113;&#113;&#x2e;&#x63;&#111;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 作为网址变量 [Google][1]</span><br><span class="line">用 yahoo 作为网址变量 [Yahoo][yahoo]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line">[1]: http://www.google.com</span><br><span class="line">[yahoo]: http://www.yahoo.com</span><br></pre></td></tr></table></figure>
 <p>示范<br>然后在文档的结尾为变量赋值（网址）<br>[1]: <a href="http://www.google.com/">http://www.google.com</a><br>[yahoo]: <a href="http://www.yahoo.com/">http://www.yahoo.com</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Markdown中的转义字符为\，转义的有：</span><br><span class="line">\\ 反斜杠</span><br><span class="line">\` 反引号</span><br><span class="line">\* 星号</span><br><span class="line">\_ 下划线</span><br><span class="line">\&#123;\&#125; 大括号</span><br><span class="line">\[\] 中括号</span><br><span class="line">\(\) 小括号</span><br><span class="line">\# 井号</span><br><span class="line">\+ 加号</span><br><span class="line">\- 减号</span><br><span class="line">\. 英文句号</span><br><span class="line">\! 感叹号	</span><br></pre></td></tr></table></figure>
@@ -236,25 +257,12 @@
       </tags>
   </entry>
   <entry>
-    <title>git回退历史版本</title>
-    <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
-    <content><![CDATA[<ul>
-<li>查看所有的历史版本，获取你git的某个历史版本的id，<code>git log</code></li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-20-01.png"></p>
-<ul>
-<li>复制commit对应的字符串</li>
-<li>回退本地代码库：<code>git reset --hard</code> 字符串</li>
-<li>推送到远程服务器：<code>git push -f -u origin master</code></li>
-<li>重新拉代码：<code>git pull</code></li>
-</ul>
-]]></content>
+    <title>developer.mozilla.org/zh-CN/docs/Web/CSS</title>
+    <url>/2021/12/24/wwww.google.com/</url>
+    <content><![CDATA[]]></content>
       <categories>
         <category>技术</category>
       </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
   </entry>
   <entry>
     <title>一日三餐</title>
@@ -266,51 +274,6 @@
       <categories>
         <category>生活</category>
       </categories>
-  </entry>
-  <entry>
-    <title>仙女下凡</title>
-    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生日快乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十月,我去过额济纳</title>
-    <url>/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-3.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-2.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-1.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-10.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-9.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-8.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-7.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-5.JPG"></p>
-]]></content>
-      <categories>
-        <category>旅游</category>
-      </categories>
-      <tags>
-        <tag>额济纳</tag>
-        <tag>十月</tag>
-        <tag>国庆节</tag>
-      </tags>
   </entry>
   <entry>
     <title>七月的小区</title>
@@ -407,6 +370,39 @@
       </tags>
   </entry>
   <entry>
+    <title>十月,我去过额济纳</title>
+    <url>/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-3.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-2.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-1.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-10.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-9.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-8.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-7.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-5.JPG"></p>
+]]></content>
+      <categories>
+        <category>旅游</category>
+      </categories>
+      <tags>
+        <tag>额济纳</tag>
+        <tag>十月</tag>
+        <tag>国庆节</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>夜的美</title>
+    <url>/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/1.jpg">传媒大学北门过阶梯</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
     <title>听故事</title>
     <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
     <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。<br>听着听着精神了睡不着了!<span id="more"></span></p>
@@ -423,6 +419,28 @@
       <categories>
         <category>生活</category>
       </categories>
+  </entry>
+  <entry>
+    <title>仙女下凡</title>
+    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生日快乐</tag>
+      </tags>
   </entry>
   <entry>
     <title>威海的这些景点值得去</title>
@@ -462,35 +480,6 @@
         <tag>成山头风景区</tag>
         <tag>东楮岛</tag>
         <tag>威海</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>属于hexo的404页面</title>
-    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
-<li>souce目录下新建404.md，并将表头部分修改如下:</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.png"></p>
-<br>
-
-<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
-<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.png"></p>
-<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><ul>
-<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" title="Web 开发技术">HTML（超文本标记语言）</a> 》帮助你更好地了解 HTML</li>
-<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS" title="Web 开发技术">CSS（层叠样式表）</a> 》如何样式化文本，以及如何样式化和操作内置个人内容的盒模型</li>
-<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript" title="Web 开发技术">JavaScript</a> 》如何用JavaScript语言编程</li>
-<li>《<a href="https://codepen.io/search/pens?q=404" title="codepen">10000个404</a> 》去codepen挑选喜欢的404pag</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>404</tag>
       </tags>
   </entry>
   <entry>
@@ -570,6 +559,43 @@
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>/2021/12/24/%E5%B9%B3%E5%AE%89%E5%A4%9C%E5%89%8D%E5%A4%9C%E9%80%9A%E5%AE%B5-1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>属于hexo的404页面</title>
+    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
+<li>souce目录下新建404.md，并将表头部分修改如下:</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.png"></p>
+<br>
+
+<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
+<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.png"></p>
+<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><ul>
+<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" title="Web 开发技术">HTML（超文本标记语言）</a> 》帮助你更好地了解 HTML</li>
+<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS" title="Web 开发技术">CSS（层叠样式表）</a> 》如何样式化文本，以及如何样式化和操作内置个人内容的盒模型</li>
+<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript" title="Web 开发技术">JavaScript</a> 》如何用JavaScript语言编程</li>
+<li>《<a href="https://codepen.io/search/pens?q=404" title="codepen">10000个404</a> 》去codepen挑选喜欢的404pag</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>404</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>有些零食叫做回忆</title>
     <url>/2021/12/15/%E6%9C%89%E4%BA%9B%E9%9B%B6%E9%A3%9F%E5%8F%AB%E5%81%9A%E5%9B%9E%E5%BF%86/</url>
     <content><![CDATA[<p>以下两种“零食”在孩提时我是都吃过的</p>
@@ -605,31 +631,5 @@
         <tag>地瓜干</tag>
         <tag>零食</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2021/12/24/%E5%B9%B3%E5%AE%89%E5%A4%9C%E5%89%8D%E5%A4%9C%E9%80%9A%E5%AE%B5-1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>夜的美</title>
-    <url>/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/1.jpg">传媒大学北门过阶梯</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>developer.mozilla.org/zh-CN/docs/Web/CSS</title>
-    <url>/2021/12/24/wwww.google.com/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
   </entry>
 </search>

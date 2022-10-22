@@ -173,6 +173,15 @@
   </url>
   
   <url>
+    <loc>http://example.com/2022/10/02/%E2%80%9C%E7%9F%A5%E7%A7%8B%E2%80%9D/</loc>
+    
+    <lastmod>2022-10-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/404.html</loc>
     
     <lastmod>2021-12-21</lastmod>
@@ -368,6 +377,13 @@
   
   <url>
     <loc>http://example.com/categories/%E6%97%85%E6%B8%B8/</loc>
+    <lastmod>2022-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/%E7%94%9F%E6%B4%BB/%E7%99%BD%E6%B5%AA%E6%B2%B3%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD/</loc>
     <lastmod>2022-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

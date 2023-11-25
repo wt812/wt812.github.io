@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-02T04:20:51.000Z</updated>
+  <updated>2023-11-25T09:01:55.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2023</title>
+    <link href="http://example.com/2023/11/25/2023/"/>
+    <id>http://example.com/2023/11/25/2023/</id>
+    <published>2023-11-25T09:01:55.000Z</published>
+    <updated>2023-11-25T09:01:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>df </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;df &lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -455,35 +476,6 @@
     
     
     <category term="夏天" scheme="http://example.com/tags/%E5%A4%8F%E5%A4%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>十月,我去过额济纳</title>
-    <link href="http://example.com/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/"/>
-    <id>http://example.com/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</id>
-    <published>2012-10-01T04:54:09.000Z</published>
-    <updated>2012-10-01T04:54:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-3.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-2.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-1.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-10.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-9.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-8.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-7.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-5.JPG"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG&quot;&gt;</summary>
-      
-    
-    
-    
-    <category term="旅游" scheme="http://example.com/categories/%E6%97%85%E6%B8%B8/"/>
-    
-    
-    <category term="额济纳" scheme="http://example.com/tags/%E9%A2%9D%E6%B5%8E%E7%BA%B3/"/>
-    
-    <category term="十月" scheme="http://example.com/tags/%E5%8D%81%E6%9C%88/"/>
-    
-    <category term="国庆节" scheme="http://example.com/tags/%E5%9B%BD%E5%BA%86%E8%8A%82/"/>
     
   </entry>
   

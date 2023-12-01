@@ -696,4 +696,10 @@ $(document).ready(function () {
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-08-12-01.jpeg">2012-2015年租住在京烟宿舍</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>test</title>
+    <url>/2023/12/01/test/</url>
+    <content><![CDATA[<p>re</p>
+]]></content>
+  </entry>
 </search>

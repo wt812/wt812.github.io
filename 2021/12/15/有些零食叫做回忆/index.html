@@ -30,7 +30,12 @@
 <!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="制造快乐" type="application/atom+xml">
 </head>
 <body id="bodyx">
-    <!--nav-->
+		<!-- logo 
+<div class="abc_logo">
+<div class="giveFive"><span>🙏🏾</span></div>
+</div>
+-->
+<!--nav-->
 <span class="logo">
 <svg style="enable-background:new 0 0 173.01 106.17;" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" viewBox="0 0 173 106">
 <style type="text/css">
@@ -70,56 +75,12 @@
 </g>
 </svg>
 </span>
- 
-<div class="nav">  
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/">2012</a></li></ul>
 
-    <div class="search-right">
-      <input placeholder="搜索" id="local-search-input"/>  
-    </div>
-</div>
-
-<div id="local-search-result"></div>
-<!-- 
-<script src="/libs/jquery.min.js"></script>
- -->
-
-<script src="/js/search.js"></script>
-
-<!--  -->
-    
-
-<script type="text/javascript" id="local.search.active">
-    var inputArea = document.querySelector("#local-search-input");
-    var getSearchFile = function(){
-        var path = "/search.xml";
-        searchFunc(path, 'local-search-input', 'local-search-result');
-    }
-    inputArea.onfocus = function(){ getSearchFile() }
-    var $resetButton = $("#search-form .fa-times");
-    var $resultArea = $("#local-search-result");
-    inputArea.oninput = function(){ $resetButton.show(); }
-    resetSearch = function(){
-        $resultArea.html("");
-        document.querySelector("#search-form").reset();
-        $resetButton.hide();
-        $(".no-result").hide();
-    }
-    inputArea.onkeydown = function(){ if(event.keyCode == 13) return false }
-    //No search result
-    $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
-        if (!$(e.target).text()) {
-            $(".no-result").show(100);
-        } else {
-            $(".no-result").hide();
-        }
-    })
-</script>
+	    
 <!-- 内容 -->
 <div class="_detail">
     <div class="_detail_title">有些零食叫做回忆</div>
     <div class="_detail_time">2021/12/15 8:18:23 pm</div>
-
     <div class="_detail_cont"><p>以下两种“零食”在孩提时我是都吃过的</p>
 <p>一种叫软枣<br>一种叫熟地瓜干<br><br><br><br></p>
 <h5>先<br>说<br>说<br>软<br>枣</h5>
@@ -145,7 +106,6 @@
 <p>新鲜的地瓜经过筛选、窖藏、去水分及待淀粉转换成糖分。再拿出来削皮、清洗，后经过木柴猛火蒸熟、冷却、切片等步骤，最后或用荆棘枝穿起来挂在房前屋后的通风处，或均匀的摆放在墙头屋脊，经过一个月的自然晾晒，收起前需清除灰尘才可用干净的布包起来，放在通风的地方存放，用不了多久就使得原本棕黑色的熟地瓜干布满了雪白的糖霜，到了腊月将地瓜干拿出来分享</p>
 <p>我也总喜欢将它当做零食装在衣兜里，吃的时候取出好好享受这“美味”。</p>
 </div>
-
     <div class="_detail_tags">
         
         <ul class="post-tag-list" itemprop="keywords"><li class="post-tag-list-item"><a class="post-tag-list-link" href="/tags/%E5%9C%B0%E7%93%9C%E5%B9%B2/" rel="tag">地瓜干</a><span class="post-tag-list-count">1</span></li><li class="post-tag-list-item"><a class="post-tag-list-link" href="/tags/%E8%BD%AF%E6%9E%A3/" rel="tag">软枣</a><span class="post-tag-list-count">1</span></li><li class="post-tag-list-item"><a class="post-tag-list-link" href="/tags/%E9%9B%B6%E9%A3%9F/" rel="tag">零食</a><span class="post-tag-list-count">1</span></li></ul>
@@ -181,22 +141,23 @@
 
     <div id="vcomments"></div>
 
-    <!-- 分页 -->
 
+<!-- 分页 -->
 
 <!-- footer -->
-<div class="lower_right">
-    <a href="#top" class="goTop style_">TOP</a>
-    <div class="style_">
-        <label class="el-switch el-switch-blue el-switch-sm" style="display: inline-block; width: 100%; cursor: pointer;">
-            <input type="checkbox" name="switch" id="update_style">
-            <span class="el-switch-style"></span>
-        </label>
-    </div>
+<div class="_detail_footer" >
+    京ICP备12001734号<br>自豪的使用 <a target="_blank" rel="noopener" href="https://hexo.io">hexo</a> Theme by <a target="_blank" rel="noopener" href="https://github.com/wt812/hexo-theme-Shier">Shier</a>
 </div>
 
-<div class="footer" id="footer">
-    京ICP备12001734号<br>自豪的使用 <a target="_blank" rel="noopener" href="https://hexo.io">hexo</a> Theme by <a target="_blank" rel="noopener" href="https://github.com/wt812/hexo-theme-Shier">Shier</a>
+
+
+
+<!-- heibai -->
+<div class="lower_right">
+    <label class="el-switch el-switch-blue el-switch-sm" style="display: inline-block; width: 100%; cursor: pointer;">
+        <input type="checkbox" name="switch" id="update_style">
+        <span class="el-switch-style"></span>
+    </label>
 </div>
 
 <!-- 评论 -->
@@ -214,6 +175,11 @@
 <script src="/js/js.js"></script>
 
 
+
+
+
+
+
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
@@ -221,4 +187,11 @@
                 processImages: null,
             };
         </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+<script type="text/javascript">
+let container = document.querySelector(".container");
+container.addEventListener("wheel", (event) => {
+  event.preventDefault();
+  container.scrollLeft += event.deltaY;
+})
+</script>
 </html>

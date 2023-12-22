@@ -30,7 +30,12 @@
 <!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="制造快乐" type="application/atom+xml">
 </head>
 <body id="bodyx">
-    <!--nav-->
+		<!-- logo 
+<div class="abc_logo">
+<div class="giveFive"><span>🙏🏾</span></div>
+</div>
+-->
+<!--nav-->
 <span class="logo">
 <svg style="enable-background:new 0 0 173.01 106.17;" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" viewBox="0 0 173 106">
 <style type="text/css">
@@ -70,56 +75,12 @@
 </g>
 </svg>
 </span>
- 
-<div class="nav">  
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/">2012</a></li></ul>
 
-    <div class="search-right">
-      <input placeholder="搜索" id="local-search-input"/>  
-    </div>
-</div>
-
-<div id="local-search-result"></div>
-<!-- 
-<script src="/libs/jquery.min.js"></script>
- -->
-
-<script src="/js/search.js"></script>
-
-<!--  -->
-    
-
-<script type="text/javascript" id="local.search.active">
-    var inputArea = document.querySelector("#local-search-input");
-    var getSearchFile = function(){
-        var path = "/search.xml";
-        searchFunc(path, 'local-search-input', 'local-search-result');
-    }
-    inputArea.onfocus = function(){ getSearchFile() }
-    var $resetButton = $("#search-form .fa-times");
-    var $resultArea = $("#local-search-result");
-    inputArea.oninput = function(){ $resetButton.show(); }
-    resetSearch = function(){
-        $resultArea.html("");
-        document.querySelector("#search-form").reset();
-        $resetButton.hide();
-        $(".no-result").hide();
-    }
-    inputArea.onkeydown = function(){ if(event.keyCode == 13) return false }
-    //No search result
-    $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
-        if (!$(e.target).text()) {
-            $(".no-result").show(100);
-        } else {
-            $(".no-result").hide();
-        }
-    })
-</script>
+	    
 <!-- 内容 -->
 <div class="_detail">
     <div class="_detail_title">Markdown</div>
     <div class="_detail_time">2021/09/30 1:12:38 pm</div>
-
     <div class="_detail_cont"><p>Markdown是一种极简的『标记语言』，将文本转为HTML，通常为我大码农所用。其不追求大而全，简洁至上，正所谓不求最贵，只求最好！</p>
 <p>本文介绍Markdown基本语法，内容很少，一行语法一行示例，学会后可轻松写出高大上的文档，再也不需要各种编辑器去调文章格式。另外，网上有各平台下的Markdown工具可用，也有在线的，我直接使用sublime搞定，Markdown本来就是为了追求简洁，弄个工具岂不多此一举。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[x] Write the press release</span><br><span class="line">[ ] Update the website</span><br><span class="line">[ ] Contact the media</span><br></pre></td></tr></table></figure>
@@ -316,7 +277,6 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Markdown中的转义字符为\，转义的有：</span><br><span class="line">\\ 反斜杠</span><br><span class="line">\` 反引号</span><br><span class="line">\* 星号</span><br><span class="line">\_ 下划线</span><br><span class="line">\&#123;\&#125; 大括号</span><br><span class="line">\[\] 中括号</span><br><span class="line">\(\) 小括号</span><br><span class="line">\# 井号</span><br><span class="line">\+ 加号</span><br><span class="line">\- 减号</span><br><span class="line">\. 英文句号</span><br><span class="line">\! 感叹号	</span><br></pre></td></tr></table></figure>
 <p>示范<br>Markdown中的转义字符为\，转义的有：<br>\ 反斜杠<br>` 反引号<br>* 星号<br>_ 下划线<br>{} 大括号<br>[] 中括号<br>() 小括号<br># 井号<br>+ 加号<br>- 减号<br>. 英文句号<br>! 感叹号</p>
 </div>
-
     <div class="_detail_tags">
         
     </div>
@@ -336,22 +296,23 @@
 
     <div id="vcomments"></div>
 
-    <!-- 分页 -->
 
+<!-- 分页 -->
 
 <!-- footer -->
-<div class="lower_right">
-    <a href="#top" class="goTop style_">TOP</a>
-    <div class="style_">
-        <label class="el-switch el-switch-blue el-switch-sm" style="display: inline-block; width: 100%; cursor: pointer;">
-            <input type="checkbox" name="switch" id="update_style">
-            <span class="el-switch-style"></span>
-        </label>
-    </div>
+<div class="_detail_footer" >
+    京ICP备12001734号<br>自豪的使用 <a target="_blank" rel="noopener" href="https://hexo.io">hexo</a> Theme by <a target="_blank" rel="noopener" href="https://github.com/wt812/hexo-theme-Shier">Shier</a>
 </div>
 
-<div class="footer" id="footer">
-    京ICP备12001734号<br>自豪的使用 <a target="_blank" rel="noopener" href="https://hexo.io">hexo</a> Theme by <a target="_blank" rel="noopener" href="https://github.com/wt812/hexo-theme-Shier">Shier</a>
+
+
+
+<!-- heibai -->
+<div class="lower_right">
+    <label class="el-switch el-switch-blue el-switch-sm" style="display: inline-block; width: 100%; cursor: pointer;">
+        <input type="checkbox" name="switch" id="update_style">
+        <span class="el-switch-style"></span>
+    </label>
 </div>
 
 <!-- 评论 -->
@@ -369,6 +330,11 @@
 <script src="/js/js.js"></script>
 
 
+
+
+
+
+
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
@@ -376,4 +342,11 @@
                 processImages: null,
             };
         </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+<script type="text/javascript">
+let container = document.querySelector(".container");
+container.addEventListener("wheel", (event) => {
+  event.preventDefault();
+  container.scrollLeft += event.deltaY;
+})
+</script>
 </html>

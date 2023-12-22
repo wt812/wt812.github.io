@@ -3,10 +3,7 @@
   <entry>
     <title>2021,这一年</title>
     <url>/2021/12/31/2021-%E8%BF%99%E4%B8%80%E5%B9%B4/</url>
-    <content><![CDATA[<p>这一年心酸过，辛苦过<br>这一年也学会了释怀、学会了感恩</p>
-<span id="more"></span>
-
-<h2 id="写个2021年的记录"><a href="#写个2021年的记录" class="headerlink" title="写个2021年的记录"></a>写个2021年的记录</h2><ul>
+    <content><![CDATA[<h2 id="写个2021年的记录"><a href="#写个2021年的记录" class="headerlink" title="写个2021年的记录"></a>写个2021年的记录</h2><ul>
 <li>1月份常一个人漫步在高碑店通惠河一带思考、沉淀、积累</li>
 <li>2月份疫情原因决定在北京一个人过春节</li>
 <li>3月份CEO领导离职，自己也有了离职的打算，月底带孩子、爱人去了几处景区（故宫、景山公园、中山公园、天坛公园、北京野生动物园……）</li>
@@ -30,6 +27,428 @@
       </tags>
   </entry>
   <entry>
+    <title>法制日报社门口</title>
+    <url>/2023/10/27/11-29/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/202312071709383.jpeg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/202312071709385.jpeg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/202312071709386.jpeg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-10-27-01.jpeg"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/05/17/%E6%B2%B3%E5%8C%97%E7%9C%81%E6%AD%A3%E5%AE%9A%E5%8E%BF/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/09/24/%E9%AB%98%E5%85%89%E6%97%B6%E5%88%BB/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/06/18/%E5%86%B2%E7%AA%81%E4%BC%9A%E6%84%8F%E5%91%B3%E7%9D%80%E4%B8%80%E7%A7%8D%E6%9B%B4%E6%B7%B1%E5%85%A5%E7%9A%84%E4%BA%A4%E6%B5%81/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Permission denied (publickey)</title>
+    <url>/2019/12/01/%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-12-07-01.png"></p>
+<h3 id="原因分析"><a href="#原因分析" class="headerlink" title="原因分析"></a>原因分析</h3><p>解决提交github出现</p>
+<blockquote>
+<p><a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a>: Permission denied (publickey).<br>fatal: Could not read from remote repository.</p>
+</blockquote>
+<ul>
+<li>客户端与服务端未生成 ssh key</li>
+<li>客户端与服务端的ssh key不匹配</li>
+</ul>
+<h3 id="生成SSH-Key"><a href="#生成SSH-Key" class="headerlink" title="生成SSH Key"></a>生成SSH Key</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C  &quot;你的github注册邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p>注：途中会让你输入密码啥的，不需要管，一路回车即可，会生成你的ssh key。（如果重新生成的话会覆盖之前的ssh key。） </p>
+<h3 id="最后两句会出现"><a href="#最后两句会出现" class="headerlink" title="最后两句会出现"></a>最后两句会出现</h3><ul>
+<li>No more authentication methods to </li>
+<li>Permission denied (publickey).</li>
+</ul>
+<h3 id="在终端再执行以下命令"><a href="#在终端再执行以下命令" class="headerlink" title="在终端再执行以下命令"></a>在终端再执行以下命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-agent -s </span><br><span class="line">接着在执行</span><br><span class="line">ssh-add ~/.shh/id_rsa</span><br><span class="line">~/.ssh</span><br><span class="line">open ./</span><br><span class="line">复制id_rsa.pub 到github下创建SSH keys</span><br></pre></td></tr></table></figure>
+<h3 id="验证Key"><a href="#验证Key" class="headerlink" title="验证Key"></a>验证Key</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">Hi “github用户名”！You&#x27;ve successfully authenticated, but GitHub does not provide shell access.问题接解决了！</span><br></pre></td></tr></table></figure>
+
+<p>详见: <a href="https://blog.csdn.net/ywl470812087/article/details/104459288">https://blog.csdn.net/ywl470812087/article/details/104459288</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/12/24/%E5%B9%B3%E5%AE%89%E5%A4%9C%E5%89%8D%E5%A4%9C%E9%80%9A%E5%AE%B5-1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日出</title>
+    <url>/2023/09/29/%E6%97%A5%E5%87%BA/</url>
+    <content><![CDATA[<p>传媒大学北门过街天桥（朝阳路）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-09-28-01.jpeg">日出</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-09-28-02.jpeg">背向</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>七月的小区</title>
+    <url>/2019/07/15/%E4%B8%83%E6%9C%88%E7%9A%84%E5%B0%8F%E5%8C%BA/</url>
+    <content><![CDATA[<center>
+七<br>
+月<br>
+花<br>
+儿<br>
+在<br>
+绽<br>
+放
+</center>
+<br>
+<br>
+<center>
+阳光灼热，晴空明媚，天空湛蓝深远<br>
+热情洋溢，万物生长，大地绿色生机<br>
+<br>
+
+<h4 id="牵牛花"><a href="#牵牛花" class="headerlink" title="牵牛花"></a>牵牛花</h4><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-2.jpg">红的似火 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-1.jpg">粉的似蜜 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-4.jpg">紫的似霞 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-3.jpg">蓝的似？ ▴</p>
+<br>
+<br>
+
+<h4 id="蜀葵"><a href="#蜀葵" class="headerlink" title="蜀葵"></a>蜀葵</h4><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-6.jpg">白的似雪 ▴</p>
+<br>
+<br>
+
+<h4 id="向日葵"><a href="#向日葵" class="headerlink" title="向日葵"></a>向日葵</h4><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-7.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-8.jpg">黄的似金 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-9.jpg">七月怎么少的了狗尾巴草 ▴</p>
+<center>
+七<br>
+月<br>
+果<br>
+树<br>
+在<br>
+成<br>
+长
+</center>
+<br>
+<br>
+<center>
+如果<br>
+春，万物复苏<br>
+秋，硕果累累<br>
+冬，积蓄力量<br><br>
+那么<br>
+夏，生机勃勃
+</center>
+<br>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-12.jpg">石榴，婴儿期 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-13.jpg">少儿期 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-14.jpg">青少年 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-15.jpg">青年期（没熟就裂了） ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-16.jpg">海棠果 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-17.jpg">苹果 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-19.jpg">核桃 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-21.jpg">柿子 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-23.jpg">桃 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-25.jpg">葡萄 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-26.jpg">有点远，再进一点 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-27.jpg">阳光撒在上面晶莹剔透 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-28.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-29.jpg">枣 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-30.jpg">花椒，有一抹红 ▴</p>
+<br>
+<br>
+<br>
+知了在蝉鸣<br>
+鸟儿在叽喳<br>
+蛐蛐撕着嗓子在歌唱<br>
+听着很是悦耳<br>
+
+<br>
+老人们在乘凉<br>
+成群的孩子在嬉戏<br>
+蝴蝶在飞舞<br>
+感觉生活很惬意<br>
+缤纷绚丽<br>
+灿烂热烈<br><br>
+七月真美， 小区真美  
+</center>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>夏天</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>属于hexo的404页面</title>
+    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
+<li>souce目录下新建404.md，并将表头部分修改如下:</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.png"></p>
+<br>
+
+<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
+<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.png"></p>
+<h4 id=""><a href="#" class="headerlink" title=""></a></h4><p><a href="http://zaole.net/abc/1" title="404">Demo</a></p>
+<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><ul>
+<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" title="Web 开发技术">HTML（超文本标记语言）</a> 》帮助你更好地了解 HTML</li>
+<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS" title="Web 开发技术">CSS（层叠样式表）</a> 》如何样式化文本，以及如何样式化和操作内置个人内容的盒模型</li>
+<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript" title="Web 开发技术">JavaScript</a> 》如何用JavaScript语言编程</li>
+<li>《<a href="https://codepen.io/search/pens?q=404" title="codepen">10000个404</a> 》去codepen挑选喜欢的404pag</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>404</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>水培胡萝卜</title>
+    <url>/2022/06/11/%E6%B0%B4%E5%9F%B9%E8%83%A1%E8%90%9D%E5%8D%9C/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-01.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-02.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-03.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-04.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-05.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-06.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-07.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-08.jpg">2022-06-11家中</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>十月,我去过额济纳</title>
+    <url>/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-3.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-2.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-1.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-10.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-9.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-8.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-7.JPG"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-5.JPG"></p>
+]]></content>
+      <categories>
+        <category>旅游</category>
+      </categories>
+      <tags>
+        <tag>额济纳</tag>
+        <tag>十月</tag>
+        <tag>国庆节</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>听故事</title>
+    <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
+    <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。<br>听着听着精神了睡不着了!<span id="more"></span></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>弯着腰，提着“灯”，想来我们也挺残忍的</title>
+    <url>/2019/07/25/%E5%BC%AF%E7%9D%80%E8%85%B0%EF%BC%8C%E6%8F%90%E7%9D%80%E2%80%9C%E7%81%AF%E2%80%9D%EF%BC%8C%E6%83%B3%E6%9D%A5%E6%88%91%E4%BB%AC%E4%B9%9F%E6%8C%BA%E6%AE%8B%E5%BF%8D%E7%9A%84/</url>
+    <content><![CDATA[<center>
+七月八月，或凉或热<br>
+景色凄清，蝉声呜咽<br>
+<br>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-2.jpg"></p>
+<p style="text-align:left";>
+午后下了一场雨，临近傍晚雨才停，雨后天气放晴，洗刷过的空气中夹杂着泥土和芳草的气息。打开门窗凉爽的清风从窗外透了进来，远处的草丛、池塘里蛙声一片。七八月正直知了猴出土的最佳的时节。尤其雨后居多，此时被雨水冲洗过的泥土变得松软、湿润，有利于知了猴出土。傍晚，群结伴同行捉知了猴便成了一种乐趣!
+</p>
+
+<br>
+<br>
+<center>
+必<br>
+备<br>
+手<br>
+电<br>
+筒</center>
+<br>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-5.jpg">双眼顺着光照的地方，运气好就会发现慢慢蠕动的知了猴 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-4.jpg">擦黑我们就行动 ▴</p>
+<br>
+<br>
+<center>
+或<br>
+扣<br>
+或<br>
+挖
+</center>
+<br>
+<p style="text-align:left";>
+捉知了猴是有技巧的，弯着腰，提着“灯”低头搜寻地面上一个个微开的洞穴口（瞭望口），轻轻一扣洞穴就会呈现出来，里面或许会有知了猴缓慢爬向洞口。如遇较深的洞穴最好的办法就是用小铲子深挖到底
+</p>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-6.jpg">一个孔 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-7.jpg">两个孔 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-8.jpg">打扰了…… ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-9.jpg">打酱油路过…… ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-10.jpg">标准学名叫蝉蜕 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-11.jpg">第一只 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-12.jpg">又一只 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-15.jpg">可以爬过头顶 ▴</p>
+<br>
+<br>
+<center>
+树<br>
+干<br>
+缠<br>
+胶<br>
+带
+</center>
+<br>
+<p style="text-align:left";>
+有经验的人会在齐腰及树干等较低的位置缠上一圈胶带”守株待兔“
+知了猴爬到光滑的胶带下侧会一直滞留，这样很容易逮到它们。最后不费之惠一个一个的拿走特别省事儿
+</p>
+
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-16.jpg">守株待兔 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-3.gif">遇到胶带爬不了。看，有演示 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-18.jpg">开始你的表演。巴拉巴拉，小魔仙全身变 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-19.jpg">你负责貌美如花 ▴</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-20.jpg">我留下来看“家” ▴</p>
+</center>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>夏天</tag>
+        <tag>知了</tag>
+        <tag>雨</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>威海的这些景点值得去</title>
+    <url>/2021/10/01/%E5%A8%81%E6%B5%B7%E7%9A%84%E8%BF%99%E4%BA%9B%E6%99%AF%E7%82%B9%E5%80%BC%E5%BE%97%E5%8E%BB/</url>
+    <content><![CDATA[<p>威海是山东最东端的海滨旅游城市，是距离韩国和日本最近的中国城市。<br>面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。</p>
+<span id="more"></span>
+
+<br>
+
+<h2 id="刘公岛"><a href="#刘公岛" class="headerlink" title="刘公岛"></a>刘公岛</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-7.jpg" alt="刘公岛"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-3.jpg" alt="刘公岛"></p>
+<p>来威海旅游的外地朋友，我相信刘公岛是一个必去景点。刘公岛风景区可以说是威海的一张名片，提到刘公岛，人们自然想到威海。提到威海，人们自然会联想的刘公岛。正如刘公岛那句经典的旅游宣传词一样，刘公岛不仅仅是一个岛。的确是，在刘公岛，欣赏到优美的岛屿风景那都是其次的，最重要的是刘公岛的人文知识，这里是甲午中日战争的发生地，近距离接受爱国主义教育洗礼，缅怀先烈，不忘国耻。同时在岛上，也能看到大量英租时期遗留下的英式建筑。</p>
+<br>
+
+<h2 id="海驴岛"><a href="#海驴岛" class="headerlink" title="海驴岛"></a>海驴岛</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-9.jpg" alt="海驴岛"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-8.jpg" alt="海驴岛"></p>
+<p>威海作为一个海滨城市，拥有近千公里的海岸线，在近千公里的海岸线上，分布着大大小小168个海岛。来威海旅游除了刘公岛，我首先推荐的景区就是海驴岛，因为会超出我们的旅行期待。去过很多地方旅游，不知你是否和我一样，在网上看到的景区图片很美很期待，到了目的地却特别失望，有一定的落差。海驴岛却截然不同，绝对超出你的预期值。</p>
+<p>海驴岛，远方遥望，层层云雾，山海相连，海上仙山，虚无缥缈，环岛而行，无数海鸟，盘旋而上，或悲或鸣，或击长空，此情此景，别样生动，登岛而上，海蚀地貌，山水交融，怪石嶙立，雄伟壮观，海水深情，波涛汹涌，步步皆景，景景生情，人间仙境，流连忘返，回味无穷。这是我2017年游览完海驴岛后写的打油诗游记，至今忘不了无数海鸥翱翔在蓝天，和岛屿上怪石林立的景象。</p>
+<br>
+
+<h2 id="成山头风景区"><a href="#成山头风景区" class="headerlink" title="成山头风景区"></a>成山头风景区</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-4.jpg" alt="成山头风景区"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-5.jpg" alt="成山头风景区"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-6.jpg" alt="成山头风景区"></p>
+<p>推荐成山头的理由是中国陆地与大海交界处的最东端，是最早看到海上日出的地方。成山头风景区位于威海荣成成山镇，又名天尽头，三面环海，一面环山，与韩国隔海相望。晴天的时候风景确实漂亮，但是成山头又是褒贬不一的景区，口碑两极分化严重。有的人认为商业味太浓，借用最东端之名，把海边圈起来弄一个景区，并且门票不菲，不值这个价格。成山头风景区还带有一定的神话色彩，古时候人们认为这里是日神居住的地方，所以传说秦始皇曾经两次到过这里，求长生不死灵丹妙药。</p>
+<br>
+
+<h2 id="东楮岛"><a href="#东楮岛" class="headerlink" title="东楮岛"></a>东楮岛</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-1.jpg" alt="东楮岛"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-2.jpg" alt="东楮岛"></p>
+<p>威海还有一个值得看的景色就是海草房，这种以草为顶，以石为墙的民居，看上去憨态可掬，像极了童话中的房屋。仅存在我国的胶东地区，世界罕见，不仅评为山东非物质文化遗产，也是世界著名生态民居。但是来威海的游客看海草房，大多数选择人山人海的烟墩角，却忽略了人少景美的东楮岛。</p>
+]]></content>
+      <categories>
+        <category>旅游</category>
+      </categories>
+      <tags>
+        <tag>刘公岛</tag>
+        <tag>海驴岛</tag>
+        <tag>成山头风景区</tag>
+        <tag>东楮岛</tag>
+        <tag>威海</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>仙女下凡</title>
+    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生日快乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>雪的季节让我想起了雨</title>
+    <url>/2022/01/24/%E9%9B%AA%E7%9A%84%E5%AD%A3%E8%8A%82%E8%AE%A9%E6%88%91%E6%83%B3%E8%B5%B7%E4%BA%86%E9%9B%A8/</url>
+    <content><![CDATA[<p>对我来说<br>下雨的天就像收到了心爱的玩具、抢到了新式的潮流服装</p>
+<p>小时候<br>雨后会去菜园的土坡上挖泥<br>这个种泥有着地瓜皮那版的红，土质细腻粘手。<br>把挖好的泥做成各式各样的”玩具”<br>外形像不像这就要靠自己的口才去说服小伙伴们相信你的”作品”<br>有汽车、火车、摩托车……<br>有兔子、小狗、猪、老虎、狼、狗……</p>
+<p>还有一个在小伙伴间常常玩耍的游戏叫”泥巴炮”<br>一人一大坨泥巴<br>使劲把泥巴不断地揉，增加粘稠度<br>泥巴炮<br>外形似盛水的容器，<br>有的做成方形；有的做成圆形。<br>口径可大可小，<br>深度较深;壁可厚可薄<br>太硬了容易捏成形，但甩的不响<br>太软了不容易成形，拿到手上就开始变形了，更甩的不响<br>薄壁做成的炮，炸的声音宏亮，壁皮儿炸的四分五裂<br>厚壁做成的炮，炸的声音沉闷，底部只是出现拇指宽的小口<br>哈哈……</p>
+<p>记得的有一年的夏天，下着雨<br>我的宿舍钥匙不知道在哪丢了（也可能忘记放在哪里）<br>借完同学的钥匙冒着风雨、电闪雷鸣一个人打着伞去便民角<br>在等待配钥匙这段的时间里<br>在门外，听着雨水敲打在伞上发出噼里啪啦声响<br>看着雨水激起的涟漪 一层层扩散 一层层往下传<br>雨水汇集成一条条小河流淌着<br>回宿舍的路上雨变小了<br>路过校园的一片树林<br>我停下脚步 抛开雨伞<br>把自己留在雨中<br>我仰面望向灰暗的天空<br>此时风吹过带着泥土的芬芳，花草的清香弥漫在空气中<br>深呼吸<br>独自占有着此刻<br>雨中散步的感觉 别有一番滋味</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>夏天</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>夜的美</title>
+    <url>/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/1.jpg">传媒大学北门过阶梯</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2023整个夏季</title>
+    <url>/2023/06/29/2023%E6%95%B4%E4%B8%AA%E5%A4%8F%E5%A4%A9/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-05-13-01.jpeg">京城梨园公园</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-06-05-01.jpeg">法制日报社院内</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-06-11-01.jpeg">定福庄北里2号院内</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-06-22-01.jpeg">潍坊白浪河湿地公园</p>
+]]></content>
+      <categories>
+        <category>2023</category>
+      </categories>
+      <tags>
+        <tag>夏季</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>developer.mozilla.org/zh-CN/docs/Web/CSS</title>
+    <url>/2021/12/24/wwww.google.com/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+  </entry>
+  <entry>
     <title>git回退历史版本</title>
     <url>/2021/12/20/git%E5%9B%9E%E9%80%80%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC/</url>
     <content><![CDATA[<ul>
@@ -49,6 +468,27 @@
       <tags>
         <tag>git</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/10/02/%E7%9F%A5%E7%A7%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/08/12/happy-day/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>一日三餐</title>
+    <url>/2021/12/11/%E4%B8%80%E5%A4%A9/</url>
+    <content><![CDATA[<h4 id="早饭"><a href="#早饭" class="headerlink" title="早饭"></a>早饭</h4><p>油条2根、小米粥2碗</p>
+<h4 id="午饭"><a href="#午饭" class="headerlink" title="午饭"></a>午饭</h4><p>没吃</p>
+<h4 id="晚饭"><a href="#晚饭" class="headerlink" title="晚饭"></a>晚饭</h4><p>凉拌黄瓜，新熬的小米粥 *不是早饭剩的</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
   </entry>
   <entry>
     <title>常用的Markdown基础语法</title>
@@ -183,7 +623,7 @@
 <Br>
 
 <h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>示范</p>
-<p>文字链接 <a href="https://segmentfault.com/">SegmentFault</a><br>网址链接 <a href="https://segmentfault.com/">https://segmentfault.com</a><br><a href="http://bruce-sha.github.io/" title="不如的博客">名称</a><br><img src="https://img1.baidu.com/it/u=1613194509,3683268681&fm=26&fmt=auto" alt="markdown" title="markdown"><br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#x75;&#46;&#x72;&#117;&#64;&#113;&#x71;&#46;&#x63;&#111;&#109;">&#x62;&#x75;&#46;&#x72;&#117;&#64;&#113;&#x71;&#46;&#x63;&#111;&#109;</a><br>[1]: <a href="http://www.google.com/">http://www.google.com</a><br>[yahoo]: <a href="http://www.yahoo.com/">http://www.yahoo.com</a></p>
+<p>文字链接 <a href="https://segmentfault.com/">SegmentFault</a><br>网址链接 <a href="https://segmentfault.com/">https://segmentfault.com</a><br><a href="http://bruce-sha.github.io/" title="不如的博客">名称</a><br><img src="https://img1.baidu.com/it/u=1613194509,3683268681&fm=26&fmt=auto" alt="markdown" title="markdown"><br><a href="http://ibruce.info/">http://ibruce.info</a><br><a href="mailto:&#x62;&#117;&#x2e;&#114;&#117;&#x40;&#113;&#113;&#46;&#99;&#111;&#x6d;">&#x62;&#117;&#x2e;&#114;&#117;&#x40;&#113;&#113;&#46;&#99;&#111;&#x6d;</a><br>[1]: <a href="http://www.google.com/">http://www.google.com</a><br>[yahoo]: <a href="http://www.yahoo.com/">http://www.yahoo.com</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">文字链接 [SegmentFault](url)</span><br><span class="line">网址链接 &lt;https://segmentfault.com&gt;</span><br><span class="line">[名称](url &quot;不如的博客&quot;)</span><br><span class="line">![markdown](url &quot;markdown&quot;)</span><br><span class="line">&lt;http://ibruce.info&gt;</span><br><span class="line">&lt;bu.ru@qq.com&gt;</span><br><span class="line">[1]: http://www.google.com</span><br><span class="line">[yahoo]: http://www.yahoo.com</span><br></pre></td></tr></table></figure>
 <Br>
 <Br>
@@ -229,337 +669,6 @@ $(document).ready(function () {
       </tags>
   </entry>
   <entry>
-    <title>developer.mozilla.org/zh-CN/docs/Web/CSS</title>
-    <url>/2021/12/24/wwww.google.com/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>一日三餐</title>
-    <url>/2021/12/11/%E4%B8%80%E5%A4%A9/</url>
-    <content><![CDATA[<h4 id="早饭"><a href="#早饭" class="headerlink" title="早饭"></a>早饭</h4><p>油条2根、小米粥2碗</p>
-<h4 id="午饭"><a href="#午饭" class="headerlink" title="午饭"></a>午饭</h4><p>没吃</p>
-<h4 id="晚饭"><a href="#晚饭" class="headerlink" title="晚饭"></a>晚饭</h4><p>凉拌黄瓜，新熬的小米粥 *不是早饭剩的</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>仙女下凡</title>
-    <url>/2021/12/03/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="178e3bc597b861ca224992953ec2a2aba6fb003f4c55bbbe553c0d9de874450f">165d50f05814027fb7fe5e4ae8a088d8654a4972844a7fcbe560026033614e723b1e282345b76d363930740b6b82ec636903c24006b1ddda0f1fb1f9b31fcd235a175aba147902c11daaecfba1e9f9f99ff775170439a847f1a0350cf1bfb50ea6bb67e7620be852d76ea9dc75e97415a14d2dad03d625a89aafcde7156c5849d87da3a568e97b163b23dbd20a50c7cfe7ef72e998b8773373d896ae6a93a1b7</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生日快乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十月,我去过额济纳</title>
-    <url>/2012/10/01/%E5%8D%81%E6%9C%88,%E6%88%91%E5%8E%BB%E8%BF%87%E9%A2%9D%E6%B5%8E%E7%BA%B3/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-11.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-4.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-3.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-2.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-1.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-10.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-9.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-8.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-7.JPG"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/10-1-5.JPG"></p>
-]]></content>
-      <categories>
-        <category>旅游</category>
-      </categories>
-      <tags>
-        <tag>额济纳</tag>
-        <tag>十月</tag>
-        <tag>国庆节</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>七月的小区</title>
-    <url>/2019/07/15/%E4%B8%83%E6%9C%88%E7%9A%84%E5%B0%8F%E5%8C%BA/</url>
-    <content><![CDATA[<center>
-七<br>
-月<br>
-花<br>
-儿<br>
-在<br>
-绽<br>
-放
-</center>
-<br>
-<br>
-<center>
-阳光灼热，晴空明媚，天空湛蓝深远<br>
-热情洋溢，万物生长，大地绿色生机<br>
-<br>
-
-<h4 id="牵牛花"><a href="#牵牛花" class="headerlink" title="牵牛花"></a>牵牛花</h4><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-2.jpg">红的似火 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-1.jpg">粉的似蜜 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-4.jpg">紫的似霞 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-3.jpg">蓝的似？ ▴</p>
-<br>
-<br>
-
-<h4 id="蜀葵"><a href="#蜀葵" class="headerlink" title="蜀葵"></a>蜀葵</h4><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-6.jpg">白的似雪 ▴</p>
-<br>
-<br>
-
-<h4 id="向日葵"><a href="#向日葵" class="headerlink" title="向日葵"></a>向日葵</h4><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-7.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-8.jpg">黄的似金 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-9.jpg">七月怎么少的了狗尾巴草 ▴</p>
-<center>
-七<br>
-月<br>
-果<br>
-树<br>
-在<br>
-成<br>
-长
-</center>
-<br>
-<br>
-<center>
-如果<br>
-春，万物复苏<br>
-秋，硕果累累<br>
-冬，积蓄力量<br><br>
-那么<br>
-夏，生机勃勃
-</center>
-<br>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-12.jpg">石榴，婴儿期 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-13.jpg">少儿期 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-14.jpg">青少年 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-15.jpg">青年期（没熟就裂了） ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-16.jpg">海棠果 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-17.jpg">苹果 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-19.jpg">核桃 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-21.jpg">柿子 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-23.jpg">桃 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-25.jpg">葡萄 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-26.jpg">有点远，再进一点 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-27.jpg">阳光撒在上面晶莹剔透 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-28.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-29.jpg">枣 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-B-30.jpg">花椒，有一抹红 ▴</p>
-<br>
-<br>
-<br>
-知了在蝉鸣<br>
-鸟儿在叽喳<br>
-蛐蛐撕着嗓子在歌唱<br>
-听着很是悦耳<br>
-
-<br>
-老人们在乘凉<br>
-成群的孩子在嬉戏<br>
-蝴蝶在飞舞<br>
-感觉生活很惬意<br>
-缤纷绚丽<br>
-灿烂热烈<br><br>
-七月真美， 小区真美  
-</center>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>夏天</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>听故事</title>
-    <url>/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/</url>
-    <content><![CDATA[<p>听着喜马拉雅有声故事午睡😴。<br>听着听着精神了睡不着了!<span id="more"></span></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>夜的美</title>
-    <url>/2021/12/10/%E5%A4%9C%E7%9A%84%E7%BE%8E/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/1.jpg">传媒大学北门过阶梯</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>属于hexo的404页面</title>
-    <url>/2021/12/21/%E5%B1%9E%E4%BA%8Ehexo%E7%9A%84404%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<h4 id="第一步-新建404-md"><a href="#第一步-新建404-md" class="headerlink" title="第一步 新建404.md"></a>第一步 新建404.md</h4><ul>
-<li>souce目录下新建404.md，并将表头部分修改如下:</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">type: &quot;404&quot;</span><br><span class="line">layout: &quot;404&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-01.png"></p>
-<br>
-
-<h4 id="第二步-创建404-ejs"><a href="#第二步-创建404-ejs" class="headerlink" title="第二步 创建404.ejs"></a>第二步 创建404.ejs</h4><ul>
-<li>themes目录下找到对应的主题文件夹创建404.ejs，页面内可以编辑html文件</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-21-02.png"></p>
-<h4 id=""><a href="#" class="headerlink" title=""></a></h4><p><a href="http://zaole.net/abc/1" title="404">Demo</a></p>
-<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><ul>
-<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" title="Web 开发技术">HTML（超文本标记语言）</a> 》帮助你更好地了解 HTML</li>
-<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS" title="Web 开发技术">CSS（层叠样式表）</a> 》如何样式化文本，以及如何样式化和操作内置个人内容的盒模型</li>
-<li>《<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript" title="Web 开发技术">JavaScript</a> 》如何用JavaScript语言编程</li>
-<li>《<a href="https://codepen.io/search/pens?q=404" title="codepen">10000个404</a> 》去codepen挑选喜欢的404pag</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>404</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>威海的这些景点值得去</title>
-    <url>/2021/10/01/%E5%A8%81%E6%B5%B7%E7%9A%84%E8%BF%99%E4%BA%9B%E6%99%AF%E7%82%B9%E5%80%BC%E5%BE%97%E5%8E%BB/</url>
-    <content><![CDATA[<p>威海是山东最东端的海滨旅游城市，是距离韩国和日本最近的中国城市。<br>面积不大，人口不多，经济也没有隔壁的青岛烟台发达，是一个不折不扣的小城市。</p>
-<span id="more"></span>
-
-<br>
-
-<h2 id="刘公岛"><a href="#刘公岛" class="headerlink" title="刘公岛"></a>刘公岛</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-7.jpg" alt="刘公岛"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-3.jpg" alt="刘公岛"></p>
-<p>来威海旅游的外地朋友，我相信刘公岛是一个必去景点。刘公岛风景区可以说是威海的一张名片，提到刘公岛，人们自然想到威海。提到威海，人们自然会联想的刘公岛。正如刘公岛那句经典的旅游宣传词一样，刘公岛不仅仅是一个岛。的确是，在刘公岛，欣赏到优美的岛屿风景那都是其次的，最重要的是刘公岛的人文知识，这里是甲午中日战争的发生地，近距离接受爱国主义教育洗礼，缅怀先烈，不忘国耻。同时在岛上，也能看到大量英租时期遗留下的英式建筑。</p>
-<br>
-
-<h2 id="海驴岛"><a href="#海驴岛" class="headerlink" title="海驴岛"></a>海驴岛</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-9.jpg" alt="海驴岛"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-8.jpg" alt="海驴岛"></p>
-<p>威海作为一个海滨城市，拥有近千公里的海岸线，在近千公里的海岸线上，分布着大大小小168个海岛。来威海旅游除了刘公岛，我首先推荐的景区就是海驴岛，因为会超出我们的旅行期待。去过很多地方旅游，不知你是否和我一样，在网上看到的景区图片很美很期待，到了目的地却特别失望，有一定的落差。海驴岛却截然不同，绝对超出你的预期值。</p>
-<p>海驴岛，远方遥望，层层云雾，山海相连，海上仙山，虚无缥缈，环岛而行，无数海鸟，盘旋而上，或悲或鸣，或击长空，此情此景，别样生动，登岛而上，海蚀地貌，山水交融，怪石嶙立，雄伟壮观，海水深情，波涛汹涌，步步皆景，景景生情，人间仙境，流连忘返，回味无穷。这是我2017年游览完海驴岛后写的打油诗游记，至今忘不了无数海鸥翱翔在蓝天，和岛屿上怪石林立的景象。</p>
-<br>
-
-<h2 id="成山头风景区"><a href="#成山头风景区" class="headerlink" title="成山头风景区"></a>成山头风景区</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-4.jpg" alt="成山头风景区"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-5.jpg" alt="成山头风景区"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-6.jpg" alt="成山头风景区"></p>
-<p>推荐成山头的理由是中国陆地与大海交界处的最东端，是最早看到海上日出的地方。成山头风景区位于威海荣成成山镇，又名天尽头，三面环海，一面环山，与韩国隔海相望。晴天的时候风景确实漂亮，但是成山头又是褒贬不一的景区，口碑两极分化严重。有的人认为商业味太浓，借用最东端之名，把海边圈起来弄一个景区，并且门票不菲，不值这个价格。成山头风景区还带有一定的神话色彩，古时候人们认为这里是日神居住的地方，所以传说秦始皇曾经两次到过这里，求长生不死灵丹妙药。</p>
-<br>
-
-<h2 id="东楮岛"><a href="#东楮岛" class="headerlink" title="东楮岛"></a>东楮岛</h2><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-1.jpg" alt="东楮岛"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/a2021-10-01-2.jpg" alt="东楮岛"></p>
-<p>威海还有一个值得看的景色就是海草房，这种以草为顶，以石为墙的民居，看上去憨态可掬，像极了童话中的房屋。仅存在我国的胶东地区，世界罕见，不仅评为山东非物质文化遗产，也是世界著名生态民居。但是来威海的游客看海草房，大多数选择人山人海的烟墩角，却忽略了人少景美的东楮岛。</p>
-]]></content>
-      <categories>
-        <category>旅游</category>
-      </categories>
-      <tags>
-        <tag>刘公岛</tag>
-        <tag>海驴岛</tag>
-        <tag>成山头风景区</tag>
-        <tag>东楮岛</tag>
-        <tag>威海</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2021/12/24/%E5%B9%B3%E5%AE%89%E5%A4%9C%E5%89%8D%E5%A4%9C%E9%80%9A%E5%AE%B5-1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>弯着腰，提着“灯”，想来我们也挺残忍的</title>
-    <url>/2019/07/25/%E5%BC%AF%E7%9D%80%E8%85%B0%EF%BC%8C%E6%8F%90%E7%9D%80%E2%80%9C%E7%81%AF%E2%80%9D%EF%BC%8C%E6%83%B3%E6%9D%A5%E6%88%91%E4%BB%AC%E4%B9%9F%E6%8C%BA%E6%AE%8B%E5%BF%8D%E7%9A%84/</url>
-    <content><![CDATA[<center>
-七月八月，或凉或热<br>
-景色凄清，蝉声呜咽<br>
-<br>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-2.jpg"></p>
-<p style="text-align:left";>
-午后下了一场雨，临近傍晚雨才停，雨后天气放晴，洗刷过的空气中夹杂着泥土和芳草的气息。打开门窗凉爽的清风从窗外透了进来，远处的草丛、池塘里蛙声一片。七八月正直知了猴出土的最佳的时节。尤其雨后居多，此时被雨水冲洗过的泥土变得松软、湿润，有利于知了猴出土。傍晚，群结伴同行捉知了猴便成了一种乐趣!
-</p>
-
-<br>
-<br>
-<center>
-必<br>
-备<br>
-手<br>
-电<br>
-筒</center>
-<br>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-5.jpg">双眼顺着光照的地方，运气好就会发现慢慢蠕动的知了猴 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-4.jpg">擦黑我们就行动 ▴</p>
-<br>
-<br>
-<center>
-或<br>
-扣<br>
-或<br>
-挖
-</center>
-<br>
-<p style="text-align:left";>
-捉知了猴是有技巧的，弯着腰，提着“灯”低头搜寻地面上一个个微开的洞穴口（瞭望口），轻轻一扣洞穴就会呈现出来，里面或许会有知了猴缓慢爬向洞口。如遇较深的洞穴最好的办法就是用小铲子深挖到底
-</p>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-6.jpg">一个孔 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-7.jpg">两个孔 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-8.jpg">打扰了…… ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-9.jpg">打酱油路过…… ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-10.jpg">标准学名叫蝉蜕 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-11.jpg">第一只 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-12.jpg">又一只 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-15.jpg">可以爬过头顶 ▴</p>
-<br>
-<br>
-<center>
-树<br>
-干<br>
-缠<br>
-胶<br>
-带
-</center>
-<br>
-<p style="text-align:left";>
-有经验的人会在齐腰及树干等较低的位置缠上一圈胶带”守株待兔“
-知了猴爬到光滑的胶带下侧会一直滞留，这样很容易逮到它们。最后不费之惠一个一个的拿走特别省事儿
-</p>
-
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-16.jpg">守株待兔 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-3.gif">遇到胶带爬不了。看，有演示 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-18.jpg">开始你的表演。巴拉巴拉，小魔仙全身变 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-19.jpg">你负责貌美如花 ▴</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2021-12-19-A-20.jpg">我留下来看“家” ▴</p>
-</center>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>夏天</tag>
-        <tag>知了</tag>
-        <tag>雨</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>有些零食叫做回忆</title>
     <url>/2021/12/15/%E6%9C%89%E4%BA%9B%E9%9B%B6%E9%A3%9F%E5%8F%AB%E5%81%9A%E5%9B%9E%E5%BF%86/</url>
     <content><![CDATA[<p>以下两种“零食”在孩提时我是都吃过的</p>
@@ -597,109 +706,8 @@ $(document).ready(function () {
       </tags>
   </entry>
   <entry>
-    <title>水培胡萝卜</title>
-    <url>/2022/06/11/%E6%B0%B4%E5%9F%B9%E8%83%A1%E8%90%9D%E5%8D%9C/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-01.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-02.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-03.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-04.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-05.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-06.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-07.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2022-06-11-08.jpg">2022-06-11家中</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>雪的季节让我想起了雨</title>
-    <url>/2022/01/24/%E9%9B%AA%E7%9A%84%E5%AD%A3%E8%8A%82%E8%AE%A9%E6%88%91%E6%83%B3%E8%B5%B7%E4%BA%86%E9%9B%A8/</url>
-    <content><![CDATA[<p>对我来说<br>下雨的天就像收到了心爱的玩具、抢到了新式的潮流服装</p>
-<p>小时候<br>雨后会去菜园的土坡上挖泥<br>这个种泥有着地瓜皮那版的红，土质细腻粘手。<br>把挖好的泥做成各式各样的”玩具”<br>外形像不像这就要靠自己的口才去说服小伙伴们相信你的”作品”<br>有汽车、火车、摩托车……<br>有兔子、小狗、猪、老虎、狼、狗……</p>
-<p>还有一个在小伙伴间常常玩耍的游戏叫”泥巴炮”<br>一人一大坨泥巴<br>使劲把泥巴不断地揉，增加粘稠度<br>泥巴炮<br>外形似盛水的容器，<br>有的做成方形；有的做成圆形。<br>口径可大可小，<br>深度较深;壁可厚可薄<br>太硬了容易捏成形，但甩的不响<br>太软了不容易成形，拿到手上就开始变形了，更甩的不响<br>薄壁做成的炮，炸的声音宏亮，壁皮儿炸的四分五裂<br>厚壁做成的炮，炸的声音沉闷，底部只是出现拇指宽的小口<br>哈哈……</p>
-<p>记得的有一年的夏天，下着雨<br>我的宿舍钥匙不知道在哪丢了（也可能忘记放在哪里）<br>借完同学的钥匙冒着风雨、电闪雷鸣一个人打着伞去便民角<br>在等待配钥匙这段的时间里<br>在门外，听着雨水敲打在伞上发出噼里啪啦声响<br>看着雨水激起的涟漪 一层层扩散 一层层往下传<br>雨水汇集成一条条小河流淌着<br>回宿舍的路上雨变小了<br>路过校园的一片树林<br>我停下脚步 抛开雨伞<br>把自己留在雨中<br>我仰面望向灰暗的天空<br>此时风吹过带着泥土的芬芳，花草的清香弥漫在空气中<br>深呼吸<br>独自占有着此刻<br>雨中散步的感觉 别有一番滋味</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>夏天</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2022/06/18/%E5%86%B2%E7%AA%81%E4%BC%9A%E6%84%8F%E5%91%B3%E7%9D%80%E4%B8%80%E7%A7%8D%E6%9B%B4%E6%B7%B1%E5%85%A5%E7%9A%84%E4%BA%A4%E6%B5%81/</url>
+    <title>雪</title>
+    <url>/2023/12/13/%E9%9B%AA/</url>
     <content><![CDATA[]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2022/09/24/10%E5%85%AC%E9%87%8C/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2022/10/02/%E2%80%9C%E7%9F%A5%E7%A7%8B%E2%80%9D/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>生活</category>
-        <category>白浪河湿地公园</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>2023</title>
-    <url>/2023/11/25/2023/</url>
-    <content><![CDATA[<p>加油！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>加油</title>
-    <url>/2023/10/27/11-29/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-10-27-01.jpeg">法制日报社门口 2023年10月27日晚18点</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>2023整个夏季</title>
-    <url>/2023/06/29/2023%E6%95%B4%E4%B8%AA%E5%A4%8F%E5%A4%A9/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-05-13-01.jpeg">京城梨园公园</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-06-05-01.jpeg">法制日报社院内</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-06-11-01.jpeg">定福庄北里2号院内</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-06-22-01.jpeg">潍坊白浪河湿地公园</p>
-]]></content>
-      <categories>
-        <category>2023</category>
-      </categories>
-      <tags>
-        <tag>夏季</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>河北省正定县</title>
-    <url>/2023/05/17/%E6%B2%B3%E5%8C%97%E7%9C%81%E6%AD%A3%E5%AE%9A%E5%8E%BF/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-05-18-01.jpeg">河北省正定县中山东路东垣街</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>日出</title>
-    <url>/2023/09/29/%E6%97%A5%E5%87%BA/</url>
-    <content><![CDATA[<p>传媒大学北门过街天桥（朝阳路）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-09-28-01.jpeg">日出</p>
-<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-09-28-02.jpeg">背向</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Happy Day</title>
-    <url>/2023/08/12/happy-day/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-08-12-01.jpeg">2012-2015年租住在京烟宿舍</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2023/12/01/test/</url>
-    <content><![CDATA[<p>re</p>
-]]></content>
   </entry>
 </search>

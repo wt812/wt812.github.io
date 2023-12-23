@@ -948,6 +948,7 @@ code {
   position: fixed;
   bottom: 60px;
   width: 100%;
+  height: 54px;
   transition: all 0.3s ease-in-out;
   z-index: 10;
 }
@@ -964,7 +965,7 @@ ul.archive-list {
   background: #000;
   border-radius: 5px;
 }
-li {
+ul.archive-list li {
   width: auto;
   padding: 0 20px 0;
   float: left;
@@ -975,7 +976,7 @@ li {
   margin: 2px;
   border-radius: 5px;
 }
-li a {
+ul.archive-list li a {
   color: #fff;
 }
 .page:last-child {
@@ -992,6 +993,7 @@ li a {
   position: relative;
   left: 260px;
   color: rgba(0,0,0,0.2);
+  z-index: -1;
 }
 .container .page {
   width: auto;
@@ -1206,6 +1208,9 @@ nav.page-nav .current {
 ul.search-result-list {
   margin-left: 20px;
 }
+._detail_footer {
+  color: #888;
+}
 blockquote p {
   padding: 10px !important;
   margin: 0 !important;
@@ -1269,6 +1274,9 @@ ul.post-tag-list li {
   margin-right: 10px;
   font-size: 13px;
 }
+ul.post-tag-list li a {
+  color: #222;
+}
 ul.post-tag-list li span.post-tag-list-count {
   color: #999;
   padding-left: 6px;
@@ -1323,6 +1331,9 @@ figure.highlight {
 .bg_while .v .vbtn {
   background: #131313 !important;
   border: 1px #131313 solid !important;
+}
+.bg_while ul.post-tag-list li a {
+  color: #fff;
 }
 .bg_while blockquote {
   background: #111;

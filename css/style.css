@@ -995,8 +995,7 @@ li a {
 }
 .container .page {
   width: auto;
-  height: 100vh;
-  mix-height: 630px !important;
+  height: 98vh;
   flex-shrink: 0;
   display: flex;
   justify-content: center;

@@ -948,9 +948,31 @@ code {
   position: fixed;
   bottom: 60px;
   width: 100%;
-  height: 54px;
   transition: all 0.3s ease-in-out;
   z-index: 10;
+}
+._page_nav {
+  position: fixed;
+  bottom: 60px;
+  width: calc(100% - 412px);
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+  padding: 0 206px;
+}
+._page_nav ._nav123 {
+  display: flex;
+  justify-content: flex-start;
+}
+._page_nav ._nav123 .next,
+._page_nav ._nav123 .prev {
+  margin-right: 10px;
+}
+._page_nav ._nav123 .space,
+._page_nav ._nav123 .page-number {
+  display: none;
+}
+._page_nav ._nav123 .current {
+  background: #f00;
 }
 ul.archive-list {
   position: absolute;
@@ -979,12 +1001,10 @@ ul.archive-list li {
 ul.archive-list li a {
   color: #fff;
 }
-.page:last-child {
-  padding: 0 206px !important;
-}
 .container {
   display: flex;
   overflow-x: scroll;
+  padding-right: 206px;
 }
 .container ._year {
   font-size: 28px;
@@ -1166,6 +1186,7 @@ a:hover {
 nav.page-nav {
   margin: 2em 0;
   padding-left: 206px;
+  background: #f00;
 }
 nav.page-nav .current {
   color: #ff513e;
@@ -1207,9 +1228,6 @@ nav.page-nav .current {
 }
 ul.search-result-list {
   margin-left: 20px;
-}
-._detail_footer {
-  color: #888;
 }
 blockquote p {
   padding: 10px !important;
@@ -1274,9 +1292,6 @@ ul.post-tag-list li {
   margin-right: 10px;
   font-size: 13px;
 }
-ul.post-tag-list li a {
-  color: #222;
-}
 ul.post-tag-list li span.post-tag-list-count {
   color: #999;
   padding-left: 6px;
@@ -1332,9 +1347,6 @@ figure.highlight {
   background: #131313 !important;
   border: 1px #131313 solid !important;
 }
-.bg_while ul.post-tag-list li a {
-  color: #fff;
-}
 .bg_while blockquote {
   background: #111;
   border-left: 8px #333 solid;
@@ -1375,12 +1387,27 @@ figure.highlight {
   background: #070707;
 }
 @media screen and (max-width: 600px) {
+  ._page_nav {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ._page_nav .next,
+  ._page_nav .prev {
+    margin: 0 !important;
+  }
+  .container {
+    padding: 0;
+  }
   .container ._year {
     margin-top: 40px;
     left: 80px;
   }
   .container .page {
-    padding: 0 0 0 27px;
+    padding: 0 27px 0 0;
+    height: 95vh;
   }
   ._nav {
     bottom: 80px;
@@ -1388,8 +1415,8 @@ figure.highlight {
   .ekrt {
     display: flex;
   }
-  .page:last-child {
-    padding-right: 27px !important;
+  .page:nth-child(2) {
+    padding-left: 27px !important;
   }
   .footer,
   nav.page-nav {

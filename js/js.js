@@ -1,1 +1,65 @@
-var web_style=$("#web_style").val(),valine_appid=$("#valine_appid").val(),valine_appKey=$("#valine_appKey").val();function setCookie(e,t){localStorage.setItem(e,t)}function getCookie(e){return localStorage.getItem(e)}function updateStyle(){"white"==getCookie("style")?($("#footer").attr("style","color: #969696;"),$(".flink").attr("style","color: #969696;"),$(".ba").attr("style","color: #969696;"),$("#bodyx").attr("class","bg_while"),$("#update_style").attr("checked",!1)):($("#footer").attr("style",""),$(".flink").attr("style",""),$("#bodyx").attr("class",""),$(".ba").attr("style",""),$("#update_style").attr("checked",!0))}new Valine({el:"#vcomments",appId:valine_appid,appKey:valine_appKey,placeholder:"留言",avatar:"wavatar"}),document.addEventListener("DOMContentLoaded",e=>{document.querySelectorAll("pre").forEach(e=>{hljs.highlightBlock(e)})}),null==getCookie("style")?(setCookie("style",web_style),updateStyle()):"white"==getCookie("style")?(setCookie("style","white"),updateStyle()):"black"==getCookie("style")&&(setCookie("style","black"),updateStyle()),$("#update_style").change(function(){setCookie("style",$("#update_style").is(":checked")?"black":"white"),updateStyle()});
+var web_style = $("#web_style").val();
+var valine_appid = $("#valine_appid").val();
+var valine_appKey = $("#valine_appKey").val();
+
+new Valine({
+    el: '#vcomments',
+    appId: valine_appid,
+    appKey: valine_appKey,
+    placeholder: '留言',
+    avatar: "wavatar"
+})
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre').forEach((block) => {
+        hljs.highlightBlock(block);
+    });
+});
+
+function setCookie(key, value) {
+    localStorage.setItem(key, value);
+}
+
+function getCookie(key) {
+    var data = localStorage.getItem(key);
+    return data
+}
+
+function updateStyle() {
+    if (getCookie("style") == "white") {
+        $("#footer").attr("style", "color: #969696;");
+        $(".flink").attr("style", "color: #969696;");
+        $(".ba").attr("style", "color: #969696;");
+        $("#bodyx").attr("class", "style_black");
+        $("#update_style").attr('checked', false);
+    } else {
+        $("#footer").attr("style", "");
+        $(".flink").attr("style", "");
+        $("#bodyx").attr("class", "");
+        $(".ba").attr("style", "");
+        $("#update_style").attr('checked', true);
+    }
+}
+
+if (getCookie("style") == null) {
+    setCookie("style", web_style)
+    updateStyle();
+} else if (getCookie("style") == "white") {
+    setCookie("style", "white")
+    updateStyle();
+} else if (getCookie("style") == "black") {
+    setCookie("style", "black")
+    updateStyle();
+}
+
+$("#update_style").change(function() {
+    var style = $("#update_style").is(':checked');
+    if (style) {
+        setCookie("style", "black")
+        updateStyle();
+    } else {
+        setCookie("style", "white")
+        updateStyle();
+    }
+});
+

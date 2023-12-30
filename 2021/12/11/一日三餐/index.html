@@ -9,7 +9,7 @@
      <link rel="shortcut icon" href= /img/favicon.ico >
     <title>
 
-    Permission denied (publickey)-制造快乐
+    一日三餐-制造快乐
     
     </title>
     <meta name="description" content= 欢迎👏🏻 >
@@ -31,6 +31,7 @@
 </div>
 -->
 <!--nav-->
+<a target="_blank" rel="noopener" href="http://www.zaole.net">
 <span class="logo">
 <svg style="enable-background:new 0 0 173.01 106.17;" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" viewBox="0 0 173 106">
 <style type="text/css">
@@ -70,31 +71,15 @@
 </g>
 </svg>
 </span>
+</a>
 
-	    
-<!-- 内容 -->
+	    <!-- 内容 -->
 <div class="_detail">
-    <div class="_detail_title">Permission denied (publickey)</div>
-    <div class="_detail_time">2019/12/01 1:28:57 pm</div>
-    <div class="_detail_cont"><p><img src="https://cdn.jsdelivr.net/gh/wt812/blogimg/loading-300.gif" data-original="https://cdn.jsdelivr.net/gh/wt812/blogimg/2023-12-07-01.png"></p>
-<h3 id="原因分析"><a href="#原因分析" class="headerlink" title="原因分析"></a>原因分析</h3><p>解决提交github出现</p>
-<blockquote>
-<p><a href="mailto:&#103;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#99;&#111;&#109;">&#103;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#99;&#111;&#109;</a>: Permission denied (publickey).<br>fatal: Could not read from remote repository.</p>
-</blockquote>
-<ul>
-<li>客户端与服务端未生成 ssh key</li>
-<li>客户端与服务端的ssh key不匹配</li>
-</ul>
-<h3 id="生成SSH-Key"><a href="#生成SSH-Key" class="headerlink" title="生成SSH Key"></a>生成SSH Key</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C  &quot;你的github注册邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p>注：途中会让你输入密码啥的，不需要管，一路回车即可，会生成你的ssh key。（如果重新生成的话会覆盖之前的ssh key。） </p>
-<h3 id="最后两句会出现"><a href="#最后两句会出现" class="headerlink" title="最后两句会出现"></a>最后两句会出现</h3><ul>
-<li>No more authentication methods to </li>
-<li>Permission denied (publickey).</li>
-</ul>
-<h3 id="在终端再执行以下命令"><a href="#在终端再执行以下命令" class="headerlink" title="在终端再执行以下命令"></a>在终端再执行以下命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ssh-agent -s </span><br><span class="line">接着在执行</span><br><span class="line">ssh-add ~/.shh/id_rsa</span><br><span class="line">~/.ssh</span><br><span class="line">open ./</span><br><span class="line">复制id_rsa.pub 到github下创建SSH keys</span><br></pre></td></tr></table></figure>
-<h3 id="验证Key"><a href="#验证Key" class="headerlink" title="验证Key"></a>验证Key</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">Hi “github用户名”！You&#x27;ve successfully authenticated, but GitHub does not provide shell access.问题接解决了！</span><br></pre></td></tr></table></figure>
-
-<p>详见: <a target="_blank" rel="noopener" href="https://blog.csdn.net/ywl470812087/article/details/104459288">https://blog.csdn.net/ywl470812087/article/details/104459288</a></p>
+    <div class="_detail_title">一日三餐</div>
+    <div class="_detail_time">2021/12/11 9:03:15 pm</div>
+    <div class="_detail_cont"><p>早饭<br>油条2根、小米粥2碗</p>
+<p>午饭<br>没吃</p>
+<p>晚饭<br>凉拌黄瓜，新熬的小米粥 *不是早饭剩的</p>
 </div>
     <div class="_detail_tags">
         
@@ -104,12 +89,12 @@
 
 
 <!-- 上一篇 下一篇 -->
-<div class="prev_next">
+<div class="_detail_prev_next">
 
           
      
-        <a href="/2021/09/30/markdown/">
-        上一篇&nbsp;&nbsp;常用的Markdown基础语法
+        <a href="/2021/12/15/%E6%9C%89%E4%BA%9B%E9%9B%B6%E9%A3%9F%E5%8F%AB%E5%81%9A%E5%9B%9E%E5%BF%86/">
+        上一篇&nbsp;&nbsp;有些零食叫做回忆
         </a>
      
 
@@ -117,8 +102,8 @@
 
 
     
-        <a href="/2019/07/25/%E5%BC%AF%E7%9D%80%E8%85%B0%EF%BC%8C%E6%8F%90%E7%9D%80%E2%80%9C%E7%81%AF%E2%80%9D%EF%BC%8C%E6%83%B3%E6%9D%A5%E6%88%91%E4%BB%AC%E4%B9%9F%E6%8C%BA%E6%AE%8B%E5%BF%8D%E7%9A%84/">
-        下一篇&nbsp;&nbsp;弯着腰，提着“灯”，想来我们也挺残忍的
+        <a href="/2021/12/07/%E5%90%AC%E6%95%85%E4%BA%8B/">
+        下一篇&nbsp;&nbsp;听故事
         </a>
      
 
@@ -168,6 +153,21 @@
 
 
 
+
+<div class="entry">
+         <!--02-->
+        <div id="toc" class="toc-article">
+	
+	 
+    
+</div>
+
+
+
+	
+      
+      
+</div>
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
@@ -175,11 +175,4 @@
                 processImages: null,
             };
         </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
-<script type="text/javascript">
-let container = document.querySelector(".container");
-container.addEventListener("wheel", (event) => {
-  event.preventDefault();
-  container.scrollLeft += event.deltaY;
-})
-</script>
 </html>

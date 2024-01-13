@@ -927,15 +927,16 @@ code {
   background: #222;
 }
 .el-switch .el-switch-style:before {
-  height: 2em;
   left: 0;
   display: inline-block;
   position: relative;
   top: 0;
-  width: 2em;
   cursor: pointer;
   content: "白";
   color: #000;
+  padding: 14px;
+  background: #fff;
+  border-radius: 5px;
 }
 .el-switch>input[type="checkbox"] {
   display: none;
@@ -943,6 +944,7 @@ code {
 .el-switch.el-switch-blue>input[type="checkbox"]:checked+.el-switch-style:before {
   content: "黑";
   color: #fff;
+  background: #222;
 }
 .style_black {
   background: #000;
@@ -973,9 +975,6 @@ code {
 }
 .style_black .container ._title {
   color: #888;
-}
-.style_black .lower_right {
-  background: #fff;
 }
 .style_black .lower_right a {
   color: #888;
@@ -1083,6 +1082,7 @@ ul.archive-list li a {
   display: flex;
   overflow-x: scroll;
   padding-right: 160px;
+  -webkit-overflow-scrolling: touch /*控制元素在移动设备上是否使用滚动回弹效果*/;
 }
 .container ._year {
   font-size: 28px;
@@ -1106,6 +1106,7 @@ ul.archive-list li a {
 }
 .container ._title {
   display: block;
+  font-family: "BrandFont sans-serif";
 }
 .container ._content {
   width: 100%;
@@ -1212,15 +1213,10 @@ ol.toc-child {
 .lower_right {
   position: fixed;
   right: 30px;
-  bottom: 30px;
+  bottom: 70px;
   font-size: 12px;
   z-index: 11;
-  width: 50px;
-  height: 50px;
   text-align: center;
-  line-height: 50px;
-  border-radius: 5px;
-  background: #222;
   cursor: pointer;
   font-style: normal;
 }
@@ -1298,8 +1294,8 @@ ul.post-tag-list li {
   border-radius: 3px;
   width: auto;
   float: left;
-  margin: 0 10px 10px 0;
-  font-size: 12px;
+  margin-right: 10px;
+  font-size: 13px;
 }
 ul.post-tag-list li span.post-tag-list-count {
   color: #999;
@@ -1353,11 +1349,7 @@ figure.highlight {
     margin: 0 !important;
   }
   .lower_right {
-    width: 30px;
-    height: 30px;
     right: 20px;
-    bottom: 20px;
-    line-height: 30px;
   }
   .container {
     padding: 0 0 0 17px;

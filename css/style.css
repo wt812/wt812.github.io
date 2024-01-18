@@ -1335,7 +1335,8 @@ figure.highlight {
 }
 @media screen and (max-width: 600px) {
   ._next_prev {
-    padding: 0;
+    position: static !important /**/;
+    padding: 50px 0 !important;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1350,27 +1351,35 @@ figure.highlight {
   }
   .lower_right {
     right: 20px;
+    bottom: 20px !important /**/;
   }
   .container {
-    padding: 0 0 0 17px;
+    padding: 50px 0 0 0 !important /**/;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: column;
   }
   .container ._year {
     margin-top: 35px;
     left: 39px;
     font-size: 20px;
+    position: static /**/;
+    margin: 0 0 50px 0 /**/;
+    padding: 0 20px !important /**/;
   }
   .container ._year:nth-child(1) {
-    left: 65px;
+    margin: 33px 0 50px 0 /**/;
   }
   .container .page {
-    padding: 0 27px 0 0;
-    height: 88vh;
+    padding: 0 20px 50px 20px !important /**/;
+    height: auto !important /**/;
   }
   .container .page:nth-child(2) {
-    padding-left: 27px !important;
+    padding: 0 20px 50px 20px !important /**/;
   }
   .logo {
     position: absolute;
+    position: fixed /**/;
     left: auto;
     top: 20px;
     width: calc(100% - 20px);

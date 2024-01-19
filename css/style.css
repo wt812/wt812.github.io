@@ -934,7 +934,7 @@ code {
   cursor: pointer;
   content: "白";
   color: #000;
-  padding: 14px;
+  padding: 13px 14px;
   background: #fff;
   border-radius: 5px;
 }
@@ -1388,7 +1388,7 @@ figure.highlight {
   }
   .logo svg {
     float: right;
-    width: 160px;
+    width: 190px;
   }
   .v,
   ._detail,
